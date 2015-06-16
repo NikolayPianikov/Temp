@@ -1,0 +1,71 @@
+<jetbrains.buildServer.messages.BuildMessage1>
+  <myFlowId />
+  <mySourceId>DefaultMessage</mySourceId>
+  <myTypeId>Flow</myTypeId>
+  <myStatus>1</myStatus>
+  <myTimestamp>1434459267591</myTimestamp>
+  <myValue class="jetbrains.buildServer.messages.FlowData">
+    <myFlow>ab524188-9313-4439-a0c3-7e3793efdb25</myFlow>
+    <myParentFlow />
+  </myValue>
+</jetbrains.buildServer.messages.BuildMessage1>
+<jetbrains.buildServer.messages.BuildMessage1>
+  <myFlowId>ab524188-9313-4439-a0c3-7e3793efdb25</myFlowId>
+  <mySourceId>DefaultMessage</mySourceId>
+  <myTypeId>Flow</myTypeId>
+  <myStatus>1</myStatus>
+  <myTimestamp>1434459269239</myTimestamp>
+  <myValue class="jetbrains.buildServer.messages.FlowData">
+    <myFlow>2cd655d6-82fa-4ac2-bb72-e5b1f8729656</myFlow>
+    <myParentFlow>ab524188-9313-4439-a0c3-7e3793efdb25</myParentFlow>
+  </myValue>
+</jetbrains.buildServer.messages.BuildMessage1>
+2015-06-16 15:54:29,915 [11724] WARN  JetBrains.Container.ComponentContainerAssemblyBinderBase - Can't load referenced assembly nunit.core, Version=2.6.3.13283, Culture=neutral, PublicKeyToken=96d09a1eb7f44a77 (from JetBrains.BuildServer.NUnitLauncher-NUnit-2.6.3-plugin, Version=0.0.0.666, Culture=neutral, PublicKeyToken=49e678c3dd882e99)
+2015-06-16 15:54:29,936 [11724] WARN  JetBrains.Container.ComponentContainerAssemblyBinderBase - Can't load referenced assembly nunit.core.interfaces, Version=2.6.3.13283, Culture=neutral, PublicKeyToken=96d09a1eb7f44a77 (from JetBrains.BuildServer.NUnitLauncher-NUnit-2.6.3-plugin, Version=0.0.0.666, Culture=neutral, PublicKeyToken=49e678c3dd882e99)
+2015-06-16 15:54:29,938 [11724] WARN  JetBrains.Container.ComponentContainerAssemblyBinderBase - Can't load referenced assembly nunit.util, Version=2.6.3.13283, Culture=neutral, PublicKeyToken=96d09a1eb7f44a77 (from JetBrains.BuildServer.NUnitLauncher-NUnit-2.6.3-plugin, Version=0.0.0.666, Culture=neutral, PublicKeyToken=49e678c3dd882e99)
+<jetbrains.buildServer.messages.BuildMessage1>
+  <myFlowId>2cd655d6-82fa-4ac2-bb72-e5b1f8729656</myFlowId>
+  <mySourceId>DefaultMessage</mySourceId>
+  <myTypeId>Text</myTypeId>
+  <myStatus>1</myStatus>
+  <myTimestamp>1434459270006</myTimestamp>
+  <myValue class="java.lang.String">Start TeamCity NUnit Test Runner</myValue>
+</jetbrains.buildServer.messages.BuildMessage1>
+<jetbrains.buildServer.messages.BuildMessage1>
+  <myFlowId>2cd655d6-82fa-4ac2-bb72-e5b1f8729656</myFlowId>
+  <mySourceId>DefaultMessage</mySourceId>
+  <myTypeId>Text</myTypeId>
+  <myStatus>1</myStatus>
+  <myTimestamp>1434459270032</myTimestamp>
+  <myValue class="java.lang.String">Running NUnit-2.6.3 tests under .NET Framework v4.0 x64</myValue>
+</jetbrains.buildServer.messages.BuildMessage1>
+<jetbrains.buildServer.messages.BuildMessage1>
+  <myFlowId>2cd655d6-82fa-4ac2-bb72-e5b1f8729656</myFlowId>
+  <mySourceId>DefaultMessage</mySourceId>
+  <myTypeId>Text</myTypeId>
+  <myStatus>1</myStatus>
+  <myTimestamp>1434459270285</myTimestamp>
+  <myValue class="java.lang.String">##teamcity[buildProblem description='NUnit error running tests in |'C:\Projects\example\release\DLBR.DCF.KDB.UnitTests.dll|' assembly|nLoading assembly is compiled for v4.0.30319, MSIL|nNUnit runner runtime is v4.0.30319, x64|nSystem.InvalidCastException: Unable to cast transparent proxy to type |'JetBrains.TeamCity.NUnitLauncher.RemoteAddinsLoader|'.|r|n   at JetBrains.TeamCity.NUnitLauncher.NUnitRunner.LoadAddins(AppDomain domain, String[|] addins) in c:\Projects\dotnet-listeners\src\NUnitLauncher\src\NUnit-2.6\NUnitRunner.cs:line 172|r|n   at JetBrains.TeamCity.NUnitLauncher.NUnitRunner.SetUpDomain(AppDomain domain) in c:\Projects\dotnet-listeners\src\NUnitLauncher\src\NUnit-2.6\NUnitRunner.cs:line 160|r|n   at JetBrains.TeamCity.NUnitLauncher.AssemblyTest.LoadTestDomain() in c:\Projects\dotnet-listeners\src\NUnitLauncher\src\AssemblyTest.cs:line 68|r|n   at JetBrains.TeamCity.NUnitLauncher.LoadTestDomainAction.Action(AssemblyTest test) in c:\Projects\dotnet-listeners\src\NUnitLauncher\src\LoadTestDomainAction.cs:line 15|r|n   at JetBrains.TeamCity.NUnitLauncher.TryOneAssemblyTest.Action() in c:\Projects\dotnet-listeners\src\NUnitLauncher\src\TryOneAssemblyTest.cs:line 18|r|n   at JetBrains.TeamCity.NUnitLauncher.TryOneAssembly.Do() in c:\Projects\dotnet-listeners\src\NUnitLauncher\src\TryOneAssembly.cs:line 36|nCheck correct .NET Framework version and process platform (x64, x86, MSIL) are used both in the test runner settings and involved assemblies on this machine.' type='TC_NUNIT']</myValue>
+</jetbrains.buildServer.messages.BuildMessage1>
+<jetbrains.buildServer.messages.BuildMessage1>
+  <myFlowId>ab524188-9313-4439-a0c3-7e3793efdb25</myFlowId>
+  <mySourceId>DefaultMessage</mySourceId>
+  <myTypeId>FlowFinished</myTypeId>
+  <myStatus>1</myStatus>
+  <myTimestamp>1434459270290</myTimestamp>
+  <myValue class="jetbrains.buildServer.messages.FlowData">
+    <myFlow>2cd655d6-82fa-4ac2-bb72-e5b1f8729656</myFlow>
+    <myParentFlow>ab524188-9313-4439-a0c3-7e3793efdb25</myParentFlow>
+  </myValue>
+</jetbrains.buildServer.messages.BuildMessage1>
+<jetbrains.buildServer.messages.BuildMessage1>
+  <myFlowId />
+  <mySourceId>DefaultMessage</mySourceId>
+  <myTypeId>FlowFinished</myTypeId>
+  <myStatus>1</myStatus>
+  <myTimestamp>1434459270337</myTimestamp>
+  <myValue class="jetbrains.buildServer.messages.FlowData">
+    <myFlow>ab524188-9313-4439-a0c3-7e3793efdb25</myFlow>
+    <myParentFlow />
+  </myValue>
+</jetbrains.buildServer.messages.BuildMessage1>

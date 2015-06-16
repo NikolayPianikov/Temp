@@ -1,0 +1,298 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>DLBR.DCF.KDB.ServiceContracts</name>
+    </assembly>
+    <members>
+        <member name="T:DLBR.DCF.KDB.ServiceContracts.IPedigreeServiceContract">
+            <summary>
+            Service Contract Class - PedigreeServiceContract
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.ServiceContracts.IBenchmarkServiceContract">
+            <summary>
+            Service Contract Class - IBenchmarkServiceContract
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.ServiceContracts.IInseminatorDeliveredSemenEntityServiceContract">
+            <summary>
+            Service Contract Class - InseminatorDeliveredSemenEntityServiceContract
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.ServiceContracts.IAnimalEventLogActivityServiceContract">
+            <summary>
+            Service Contract Class - AnimalEventLogActivityServiceContract
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.ServiceContracts.IDMSActivityServiceContract">
+            <summary>
+            Service Contract Class - DMSActivityServiceContract
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.ServiceContracts.IFoodTagActivityServiceContract">
+            <summary>
+            Service Contract Class - FoodTagActivityServiceContract
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.ServiceContracts.IInseminatorHomeTimeEntityServiceContract">
+            <summary>
+            Service Contract Class - IInseminatorHomeTimeEntityServiceContract
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.ServiceContracts.IAdvisorEntityServiceContract">
+            <summary>
+            Service Contract Class - AdvisorEntityServiceContract
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.ServiceContracts.IAgriBusinessEntityServiceContract">
+            <summary>
+            Service Contract Class - AgriBusinessEntityServiceContract
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.ServiceContracts.IAnimalEntityServiceContract">
+            <summary>
+            Service Contract Class - AnimalEntityServiceContract
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.ServiceContracts.IAnimalGroupTransferEntityServiceContract">
+            <summary>
+            Service Contract Class - AnimalGroupTransferEntityServiceContract
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.ServiceContracts.IAnimalHealthEntityServiceContract">
+            <summary>
+            Service Contract Class - AnimalHealthEntityServiceContract
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.ServiceContracts.IAnimalTransferEntityServiceContract">
+            <summary>
+            Service Contract Class - AnimalTransferEntityServiceContract
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.ServiceContracts.IAnimalWeightEntityServiceContract">
+            <summary>
+            Service Contract Class - AnimalWeightEntityServiceContract
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.ServiceContracts.IBasicInformationServiceContract">
+            <summary>
+            Service Contract Class - BasicInformationServiceContract
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.ServiceContracts.ICalvingEntityServiceContract">
+            <summary>
+            Service Contract Class - CalvingEntityServiceContract
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.ServiceContracts.IClassificationEntityServiceContract">
+            <summary>
+            Service Contract Class - ClassificationEntityServiceContract
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.ServiceContracts.IClinicalRecordingEntityServiceContract">
+            <summary>
+            Service Contract Class - ClinicalRecordingEntityServiceContract
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.ServiceContracts.ICprInfoEntityServiceContract">
+            <summary>
+            Service Contract Class - CprInfoEntityServiceContract
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.ServiceContracts.ICprInfoTestEntityServiceContract">
+            <summary>
+            Service Contract Class - CprInfoTestEntityServiceContract
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.ServiceContracts.ICullingEntityServiceContract">
+            <summary>
+            Service Contract Class - CullingEntityServiceContract
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.ServiceContracts.ICvrInfoEntityServiceContract">
+            <summary>
+            Service Contract Class - CvrInfoEntityServiceContract
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.ServiceContracts.ICvrInfoTestEntityServiceContract">
+            <summary>
+            Service Contract Class - CvrInfoTestEntityServiceContract
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.ServiceContracts.IDMSFeedingDaysActivityServiceContract">
+            <summary>
+            Service Contract Class - DMSFeedingDaysActivityServiceContract
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.ServiceContracts.IDiagnosisEntityServiceContract">
+            <summary>
+            Service Contract Class - DiagnosisEntityServiceContract
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.ServiceContracts.IDryPeriodEntityServiceContract">
+            <summary>
+            Service Contract Class - DryPeriodEntityServiceContract
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.ServiceContracts.IEarmarkEntityServiceContract">
+            <summary>
+            Service Contract Class - EarmarkEntityServiceContract
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.ServiceContracts.IEarmarkManufactorEntityServiceContract">
+            <summary>
+            Service Contract Class - EarmarkManufactorEntityServiceContract
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.ServiceContracts.IGeneticsEntityServiceContract">
+            <summary>
+            Service Contract Class - GeneticsEntityServiceContract
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.ServiceContracts.IHerdEntityServiceContract">
+            <summary>
+            Service Contract Class - HerdEntityServiceContract
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.ServiceContracts.IHerdHealthStatusEntityServiceContract">
+            <summary>
+            Service Contract Class - HerdHealthStatusEntityServiceContract
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.ServiceContracts.IInseminationEntityServiceContract">
+            <summary>
+            Service Contract Class - InseminationEntityServiceContract
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.ServiceContracts.IInseminationRouteEntityServiceContract">
+            <summary>
+            Service Contract Class - InseminationRouteEntityServiceContract
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.ServiceContracts.IInseminationTreatmentEntityServiceContract">
+            <summary>
+            Service Contract Class - InseminationTreatmentEntityServiceContract
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.ServiceContracts.IInseminatorInvoiceViewEntityServiceContract">
+            <summary>
+            Service Contract Class - InseminatorInvoiceViewEntityServiceContract
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.ServiceContracts.IInseminatorTimeRecordEntityServiceContract">
+            <summary>
+            Service Contract Class - InseminatorTimeRecordEntityServiceContract
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.ServiceContracts.IInseminatorTourplanEntityServiceContract">
+            <summary>
+            Service Contract Class - InseminatorTourplanEntityServiceContract
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.ServiceContracts.IMatingSchemeEntityServiceContract">
+            <summary>
+            Service Contract Class - MatingSchemeEntityServiceContract
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.ServiceContracts.IMedicationEntityServiceContract">
+            <summary>
+            Service Contract Class - MedicationEntityServiceContract
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.ServiceContracts.IMilkRecordingEntityServiceContract">
+            <summary>
+            Service Contract Class - MilkRecordingEntityServiceContract
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.ServiceContracts.INaturalServiceEntityServiceContract">
+            <summary>
+            Service Contract Class - NaturalServiceEntityServiceContract
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.ServiceContracts.INordicClassificationServiceContract">
+            <summary>
+            Service Contract Class - NordicClassificationServiceContract
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.ServiceContracts.IPostingEntityServiceContract">
+            <summary>
+            Service Contract Class - PostingEntityServiceContract
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.ServiceContracts.IReducedAnimalEntityServiceContract">
+            <summary>
+            Service Contract Class - ReducedAnimalEntityServiceContract
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.ServiceContracts.IReportEntityServiceContract">
+            <summary>
+            Service Contract Class - ReportEntityServiceContract
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.ServiceContracts.IReportFileEntityServiceContract">
+            <summary>
+            Service Contract Class - ReportFileEntityServiceContract
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.ServiceContracts.IReportingServicesAuthorizationEntityServiceContract">
+            <summary>
+            Service Contract Class - ReportingServicesAuthorizationEntityServiceContract
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.ServiceContracts.IReproductionEntityServiceContract">
+            <summary>
+            Service Contract Class - ReproductionEntityServiceContract
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.ServiceContracts.IRYKInvoiceEntityServiceContract">
+            <summary>
+            Service Contract Class - RYKInvoiceEntityServiceContract
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.ServiceContracts.ISecurityServiceContract">
+            <summary>
+            Service Contract Class - SecurityServiceContract
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.ServiceContracts.ISemenInventoryEntityServiceContract">
+            <summary>
+            Service Contract Class - SemenInventoryEntityServiceContract
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.ServiceContracts.ISireEntityServiceContract">
+            <summary>
+            Service Contract Class - SireEntityServiceContract
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.ServiceContracts.IWorklistEntityServiceContract">
+            <summary>
+            Service Contract Class - WorklistEntityServiceContract
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.ServiceContracts.IKPIServiceContract">
+            <summary>
+            Service Contract Class - IKPIServiceContract
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.ServiceContracts.IMilkPriceServiceContract">
+            <summary>
+            Service Contract Class - IKPIServiceContract
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.ServiceContracts.ICowmarketEntityServiceContract">
+            <summary>
+            Service Contract Class - ICowMarketEntityServiceContract
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.ServiceContracts.IReportBuilderEntityServiceContract">
+            <summary>
+            Service Contract Class - IReportBuilderEntityServiceContract
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.ServiceContracts.IVetSampleHealthEntityServiceContract">
+            <summary>
+            Service Contract Class - IVetSampleHealthEntityServiceContract
+            </summary>
+        </member>
+    </members>
+</doc>

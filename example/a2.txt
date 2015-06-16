@@ -1,0 +1,1148 @@
+ 	mscorlib.dll!System.RuntimeType.CreateInstanceCheckThis()	Unknown
+ 	mscorlib.dll!System.RuntimeType.CreateInstanceSlow(bool publicOnly, bool skipCheckThis, bool fillCache, ref System.Threading.StackCrawlMark stackMark)	Unknown
+ 	mscorlib.dll!System.Activator.CreateInstance(System.Type type, bool nonPublic)	Unknown
+ 	mscorlib.dll!System.Activator.CreateInstance(System.Type type)	Unknown
+ 	TypeMock.dll!ae.b(System.Reflection.MethodBase A_0)	Unknown
+ 	TypeMock.dll!ae.a(System.Reflection.MethodBase A_0, f4 A_1)	Unknown
+ 	TypeMock.dll!hn.a(f4 A_0)	Unknown
+ 	TypeMock.dll!hn.c(f4 A_0)	Unknown
+ 	TypeMock.dll!gi.a(f4 A_0)	Unknown
+ 	TypeMock.dll!gi.a(object A_0, System.Reflection.MethodBase A_1, object[] A_2)	Unknown
+ 	TypeMock.dll!gi.a(object A_0, string A_1, string A_2, System.Reflection.MethodBase A_3, object[] A_4, object A_5)	Unknown
+ 	TypeMock.dll!TypeMock.MockManager.getReturn(object context, string typeName, string methodName, object methodGenericParams, bool isDecorated, bool isInterceptedType, object[] methodArguments)	Unknown
+ 	TypeMock.Interceptors.dll!Typemock.Interceptors.Profiler.InternalMockManager.getReturn(object that, string typeName, string methodName, object methodParameters, bool isInjected, bool isInterceptedType)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.RightToLeft.get()	Unknown
+ 	System.dll!System.Text.RegularExpressions.RegexRunner.Scan(System.Text.RegularExpressions.Regex regex, string text, int textbeg, int textend, int textstart, int prevlen, bool quick, System.TimeSpan timeout)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.Run(bool quick, int prevlen, string input, int beginning, int length, int startat)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.IsMatch(string input, int startat)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.IsMatch(string input)	Unknown
+ 	TypeMock.dll!fl.a(int A_0, string[] A_1)	Unknown
+ 	TypeMock.dll!fl.a(System.Exception A_0)	Unknown
+ 	TypeMock.dll!TypeMock.MockManager.getReturn(object context, string typeName, string methodName, object methodGenericParams, bool isDecorated, bool isInterceptedType, object[] methodArguments)	Unknown
+ 	TypeMock.Interceptors.dll!Typemock.Interceptors.Profiler.InternalMockManager.getReturn(object that, string typeName, string methodName, object methodParameters, bool isInjected, bool isInterceptedType)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.RightToLeft.get()	Unknown
+ 	System.dll!System.Text.RegularExpressions.RegexRunner.Scan(System.Text.RegularExpressions.Regex regex, string text, int textbeg, int textend, int textstart, int prevlen, bool quick, System.TimeSpan timeout)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.Run(bool quick, int prevlen, string input, int beginning, int length, int startat)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.IsMatch(string input, int startat)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.IsMatch(string input)	Unknown
+ 	TypeMock.dll!fl.a(int A_0, string[] A_1)	Unknown
+ 	TypeMock.dll!fl.a(System.Exception A_0)	Unknown
+ 	TypeMock.dll!TypeMock.MockManager.getReturn(object context, string typeName, string methodName, object methodGenericParams, bool isDecorated, bool isInterceptedType, object[] methodArguments)	Unknown
+ 	TypeMock.Interceptors.dll!Typemock.Interceptors.Profiler.InternalMockManager.getReturn(object that, string typeName, string methodName, object methodParameters, bool isInjected, bool isInterceptedType)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.RightToLeft.get()	Unknown
+ 	System.dll!System.Text.RegularExpressions.RegexRunner.Scan(System.Text.RegularExpressions.Regex regex, string text, int textbeg, int textend, int textstart, int prevlen, bool quick, System.TimeSpan timeout)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.Run(bool quick, int prevlen, string input, int beginning, int length, int startat)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.IsMatch(string input, int startat)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.IsMatch(string input)	Unknown
+ 	TypeMock.dll!fl.a(int A_0, string[] A_1)	Unknown
+ 	TypeMock.dll!fl.a(System.Exception A_0)	Unknown
+ 	TypeMock.dll!TypeMock.MockManager.getReturn(object context, string typeName, string methodName, object methodGenericParams, bool isDecorated, bool isInterceptedType, object[] methodArguments)	Unknown
+ 	TypeMock.Interceptors.dll!Typemock.Interceptors.Profiler.InternalMockManager.getReturn(object that, string typeName, string methodName, object methodParameters, bool isInjected, bool isInterceptedType)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.RightToLeft.get()	Unknown
+ 	System.dll!System.Text.RegularExpressions.RegexRunner.Scan(System.Text.RegularExpressions.Regex regex, string text, int textbeg, int textend, int textstart, int prevlen, bool quick, System.TimeSpan timeout)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.Run(bool quick, int prevlen, string input, int beginning, int length, int startat)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.IsMatch(string input, int startat)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.IsMatch(string input)	Unknown
+ 	TypeMock.dll!fl.a(int A_0, string[] A_1)	Unknown
+ 	TypeMock.dll!fl.a(System.Exception A_0)	Unknown
+ 	TypeMock.dll!TypeMock.MockManager.getReturn(object context, string typeName, string methodName, object methodGenericParams, bool isDecorated, bool isInterceptedType, object[] methodArguments)	Unknown
+ 	TypeMock.Interceptors.dll!Typemock.Interceptors.Profiler.InternalMockManager.getReturn(object that, string typeName, string methodName, object methodParameters, bool isInjected, bool isInterceptedType)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.RightToLeft.get()	Unknown
+ 	System.dll!System.Text.RegularExpressions.RegexRunner.Scan(System.Text.RegularExpressions.Regex regex, string text, int textbeg, int textend, int textstart, int prevlen, bool quick, System.TimeSpan timeout)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.Run(bool quick, int prevlen, string input, int beginning, int length, int startat)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.IsMatch(string input, int startat)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.IsMatch(string input)	Unknown
+ 	TypeMock.dll!fl.a(int A_0, string[] A_1)	Unknown
+ 	TypeMock.dll!fl.a(System.Exception A_0)	Unknown
+ 	TypeMock.dll!TypeMock.MockManager.getReturn(object context, string typeName, string methodName, object methodGenericParams, bool isDecorated, bool isInterceptedType, object[] methodArguments)	Unknown
+ 	TypeMock.Interceptors.dll!Typemock.Interceptors.Profiler.InternalMockManager.getReturn(object that, string typeName, string methodName, object methodParameters, bool isInjected, bool isInterceptedType)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.RightToLeft.get()	Unknown
+ 	System.dll!System.Text.RegularExpressions.RegexRunner.Scan(System.Text.RegularExpressions.Regex regex, string text, int textbeg, int textend, int textstart, int prevlen, bool quick, System.TimeSpan timeout)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.Run(bool quick, int prevlen, string input, int beginning, int length, int startat)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.IsMatch(string input, int startat)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.IsMatch(string input)	Unknown
+ 	TypeMock.dll!fl.a(int A_0, string[] A_1)	Unknown
+ 	TypeMock.dll!fl.a(System.Exception A_0)	Unknown
+ 	TypeMock.dll!TypeMock.MockManager.getReturn(object context, string typeName, string methodName, object methodGenericParams, bool isDecorated, bool isInterceptedType, object[] methodArguments)	Unknown
+ 	TypeMock.Interceptors.dll!Typemock.Interceptors.Profiler.InternalMockManager.getReturn(object that, string typeName, string methodName, object methodParameters, bool isInjected, bool isInterceptedType)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.RightToLeft.get()	Unknown
+ 	System.dll!System.Text.RegularExpressions.RegexRunner.Scan(System.Text.RegularExpressions.Regex regex, string text, int textbeg, int textend, int textstart, int prevlen, bool quick, System.TimeSpan timeout)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.Run(bool quick, int prevlen, string input, int beginning, int length, int startat)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.IsMatch(string input, int startat)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.IsMatch(string input)	Unknown
+ 	TypeMock.dll!fl.a(int A_0, string[] A_1)	Unknown
+ 	TypeMock.dll!fl.a(System.Exception A_0)	Unknown
+ 	TypeMock.dll!TypeMock.MockManager.getReturn(object context, string typeName, string methodName, object methodGenericParams, bool isDecorated, bool isInterceptedType, object[] methodArguments)	Unknown
+ 	TypeMock.Interceptors.dll!Typemock.Interceptors.Profiler.InternalMockManager.getReturn(object that, string typeName, string methodName, object methodParameters, bool isInjected, bool isInterceptedType)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.RightToLeft.get()	Unknown
+ 	System.dll!System.Text.RegularExpressions.RegexRunner.Scan(System.Text.RegularExpressions.Regex regex, string text, int textbeg, int textend, int textstart, int prevlen, bool quick, System.TimeSpan timeout)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.Run(bool quick, int prevlen, string input, int beginning, int length, int startat)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.IsMatch(string input, int startat)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.IsMatch(string input)	Unknown
+ 	TypeMock.dll!fl.a(int A_0, string[] A_1)	Unknown
+ 	TypeMock.dll!fl.a(System.Exception A_0)	Unknown
+ 	TypeMock.dll!TypeMock.MockManager.getReturn(object context, string typeName, string methodName, object methodGenericParams, bool isDecorated, bool isInterceptedType, object[] methodArguments)	Unknown
+ 	TypeMock.Interceptors.dll!Typemock.Interceptors.Profiler.InternalMockManager.getReturn(object that, string typeName, string methodName, object methodParameters, bool isInjected, bool isInterceptedType)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.RightToLeft.get()	Unknown
+ 	System.dll!System.Text.RegularExpressions.RegexRunner.Scan(System.Text.RegularExpressions.Regex regex, string text, int textbeg, int textend, int textstart, int prevlen, bool quick, System.TimeSpan timeout)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.Run(bool quick, int prevlen, string input, int beginning, int length, int startat)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.IsMatch(string input, int startat)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.IsMatch(string input)	Unknown
+ 	TypeMock.dll!fl.a(int A_0, string[] A_1)	Unknown
+ 	TypeMock.dll!fl.a(System.Exception A_0)	Unknown
+ 	TypeMock.dll!TypeMock.MockManager.getReturn(object context, string typeName, string methodName, object methodGenericParams, bool isDecorated, bool isInterceptedType, object[] methodArguments)	Unknown
+ 	TypeMock.Interceptors.dll!Typemock.Interceptors.Profiler.InternalMockManager.getReturn(object that, string typeName, string methodName, object methodParameters, bool isInjected, bool isInterceptedType)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.RightToLeft.get()	Unknown
+ 	System.dll!System.Text.RegularExpressions.RegexRunner.Scan(System.Text.RegularExpressions.Regex regex, string text, int textbeg, int textend, int textstart, int prevlen, bool quick, System.TimeSpan timeout)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.Run(bool quick, int prevlen, string input, int beginning, int length, int startat)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.IsMatch(string input, int startat)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.IsMatch(string input)	Unknown
+ 	TypeMock.dll!fl.a(int A_0, string[] A_1)	Unknown
+ 	TypeMock.dll!fl.a(System.Exception A_0)	Unknown
+ 	TypeMock.dll!TypeMock.MockManager.getReturn(object context, string typeName, string methodName, object methodGenericParams, bool isDecorated, bool isInterceptedType, object[] methodArguments)	Unknown
+ 	TypeMock.Interceptors.dll!Typemock.Interceptors.Profiler.InternalMockManager.getReturn(object that, string typeName, string methodName, object methodParameters, bool isInjected, bool isInterceptedType)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.RightToLeft.get()	Unknown
+ 	System.dll!System.Text.RegularExpressions.RegexRunner.Scan(System.Text.RegularExpressions.Regex regex, string text, int textbeg, int textend, int textstart, int prevlen, bool quick, System.TimeSpan timeout)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.Run(bool quick, int prevlen, string input, int beginning, int length, int startat)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.IsMatch(string input, int startat)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.IsMatch(string input)	Unknown
+ 	TypeMock.dll!fl.a(int A_0, string[] A_1)	Unknown
+ 	TypeMock.dll!fl.a(System.Exception A_0)	Unknown
+ 	TypeMock.dll!TypeMock.MockManager.getReturn(object context, string typeName, string methodName, object methodGenericParams, bool isDecorated, bool isInterceptedType, object[] methodArguments)	Unknown
+ 	TypeMock.Interceptors.dll!Typemock.Interceptors.Profiler.InternalMockManager.getReturn(object that, string typeName, string methodName, object methodParameters, bool isInjected, bool isInterceptedType)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.RightToLeft.get()	Unknown
+ 	System.dll!System.Text.RegularExpressions.RegexRunner.Scan(System.Text.RegularExpressions.Regex regex, string text, int textbeg, int textend, int textstart, int prevlen, bool quick, System.TimeSpan timeout)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.Run(bool quick, int prevlen, string input, int beginning, int length, int startat)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.IsMatch(string input, int startat)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.IsMatch(string input)	Unknown
+ 	TypeMock.dll!fl.a(int A_0, string[] A_1)	Unknown
+ 	TypeMock.dll!fl.a(System.Exception A_0)	Unknown
+ 	TypeMock.dll!TypeMock.MockManager.getReturn(object context, string typeName, string methodName, object methodGenericParams, bool isDecorated, bool isInterceptedType, object[] methodArguments)	Unknown
+ 	TypeMock.Interceptors.dll!Typemock.Interceptors.Profiler.InternalMockManager.getReturn(object that, string typeName, string methodName, object methodParameters, bool isInjected, bool isInterceptedType)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.RightToLeft.get()	Unknown
+ 	System.dll!System.Text.RegularExpressions.RegexRunner.Scan(System.Text.RegularExpressions.Regex regex, string text, int textbeg, int textend, int textstart, int prevlen, bool quick, System.TimeSpan timeout)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.Run(bool quick, int prevlen, string input, int beginning, int length, int startat)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.IsMatch(string input, int startat)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.IsMatch(string input)	Unknown
+ 	TypeMock.dll!fl.a(int A_0, string[] A_1)	Unknown
+ 	TypeMock.dll!fl.a(System.Exception A_0)	Unknown
+ 	TypeMock.dll!TypeMock.MockManager.getReturn(object context, string typeName, string methodName, object methodGenericParams, bool isDecorated, bool isInterceptedType, object[] methodArguments)	Unknown
+ 	TypeMock.Interceptors.dll!Typemock.Interceptors.Profiler.InternalMockManager.getReturn(object that, string typeName, string methodName, object methodParameters, bool isInjected, bool isInterceptedType)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.RightToLeft.get()	Unknown
+ 	System.dll!System.Text.RegularExpressions.RegexRunner.Scan(System.Text.RegularExpressions.Regex regex, string text, int textbeg, int textend, int textstart, int prevlen, bool quick, System.TimeSpan timeout)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.Run(bool quick, int prevlen, string input, int beginning, int length, int startat)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.IsMatch(string input, int startat)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.IsMatch(string input)	Unknown
+ 	TypeMock.dll!fl.a(int A_0, string[] A_1)	Unknown
+ 	TypeMock.dll!fl.a(System.Exception A_0)	Unknown
+ 	TypeMock.dll!TypeMock.MockManager.getReturn(object context, string typeName, string methodName, object methodGenericParams, bool isDecorated, bool isInterceptedType, object[] methodArguments)	Unknown
+ 	TypeMock.Interceptors.dll!Typemock.Interceptors.Profiler.InternalMockManager.getReturn(object that, string typeName, string methodName, object methodParameters, bool isInjected, bool isInterceptedType)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.RightToLeft.get()	Unknown
+ 	System.dll!System.Text.RegularExpressions.RegexRunner.Scan(System.Text.RegularExpressions.Regex regex, string text, int textbeg, int textend, int textstart, int prevlen, bool quick, System.TimeSpan timeout)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.Run(bool quick, int prevlen, string input, int beginning, int length, int startat)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.IsMatch(string input, int startat)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.IsMatch(string input)	Unknown
+ 	TypeMock.dll!fl.a(int A_0, string[] A_1)	Unknown
+ 	TypeMock.dll!fl.a(System.Exception A_0)	Unknown
+ 	TypeMock.dll!TypeMock.MockManager.getReturn(object context, string typeName, string methodName, object methodGenericParams, bool isDecorated, bool isInterceptedType, object[] methodArguments)	Unknown
+ 	TypeMock.Interceptors.dll!Typemock.Interceptors.Profiler.InternalMockManager.getReturn(object that, string typeName, string methodName, object methodParameters, bool isInjected, bool isInterceptedType)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.RightToLeft.get()	Unknown
+ 	System.dll!System.Text.RegularExpressions.RegexRunner.Scan(System.Text.RegularExpressions.Regex regex, string text, int textbeg, int textend, int textstart, int prevlen, bool quick, System.TimeSpan timeout)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.Run(bool quick, int prevlen, string input, int beginning, int length, int startat)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.IsMatch(string input, int startat)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.IsMatch(string input)	Unknown
+ 	TypeMock.dll!fl.a(int A_0, string[] A_1)	Unknown
+ 	TypeMock.dll!fl.a(System.Exception A_0)	Unknown
+ 	TypeMock.dll!TypeMock.MockManager.getReturn(object context, string typeName, string methodName, object methodGenericParams, bool isDecorated, bool isInterceptedType, object[] methodArguments)	Unknown
+ 	TypeMock.Interceptors.dll!Typemock.Interceptors.Profiler.InternalMockManager.getReturn(object that, string typeName, string methodName, object methodParameters, bool isInjected, bool isInterceptedType)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.RightToLeft.get()	Unknown
+ 	System.dll!System.Text.RegularExpressions.RegexRunner.Scan(System.Text.RegularExpressions.Regex regex, string text, int textbeg, int textend, int textstart, int prevlen, bool quick, System.TimeSpan timeout)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.Run(bool quick, int prevlen, string input, int beginning, int length, int startat)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.IsMatch(string input, int startat)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.IsMatch(string input)	Unknown
+ 	TypeMock.dll!fl.a(int A_0, string[] A_1)	Unknown
+ 	TypeMock.dll!fl.a(System.Exception A_0)	Unknown
+ 	TypeMock.dll!TypeMock.MockManager.getReturn(object context, string typeName, string methodName, object methodGenericParams, bool isDecorated, bool isInterceptedType, object[] methodArguments)	Unknown
+ 	TypeMock.Interceptors.dll!Typemock.Interceptors.Profiler.InternalMockManager.getReturn(object that, string typeName, string methodName, object methodParameters, bool isInjected, bool isInterceptedType)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.RightToLeft.get()	Unknown
+ 	System.dll!System.Text.RegularExpressions.RegexRunner.Scan(System.Text.RegularExpressions.Regex regex, string text, int textbeg, int textend, int textstart, int prevlen, bool quick, System.TimeSpan timeout)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.Run(bool quick, int prevlen, string input, int beginning, int length, int startat)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.IsMatch(string input, int startat)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.IsMatch(string input)	Unknown
+ 	TypeMock.dll!fl.a(int A_0, string[] A_1)	Unknown
+ 	TypeMock.dll!fl.a(System.Exception A_0)	Unknown
+ 	TypeMock.dll!TypeMock.MockManager.getReturn(object context, string typeName, string methodName, object methodGenericParams, bool isDecorated, bool isInterceptedType, object[] methodArguments)	Unknown
+ 	TypeMock.Interceptors.dll!Typemock.Interceptors.Profiler.InternalMockManager.getReturn(object that, string typeName, string methodName, object methodParameters, bool isInjected, bool isInterceptedType)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.RightToLeft.get()	Unknown
+ 	System.dll!System.Text.RegularExpressions.RegexRunner.Scan(System.Text.RegularExpressions.Regex regex, string text, int textbeg, int textend, int textstart, int prevlen, bool quick, System.TimeSpan timeout)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.Run(bool quick, int prevlen, string input, int beginning, int length, int startat)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.IsMatch(string input, int startat)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.IsMatch(string input)	Unknown
+ 	TypeMock.dll!fl.a(int A_0, string[] A_1)	Unknown
+ 	TypeMock.dll!fl.a(System.Exception A_0)	Unknown
+ 	TypeMock.dll!TypeMock.MockManager.getReturn(object context, string typeName, string methodName, object methodGenericParams, bool isDecorated, bool isInterceptedType, object[] methodArguments)	Unknown
+ 	TypeMock.Interceptors.dll!Typemock.Interceptors.Profiler.InternalMockManager.getReturn(object that, string typeName, string methodName, object methodParameters, bool isInjected, bool isInterceptedType)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.RightToLeft.get()	Unknown
+ 	System.dll!System.Text.RegularExpressions.RegexRunner.Scan(System.Text.RegularExpressions.Regex regex, string text, int textbeg, int textend, int textstart, int prevlen, bool quick, System.TimeSpan timeout)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.Run(bool quick, int prevlen, string input, int beginning, int length, int startat)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.IsMatch(string input, int startat)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.IsMatch(string input)	Unknown
+ 	TypeMock.dll!fl.a(int A_0, string[] A_1)	Unknown
+ 	TypeMock.dll!fl.a(System.Exception A_0)	Unknown
+ 	TypeMock.dll!TypeMock.MockManager.getReturn(object context, string typeName, string methodName, object methodGenericParams, bool isDecorated, bool isInterceptedType, object[] methodArguments)	Unknown
+ 	TypeMock.Interceptors.dll!Typemock.Interceptors.Profiler.InternalMockManager.getReturn(object that, string typeName, string methodName, object methodParameters, bool isInjected, bool isInterceptedType)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.RightToLeft.get()	Unknown
+ 	System.dll!System.Text.RegularExpressions.RegexRunner.Scan(System.Text.RegularExpressions.Regex regex, string text, int textbeg, int textend, int textstart, int prevlen, bool quick, System.TimeSpan timeout)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.Run(bool quick, int prevlen, string input, int beginning, int length, int startat)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.IsMatch(string input, int startat)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.IsMatch(string input)	Unknown
+ 	TypeMock.dll!fl.a(int A_0, string[] A_1)	Unknown
+ 	TypeMock.dll!fl.a(System.Exception A_0)	Unknown
+ 	TypeMock.dll!TypeMock.MockManager.getReturn(object context, string typeName, string methodName, object methodGenericParams, bool isDecorated, bool isInterceptedType, object[] methodArguments)	Unknown
+ 	TypeMock.Interceptors.dll!Typemock.Interceptors.Profiler.InternalMockManager.getReturn(object that, string typeName, string methodName, object methodParameters, bool isInjected, bool isInterceptedType)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.RightToLeft.get()	Unknown
+ 	System.dll!System.Text.RegularExpressions.RegexRunner.Scan(System.Text.RegularExpressions.Regex regex, string text, int textbeg, int textend, int textstart, int prevlen, bool quick, System.TimeSpan timeout)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.Run(bool quick, int prevlen, string input, int beginning, int length, int startat)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.IsMatch(string input, int startat)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.IsMatch(string input)	Unknown
+ 	TypeMock.dll!fl.a(int A_0, string[] A_1)	Unknown
+ 	TypeMock.dll!fl.a(System.Exception A_0)	Unknown
+ 	TypeMock.dll!TypeMock.MockManager.getReturn(object context, string typeName, string methodName, object methodGenericParams, bool isDecorated, bool isInterceptedType, object[] methodArguments)	Unknown
+ 	TypeMock.Interceptors.dll!Typemock.Interceptors.Profiler.InternalMockManager.getReturn(object that, string typeName, string methodName, object methodParameters, bool isInjected, bool isInterceptedType)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.RightToLeft.get()	Unknown
+ 	System.dll!System.Text.RegularExpressions.RegexRunner.Scan(System.Text.RegularExpressions.Regex regex, string text, int textbeg, int textend, int textstart, int prevlen, bool quick, System.TimeSpan timeout)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.Run(bool quick, int prevlen, string input, int beginning, int length, int startat)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.IsMatch(string input, int startat)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.IsMatch(string input)	Unknown
+ 	TypeMock.dll!fl.a(int A_0, string[] A_1)	Unknown
+ 	TypeMock.dll!fl.a(System.Exception A_0)	Unknown
+ 	TypeMock.dll!TypeMock.MockManager.getReturn(object context, string typeName, string methodName, object methodGenericParams, bool isDecorated, bool isInterceptedType, object[] methodArguments)	Unknown
+ 	TypeMock.Interceptors.dll!Typemock.Interceptors.Profiler.InternalMockManager.getReturn(object that, string typeName, string methodName, object methodParameters, bool isInjected, bool isInterceptedType)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.RightToLeft.get()	Unknown
+ 	System.dll!System.Text.RegularExpressions.RegexRunner.Scan(System.Text.RegularExpressions.Regex regex, string text, int textbeg, int textend, int textstart, int prevlen, bool quick, System.TimeSpan timeout)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.Run(bool quick, int prevlen, string input, int beginning, int length, int startat)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.IsMatch(string input, int startat)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.IsMatch(string input)	Unknown
+ 	TypeMock.dll!fl.a(int A_0, string[] A_1)	Unknown
+ 	TypeMock.dll!fl.a(System.Exception A_0)	Unknown
+ 	TypeMock.dll!TypeMock.MockManager.getReturn(object context, string typeName, string methodName, object methodGenericParams, bool isDecorated, bool isInterceptedType, object[] methodArguments)	Unknown
+ 	TypeMock.Interceptors.dll!Typemock.Interceptors.Profiler.InternalMockManager.getReturn(object that, string typeName, string methodName, object methodParameters, bool isInjected, bool isInterceptedType)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.RightToLeft.get()	Unknown
+ 	System.dll!System.Text.RegularExpressions.RegexRunner.Scan(System.Text.RegularExpressions.Regex regex, string text, int textbeg, int textend, int textstart, int prevlen, bool quick, System.TimeSpan timeout)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.Run(bool quick, int prevlen, string input, int beginning, int length, int startat)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.IsMatch(string input, int startat)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.IsMatch(string input)	Unknown
+ 	TypeMock.dll!fl.a(int A_0, string[] A_1)	Unknown
+ 	TypeMock.dll!fl.a(System.Exception A_0)	Unknown
+ 	TypeMock.dll!TypeMock.MockManager.getReturn(object context, string typeName, string methodName, object methodGenericParams, bool isDecorated, bool isInterceptedType, object[] methodArguments)	Unknown
+ 	TypeMock.Interceptors.dll!Typemock.Interceptors.Profiler.InternalMockManager.getReturn(object that, string typeName, string methodName, object methodParameters, bool isInjected, bool isInterceptedType)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.RightToLeft.get()	Unknown
+ 	System.dll!System.Text.RegularExpressions.RegexRunner.Scan(System.Text.RegularExpressions.Regex regex, string text, int textbeg, int textend, int textstart, int prevlen, bool quick, System.TimeSpan timeout)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.Run(bool quick, int prevlen, string input, int beginning, int length, int startat)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.IsMatch(string input, int startat)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.IsMatch(string input)	Unknown
+ 	TypeMock.dll!fl.a(int A_0, string[] A_1)	Unknown
+ 	TypeMock.dll!fl.a(System.Exception A_0)	Unknown
+ 	TypeMock.dll!TypeMock.MockManager.getReturn(object context, string typeName, string methodName, object methodGenericParams, bool isDecorated, bool isInterceptedType, object[] methodArguments)	Unknown
+ 	TypeMock.Interceptors.dll!Typemock.Interceptors.Profiler.InternalMockManager.getReturn(object that, string typeName, string methodName, object methodParameters, bool isInjected, bool isInterceptedType)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.RightToLeft.get()	Unknown
+ 	System.dll!System.Text.RegularExpressions.RegexRunner.Scan(System.Text.RegularExpressions.Regex regex, string text, int textbeg, int textend, int textstart, int prevlen, bool quick, System.TimeSpan timeout)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.Run(bool quick, int prevlen, string input, int beginning, int length, int startat)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.IsMatch(string input, int startat)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.IsMatch(string input)	Unknown
+ 	TypeMock.dll!fl.a(int A_0, string[] A_1)	Unknown
+ 	TypeMock.dll!fl.a(System.Exception A_0)	Unknown
+ 	TypeMock.dll!TypeMock.MockManager.getReturn(object context, string typeName, string methodName, object methodGenericParams, bool isDecorated, bool isInterceptedType, object[] methodArguments)	Unknown
+ 	TypeMock.Interceptors.dll!Typemock.Interceptors.Profiler.InternalMockManager.getReturn(object that, string typeName, string methodName, object methodParameters, bool isInjected, bool isInterceptedType)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.RightToLeft.get()	Unknown
+ 	System.dll!System.Text.RegularExpressions.RegexRunner.Scan(System.Text.RegularExpressions.Regex regex, string text, int textbeg, int textend, int textstart, int prevlen, bool quick, System.TimeSpan timeout)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.Run(bool quick, int prevlen, string input, int beginning, int length, int startat)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.IsMatch(string input, int startat)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.IsMatch(string input)	Unknown
+ 	TypeMock.dll!fl.a(int A_0, string[] A_1)	Unknown
+ 	TypeMock.dll!fl.a(System.Exception A_0)	Unknown
+ 	TypeMock.dll!TypeMock.MockManager.getReturn(object context, string typeName, string methodName, object methodGenericParams, bool isDecorated, bool isInterceptedType, object[] methodArguments)	Unknown
+ 	TypeMock.Interceptors.dll!Typemock.Interceptors.Profiler.InternalMockManager.getReturn(object that, string typeName, string methodName, object methodParameters, bool isInjected, bool isInterceptedType)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.RightToLeft.get()	Unknown
+ 	System.dll!System.Text.RegularExpressions.RegexRunner.Scan(System.Text.RegularExpressions.Regex regex, string text, int textbeg, int textend, int textstart, int prevlen, bool quick, System.TimeSpan timeout)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.Run(bool quick, int prevlen, string input, int beginning, int length, int startat)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.IsMatch(string input, int startat)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.IsMatch(string input)	Unknown
+ 	TypeMock.dll!fl.a(int A_0, string[] A_1)	Unknown
+ 	TypeMock.dll!fl.a(System.Exception A_0)	Unknown
+ 	TypeMock.dll!TypeMock.MockManager.getReturn(object context, string typeName, string methodName, object methodGenericParams, bool isDecorated, bool isInterceptedType, object[] methodArguments)	Unknown
+ 	TypeMock.Interceptors.dll!Typemock.Interceptors.Profiler.InternalMockManager.getReturn(object that, string typeName, string methodName, object methodParameters, bool isInjected, bool isInterceptedType)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.RightToLeft.get()	Unknown
+ 	System.dll!System.Text.RegularExpressions.RegexRunner.Scan(System.Text.RegularExpressions.Regex regex, string text, int textbeg, int textend, int textstart, int prevlen, bool quick, System.TimeSpan timeout)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.Run(bool quick, int prevlen, string input, int beginning, int length, int startat)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.IsMatch(string input, int startat)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.IsMatch(string input)	Unknown
+ 	TypeMock.dll!fl.a(int A_0, string[] A_1)	Unknown
+ 	TypeMock.dll!fl.a(System.Exception A_0)	Unknown
+ 	TypeMock.dll!TypeMock.MockManager.getReturn(object context, string typeName, string methodName, object methodGenericParams, bool isDecorated, bool isInterceptedType, object[] methodArguments)	Unknown
+ 	TypeMock.Interceptors.dll!Typemock.Interceptors.Profiler.InternalMockManager.getReturn(object that, string typeName, string methodName, object methodParameters, bool isInjected, bool isInterceptedType)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.RightToLeft.get()	Unknown
+ 	System.dll!System.Text.RegularExpressions.RegexRunner.Scan(System.Text.RegularExpressions.Regex regex, string text, int textbeg, int textend, int textstart, int prevlen, bool quick, System.TimeSpan timeout)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.Run(bool quick, int prevlen, string input, int beginning, int length, int startat)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.IsMatch(string input, int startat)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.IsMatch(string input)	Unknown
+ 	TypeMock.dll!fl.a(int A_0, string[] A_1)	Unknown
+ 	TypeMock.dll!fl.a(System.Exception A_0)	Unknown
+ 	TypeMock.dll!TypeMock.MockManager.getReturn(object context, string typeName, string methodName, object methodGenericParams, bool isDecorated, bool isInterceptedType, object[] methodArguments)	Unknown
+ 	TypeMock.Interceptors.dll!Typemock.Interceptors.Profiler.InternalMockManager.getReturn(object that, string typeName, string methodName, object methodParameters, bool isInjected, bool isInterceptedType)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.RightToLeft.get()	Unknown
+ 	System.dll!System.Text.RegularExpressions.RegexRunner.Scan(System.Text.RegularExpressions.Regex regex, string text, int textbeg, int textend, int textstart, int prevlen, bool quick, System.TimeSpan timeout)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.Run(bool quick, int prevlen, string input, int beginning, int length, int startat)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.IsMatch(string input, int startat)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.IsMatch(string input)	Unknown
+ 	TypeMock.dll!fl.a(int A_0, string[] A_1)	Unknown
+ 	TypeMock.dll!fl.a(System.Exception A_0)	Unknown
+ 	TypeMock.dll!TypeMock.MockManager.getReturn(object context, string typeName, string methodName, object methodGenericParams, bool isDecorated, bool isInterceptedType, object[] methodArguments)	Unknown
+ 	TypeMock.Interceptors.dll!Typemock.Interceptors.Profiler.InternalMockManager.getReturn(object that, string typeName, string methodName, object methodParameters, bool isInjected, bool isInterceptedType)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.RightToLeft.get()	Unknown
+ 	System.dll!System.Text.RegularExpressions.RegexRunner.Scan(System.Text.RegularExpressions.Regex regex, string text, int textbeg, int textend, int textstart, int prevlen, bool quick, System.TimeSpan timeout)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.Run(bool quick, int prevlen, string input, int beginning, int length, int startat)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.IsMatch(string input, int startat)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.IsMatch(string input)	Unknown
+ 	TypeMock.dll!fl.a(int A_0, string[] A_1)	Unknown
+ 	TypeMock.dll!fl.a(System.Exception A_0)	Unknown
+ 	TypeMock.dll!TypeMock.MockManager.getReturn(object context, string typeName, string methodName, object methodGenericParams, bool isDecorated, bool isInterceptedType, object[] methodArguments)	Unknown
+ 	TypeMock.Interceptors.dll!Typemock.Interceptors.Profiler.InternalMockManager.getReturn(object that, string typeName, string methodName, object methodParameters, bool isInjected, bool isInterceptedType)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.RightToLeft.get()	Unknown
+ 	System.dll!System.Text.RegularExpressions.RegexRunner.Scan(System.Text.RegularExpressions.Regex regex, string text, int textbeg, int textend, int textstart, int prevlen, bool quick, System.TimeSpan timeout)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.Run(bool quick, int prevlen, string input, int beginning, int length, int startat)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.IsMatch(string input, int startat)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.IsMatch(string input)	Unknown
+ 	TypeMock.dll!fl.a(int A_0, string[] A_1)	Unknown
+ 	TypeMock.dll!fl.a(System.Exception A_0)	Unknown
+ 	TypeMock.dll!TypeMock.MockManager.getReturn(object context, string typeName, string methodName, object methodGenericParams, bool isDecorated, bool isInterceptedType, object[] methodArguments)	Unknown
+ 	TypeMock.Interceptors.dll!Typemock.Interceptors.Profiler.InternalMockManager.getReturn(object that, string typeName, string methodName, object methodParameters, bool isInjected, bool isInterceptedType)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.RightToLeft.get()	Unknown
+ 	System.dll!System.Text.RegularExpressions.RegexRunner.Scan(System.Text.RegularExpressions.Regex regex, string text, int textbeg, int textend, int textstart, int prevlen, bool quick, System.TimeSpan timeout)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.Run(bool quick, int prevlen, string input, int beginning, int length, int startat)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.IsMatch(string input, int startat)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.IsMatch(string input)	Unknown
+ 	TypeMock.dll!fl.a(int A_0, string[] A_1)	Unknown
+ 	TypeMock.dll!fl.a(System.Exception A_0)	Unknown
+ 	TypeMock.dll!TypeMock.MockManager.getReturn(object context, string typeName, string methodName, object methodGenericParams, bool isDecorated, bool isInterceptedType, object[] methodArguments)	Unknown
+ 	TypeMock.Interceptors.dll!Typemock.Interceptors.Profiler.InternalMockManager.getReturn(object that, string typeName, string methodName, object methodParameters, bool isInjected, bool isInterceptedType)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.RightToLeft.get()	Unknown
+ 	System.dll!System.Text.RegularExpressions.RegexRunner.Scan(System.Text.RegularExpressions.Regex regex, string text, int textbeg, int textend, int textstart, int prevlen, bool quick, System.TimeSpan timeout)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.Run(bool quick, int prevlen, string input, int beginning, int length, int startat)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.IsMatch(string input, int startat)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.IsMatch(string input)	Unknown
+ 	TypeMock.dll!fl.a(int A_0, string[] A_1)	Unknown
+ 	TypeMock.dll!fl.a(System.Exception A_0)	Unknown
+ 	TypeMock.dll!TypeMock.MockManager.getReturn(object context, string typeName, string methodName, object methodGenericParams, bool isDecorated, bool isInterceptedType, object[] methodArguments)	Unknown
+ 	TypeMock.Interceptors.dll!Typemock.Interceptors.Profiler.InternalMockManager.getReturn(object that, string typeName, string methodName, object methodParameters, bool isInjected, bool isInterceptedType)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.RightToLeft.get()	Unknown
+ 	System.dll!System.Text.RegularExpressions.RegexRunner.Scan(System.Text.RegularExpressions.Regex regex, string text, int textbeg, int textend, int textstart, int prevlen, bool quick, System.TimeSpan timeout)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.Run(bool quick, int prevlen, string input, int beginning, int length, int startat)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.IsMatch(string input, int startat)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.IsMatch(string input)	Unknown
+ 	TypeMock.dll!fl.a(int A_0, string[] A_1)	Unknown
+ 	TypeMock.dll!fl.a(System.Exception A_0)	Unknown
+ 	TypeMock.dll!TypeMock.MockManager.getReturn(object context, string typeName, string methodName, object methodGenericParams, bool isDecorated, bool isInterceptedType, object[] methodArguments)	Unknown
+ 	TypeMock.Interceptors.dll!Typemock.Interceptors.Profiler.InternalMockManager.getReturn(object that, string typeName, string methodName, object methodParameters, bool isInjected, bool isInterceptedType)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.RightToLeft.get()	Unknown
+ 	System.dll!System.Text.RegularExpressions.RegexRunner.Scan(System.Text.RegularExpressions.Regex regex, string text, int textbeg, int textend, int textstart, int prevlen, bool quick, System.TimeSpan timeout)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.Run(bool quick, int prevlen, string input, int beginning, int length, int startat)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.IsMatch(string input, int startat)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.IsMatch(string input)	Unknown
+ 	TypeMock.dll!fl.a(int A_0, string[] A_1)	Unknown
+ 	TypeMock.dll!fl.a(System.Exception A_0)	Unknown
+ 	TypeMock.dll!TypeMock.MockManager.getReturn(object context, string typeName, string methodName, object methodGenericParams, bool isDecorated, bool isInterceptedType, object[] methodArguments)	Unknown
+ 	TypeMock.Interceptors.dll!Typemock.Interceptors.Profiler.InternalMockManager.getReturn(object that, string typeName, string methodName, object methodParameters, bool isInjected, bool isInterceptedType)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.RightToLeft.get()	Unknown
+ 	System.dll!System.Text.RegularExpressions.RegexRunner.Scan(System.Text.RegularExpressions.Regex regex, string text, int textbeg, int textend, int textstart, int prevlen, bool quick, System.TimeSpan timeout)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.Run(bool quick, int prevlen, string input, int beginning, int length, int startat)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.IsMatch(string input, int startat)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.IsMatch(string input)	Unknown
+ 	TypeMock.dll!fl.a(int A_0, string[] A_1)	Unknown
+ 	TypeMock.dll!fl.a(System.Exception A_0)	Unknown
+ 	TypeMock.dll!TypeMock.MockManager.getReturn(object context, string typeName, string methodName, object methodGenericParams, bool isDecorated, bool isInterceptedType, object[] methodArguments)	Unknown
+ 	TypeMock.Interceptors.dll!Typemock.Interceptors.Profiler.InternalMockManager.getReturn(object that, string typeName, string methodName, object methodParameters, bool isInjected, bool isInterceptedType)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.RightToLeft.get()	Unknown
+ 	System.dll!System.Text.RegularExpressions.RegexRunner.Scan(System.Text.RegularExpressions.Regex regex, string text, int textbeg, int textend, int textstart, int prevlen, bool quick, System.TimeSpan timeout)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.Run(bool quick, int prevlen, string input, int beginning, int length, int startat)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.IsMatch(string input, int startat)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.IsMatch(string input)	Unknown
+ 	TypeMock.dll!fl.a(int A_0, string[] A_1)	Unknown
+ 	TypeMock.dll!fl.a(System.Exception A_0)	Unknown
+ 	TypeMock.dll!TypeMock.MockManager.getReturn(object context, string typeName, string methodName, object methodGenericParams, bool isDecorated, bool isInterceptedType, object[] methodArguments)	Unknown
+ 	TypeMock.Interceptors.dll!Typemock.Interceptors.Profiler.InternalMockManager.getReturn(object that, string typeName, string methodName, object methodParameters, bool isInjected, bool isInterceptedType)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.RightToLeft.get()	Unknown
+ 	System.dll!System.Text.RegularExpressions.RegexRunner.Scan(System.Text.RegularExpressions.Regex regex, string text, int textbeg, int textend, int textstart, int prevlen, bool quick, System.TimeSpan timeout)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.Run(bool quick, int prevlen, string input, int beginning, int length, int startat)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.IsMatch(string input, int startat)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.IsMatch(string input)	Unknown
+ 	TypeMock.dll!fl.a(int A_0, string[] A_1)	Unknown
+ 	TypeMock.dll!fl.a(System.Exception A_0)	Unknown
+ 	TypeMock.dll!TypeMock.MockManager.getReturn(object context, string typeName, string methodName, object methodGenericParams, bool isDecorated, bool isInterceptedType, object[] methodArguments)	Unknown
+ 	TypeMock.Interceptors.dll!Typemock.Interceptors.Profiler.InternalMockManager.getReturn(object that, string typeName, string methodName, object methodParameters, bool isInjected, bool isInterceptedType)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.RightToLeft.get()	Unknown
+ 	System.dll!System.Text.RegularExpressions.RegexRunner.Scan(System.Text.RegularExpressions.Regex regex, string text, int textbeg, int textend, int textstart, int prevlen, bool quick, System.TimeSpan timeout)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.Run(bool quick, int prevlen, string input, int beginning, int length, int startat)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.IsMatch(string input, int startat)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.IsMatch(string input)	Unknown
+ 	TypeMock.dll!fl.a(int A_0, string[] A_1)	Unknown
+ 	TypeMock.dll!fl.a(System.Exception A_0)	Unknown
+ 	TypeMock.dll!TypeMock.MockManager.getReturn(object context, string typeName, string methodName, object methodGenericParams, bool isDecorated, bool isInterceptedType, object[] methodArguments)	Unknown
+ 	TypeMock.Interceptors.dll!Typemock.Interceptors.Profiler.InternalMockManager.getReturn(object that, string typeName, string methodName, object methodParameters, bool isInjected, bool isInterceptedType)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.RightToLeft.get()	Unknown
+ 	System.dll!System.Text.RegularExpressions.RegexRunner.Scan(System.Text.RegularExpressions.Regex regex, string text, int textbeg, int textend, int textstart, int prevlen, bool quick, System.TimeSpan timeout)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.Run(bool quick, int prevlen, string input, int beginning, int length, int startat)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.IsMatch(string input, int startat)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.IsMatch(string input)	Unknown
+ 	TypeMock.dll!fl.a(int A_0, string[] A_1)	Unknown
+ 	TypeMock.dll!fl.a(System.Exception A_0)	Unknown
+ 	TypeMock.dll!TypeMock.MockManager.getReturn(object context, string typeName, string methodName, object methodGenericParams, bool isDecorated, bool isInterceptedType, object[] methodArguments)	Unknown
+ 	TypeMock.Interceptors.dll!Typemock.Interceptors.Profiler.InternalMockManager.getReturn(object that, string typeName, string methodName, object methodParameters, bool isInjected, bool isInterceptedType)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.RightToLeft.get()	Unknown
+ 	System.dll!System.Text.RegularExpressions.RegexRunner.Scan(System.Text.RegularExpressions.Regex regex, string text, int textbeg, int textend, int textstart, int prevlen, bool quick, System.TimeSpan timeout)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.Run(bool quick, int prevlen, string input, int beginning, int length, int startat)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.IsMatch(string input, int startat)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.IsMatch(string input)	Unknown
+ 	TypeMock.dll!fl.a(int A_0, string[] A_1)	Unknown
+ 	TypeMock.dll!fl.a(System.Exception A_0)	Unknown
+ 	TypeMock.dll!TypeMock.MockManager.getReturn(object context, string typeName, string methodName, object methodGenericParams, bool isDecorated, bool isInterceptedType, object[] methodArguments)	Unknown
+ 	TypeMock.Interceptors.dll!Typemock.Interceptors.Profiler.InternalMockManager.getReturn(object that, string typeName, string methodName, object methodParameters, bool isInjected, bool isInterceptedType)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.RightToLeft.get()	Unknown
+ 	System.dll!System.Text.RegularExpressions.RegexRunner.Scan(System.Text.RegularExpressions.Regex regex, string text, int textbeg, int textend, int textstart, int prevlen, bool quick, System.TimeSpan timeout)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.Run(bool quick, int prevlen, string input, int beginning, int length, int startat)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.IsMatch(string input, int startat)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.IsMatch(string input)	Unknown
+ 	TypeMock.dll!fl.a(int A_0, string[] A_1)	Unknown
+ 	TypeMock.dll!fl.a(System.Exception A_0)	Unknown
+ 	TypeMock.dll!TypeMock.MockManager.getReturn(object context, string typeName, string methodName, object methodGenericParams, bool isDecorated, bool isInterceptedType, object[] methodArguments)	Unknown
+ 	TypeMock.Interceptors.dll!Typemock.Interceptors.Profiler.InternalMockManager.getReturn(object that, string typeName, string methodName, object methodParameters, bool isInjected, bool isInterceptedType)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.RightToLeft.get()	Unknown
+ 	System.dll!System.Text.RegularExpressions.RegexRunner.Scan(System.Text.RegularExpressions.Regex regex, string text, int textbeg, int textend, int textstart, int prevlen, bool quick, System.TimeSpan timeout)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.Run(bool quick, int prevlen, string input, int beginning, int length, int startat)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.IsMatch(string input, int startat)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.IsMatch(string input)	Unknown
+ 	TypeMock.dll!fl.a(int A_0, string[] A_1)	Unknown
+ 	TypeMock.dll!fl.a(System.Exception A_0)	Unknown
+ 	TypeMock.dll!TypeMock.MockManager.getReturn(object context, string typeName, string methodName, object methodGenericParams, bool isDecorated, bool isInterceptedType, object[] methodArguments)	Unknown
+ 	TypeMock.Interceptors.dll!Typemock.Interceptors.Profiler.InternalMockManager.getReturn(object that, string typeName, string methodName, object methodParameters, bool isInjected, bool isInterceptedType)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.RightToLeft.get()	Unknown
+ 	System.dll!System.Text.RegularExpressions.RegexRunner.Scan(System.Text.RegularExpressions.Regex regex, string text, int textbeg, int textend, int textstart, int prevlen, bool quick, System.TimeSpan timeout)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.Run(bool quick, int prevlen, string input, int beginning, int length, int startat)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.IsMatch(string input, int startat)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.IsMatch(string input)	Unknown
+ 	TypeMock.dll!fl.a(int A_0, string[] A_1)	Unknown
+ 	TypeMock.dll!fl.a(System.Exception A_0)	Unknown
+ 	TypeMock.dll!TypeMock.MockManager.getReturn(object context, string typeName, string methodName, object methodGenericParams, bool isDecorated, bool isInterceptedType, object[] methodArguments)	Unknown
+ 	TypeMock.Interceptors.dll!Typemock.Interceptors.Profiler.InternalMockManager.getReturn(object that, string typeName, string methodName, object methodParameters, bool isInjected, bool isInterceptedType)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.RightToLeft.get()	Unknown
+ 	System.dll!System.Text.RegularExpressions.RegexRunner.Scan(System.Text.RegularExpressions.Regex regex, string text, int textbeg, int textend, int textstart, int prevlen, bool quick, System.TimeSpan timeout)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.Run(bool quick, int prevlen, string input, int beginning, int length, int startat)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.IsMatch(string input, int startat)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.IsMatch(string input)	Unknown
+ 	TypeMock.dll!fl.a(int A_0, string[] A_1)	Unknown
+ 	TypeMock.dll!fl.a(System.Exception A_0)	Unknown
+ 	TypeMock.dll!TypeMock.MockManager.getReturn(object context, string typeName, string methodName, object methodGenericParams, bool isDecorated, bool isInterceptedType, object[] methodArguments)	Unknown
+ 	TypeMock.Interceptors.dll!Typemock.Interceptors.Profiler.InternalMockManager.getReturn(object that, string typeName, string methodName, object methodParameters, bool isInjected, bool isInterceptedType)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.RightToLeft.get()	Unknown
+ 	System.dll!System.Text.RegularExpressions.RegexRunner.Scan(System.Text.RegularExpressions.Regex regex, string text, int textbeg, int textend, int textstart, int prevlen, bool quick, System.TimeSpan timeout)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.Run(bool quick, int prevlen, string input, int beginning, int length, int startat)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.IsMatch(string input, int startat)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.IsMatch(string input)	Unknown
+ 	TypeMock.dll!fl.a(int A_0, string[] A_1)	Unknown
+ 	TypeMock.dll!fl.a(System.Exception A_0)	Unknown
+ 	TypeMock.dll!TypeMock.MockManager.getReturn(object context, string typeName, string methodName, object methodGenericParams, bool isDecorated, bool isInterceptedType, object[] methodArguments)	Unknown
+ 	TypeMock.Interceptors.dll!Typemock.Interceptors.Profiler.InternalMockManager.getReturn(object that, string typeName, string methodName, object methodParameters, bool isInjected, bool isInterceptedType)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.RightToLeft.get()	Unknown
+ 	System.dll!System.Text.RegularExpressions.RegexRunner.Scan(System.Text.RegularExpressions.Regex regex, string text, int textbeg, int textend, int textstart, int prevlen, bool quick, System.TimeSpan timeout)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.Run(bool quick, int prevlen, string input, int beginning, int length, int startat)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.IsMatch(string input, int startat)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.IsMatch(string input)	Unknown
+ 	TypeMock.dll!fl.a(int A_0, string[] A_1)	Unknown
+ 	TypeMock.dll!fl.a(System.Exception A_0)	Unknown
+ 	TypeMock.dll!TypeMock.MockManager.getReturn(object context, string typeName, string methodName, object methodGenericParams, bool isDecorated, bool isInterceptedType, object[] methodArguments)	Unknown
+ 	TypeMock.Interceptors.dll!Typemock.Interceptors.Profiler.InternalMockManager.getReturn(object that, string typeName, string methodName, object methodParameters, bool isInjected, bool isInterceptedType)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.RightToLeft.get()	Unknown
+ 	System.dll!System.Text.RegularExpressions.RegexRunner.Scan(System.Text.RegularExpressions.Regex regex, string text, int textbeg, int textend, int textstart, int prevlen, bool quick, System.TimeSpan timeout)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.Run(bool quick, int prevlen, string input, int beginning, int length, int startat)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.IsMatch(string input, int startat)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.IsMatch(string input)	Unknown
+ 	TypeMock.dll!fl.a(int A_0, string[] A_1)	Unknown
+ 	TypeMock.dll!fl.a(System.Exception A_0)	Unknown
+ 	TypeMock.dll!TypeMock.MockManager.getReturn(object context, string typeName, string methodName, object methodGenericParams, bool isDecorated, bool isInterceptedType, object[] methodArguments)	Unknown
+ 	TypeMock.Interceptors.dll!Typemock.Interceptors.Profiler.InternalMockManager.getReturn(object that, string typeName, string methodName, object methodParameters, bool isInjected, bool isInterceptedType)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.RightToLeft.get()	Unknown
+ 	System.dll!System.Text.RegularExpressions.RegexRunner.Scan(System.Text.RegularExpressions.Regex regex, string text, int textbeg, int textend, int textstart, int prevlen, bool quick, System.TimeSpan timeout)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.Run(bool quick, int prevlen, string input, int beginning, int length, int startat)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.IsMatch(string input, int startat)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.IsMatch(string input)	Unknown
+ 	TypeMock.dll!fl.a(int A_0, string[] A_1)	Unknown
+ 	TypeMock.dll!fl.a(System.Exception A_0)	Unknown
+ 	TypeMock.dll!TypeMock.MockManager.getReturn(object context, string typeName, string methodName, object methodGenericParams, bool isDecorated, bool isInterceptedType, object[] methodArguments)	Unknown
+ 	TypeMock.Interceptors.dll!Typemock.Interceptors.Profiler.InternalMockManager.getReturn(object that, string typeName, string methodName, object methodParameters, bool isInjected, bool isInterceptedType)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.RightToLeft.get()	Unknown
+ 	System.dll!System.Text.RegularExpressions.RegexRunner.Scan(System.Text.RegularExpressions.Regex regex, string text, int textbeg, int textend, int textstart, int prevlen, bool quick, System.TimeSpan timeout)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.Run(bool quick, int prevlen, string input, int beginning, int length, int startat)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.IsMatch(string input, int startat)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.IsMatch(string input)	Unknown
+ 	TypeMock.dll!fl.a(int A_0, string[] A_1)	Unknown
+ 	TypeMock.dll!fl.a(System.Exception A_0)	Unknown
+ 	TypeMock.dll!TypeMock.MockManager.getReturn(object context, string typeName, string methodName, object methodGenericParams, bool isDecorated, bool isInterceptedType, object[] methodArguments)	Unknown
+ 	TypeMock.Interceptors.dll!Typemock.Interceptors.Profiler.InternalMockManager.getReturn(object that, string typeName, string methodName, object methodParameters, bool isInjected, bool isInterceptedType)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.RightToLeft.get()	Unknown
+ 	System.dll!System.Text.RegularExpressions.RegexRunner.Scan(System.Text.RegularExpressions.Regex regex, string text, int textbeg, int textend, int textstart, int prevlen, bool quick, System.TimeSpan timeout)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.Run(bool quick, int prevlen, string input, int beginning, int length, int startat)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.IsMatch(string input, int startat)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.IsMatch(string input)	Unknown
+ 	TypeMock.dll!fl.a(int A_0, string[] A_1)	Unknown
+ 	TypeMock.dll!fl.a(System.Exception A_0)	Unknown
+ 	TypeMock.dll!TypeMock.MockManager.getReturn(object context, string typeName, string methodName, object methodGenericParams, bool isDecorated, bool isInterceptedType, object[] methodArguments)	Unknown
+ 	TypeMock.Interceptors.dll!Typemock.Interceptors.Profiler.InternalMockManager.getReturn(object that, string typeName, string methodName, object methodParameters, bool isInjected, bool isInterceptedType)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.RightToLeft.get()	Unknown
+ 	System.dll!System.Text.RegularExpressions.RegexRunner.Scan(System.Text.RegularExpressions.Regex regex, string text, int textbeg, int textend, int textstart, int prevlen, bool quick, System.TimeSpan timeout)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.Run(bool quick, int prevlen, string input, int beginning, int length, int startat)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.IsMatch(string input, int startat)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.IsMatch(string input)	Unknown
+ 	TypeMock.dll!fl.a(int A_0, string[] A_1)	Unknown
+ 	TypeMock.dll!fl.a(System.Exception A_0)	Unknown
+ 	TypeMock.dll!TypeMock.MockManager.getReturn(object context, string typeName, string methodName, object methodGenericParams, bool isDecorated, bool isInterceptedType, object[] methodArguments)	Unknown
+ 	TypeMock.Interceptors.dll!Typemock.Interceptors.Profiler.InternalMockManager.getReturn(object that, string typeName, string methodName, object methodParameters, bool isInjected, bool isInterceptedType)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.RightToLeft.get()	Unknown
+ 	System.dll!System.Text.RegularExpressions.RegexRunner.Scan(System.Text.RegularExpressions.Regex regex, string text, int textbeg, int textend, int textstart, int prevlen, bool quick, System.TimeSpan timeout)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.Run(bool quick, int prevlen, string input, int beginning, int length, int startat)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.IsMatch(string input, int startat)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.IsMatch(string input)	Unknown
+ 	TypeMock.dll!fl.a(int A_0, string[] A_1)	Unknown
+ 	TypeMock.dll!fl.a(System.Exception A_0)	Unknown
+ 	TypeMock.dll!TypeMock.MockManager.getReturn(object context, string typeName, string methodName, object methodGenericParams, bool isDecorated, bool isInterceptedType, object[] methodArguments)	Unknown
+ 	TypeMock.Interceptors.dll!Typemock.Interceptors.Profiler.InternalMockManager.getReturn(object that, string typeName, string methodName, object methodParameters, bool isInjected, bool isInterceptedType)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.RightToLeft.get()	Unknown
+ 	System.dll!System.Text.RegularExpressions.RegexRunner.Scan(System.Text.RegularExpressions.Regex regex, string text, int textbeg, int textend, int textstart, int prevlen, bool quick, System.TimeSpan timeout)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.Run(bool quick, int prevlen, string input, int beginning, int length, int startat)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.IsMatch(string input, int startat)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.IsMatch(string input)	Unknown
+ 	TypeMock.dll!fl.a(int A_0, string[] A_1)	Unknown
+ 	TypeMock.dll!fl.a(System.Exception A_0)	Unknown
+ 	TypeMock.dll!TypeMock.MockManager.getReturn(object context, string typeName, string methodName, object methodGenericParams, bool isDecorated, bool isInterceptedType, object[] methodArguments)	Unknown
+ 	TypeMock.Interceptors.dll!Typemock.Interceptors.Profiler.InternalMockManager.getReturn(object that, string typeName, string methodName, object methodParameters, bool isInjected, bool isInterceptedType)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.RightToLeft.get()	Unknown
+ 	System.dll!System.Text.RegularExpressions.RegexRunner.Scan(System.Text.RegularExpressions.Regex regex, string text, int textbeg, int textend, int textstart, int prevlen, bool quick, System.TimeSpan timeout)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.Run(bool quick, int prevlen, string input, int beginning, int length, int startat)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.IsMatch(string input, int startat)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.IsMatch(string input)	Unknown
+ 	TypeMock.dll!fl.a(int A_0, string[] A_1)	Unknown
+ 	TypeMock.dll!fl.a(System.Exception A_0)	Unknown
+ 	TypeMock.dll!TypeMock.MockManager.getReturn(object context, string typeName, string methodName, object methodGenericParams, bool isDecorated, bool isInterceptedType, object[] methodArguments)	Unknown
+ 	TypeMock.Interceptors.dll!Typemock.Interceptors.Profiler.InternalMockManager.getReturn(object that, string typeName, string methodName, object methodParameters, bool isInjected, bool isInterceptedType)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.RightToLeft.get()	Unknown
+ 	System.dll!System.Text.RegularExpressions.RegexRunner.Scan(System.Text.RegularExpressions.Regex regex, string text, int textbeg, int textend, int textstart, int prevlen, bool quick, System.TimeSpan timeout)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.Run(bool quick, int prevlen, string input, int beginning, int length, int startat)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.IsMatch(string input, int startat)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.IsMatch(string input)	Unknown
+ 	TypeMock.dll!fl.a(int A_0, string[] A_1)	Unknown
+ 	TypeMock.dll!fl.a(System.Exception A_0)	Unknown
+ 	TypeMock.dll!TypeMock.MockManager.getReturn(object context, string typeName, string methodName, object methodGenericParams, bool isDecorated, bool isInterceptedType, object[] methodArguments)	Unknown
+ 	TypeMock.Interceptors.dll!Typemock.Interceptors.Profiler.InternalMockManager.getReturn(object that, string typeName, string methodName, object methodParameters, bool isInjected, bool isInterceptedType)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.RightToLeft.get()	Unknown
+ 	System.dll!System.Text.RegularExpressions.RegexRunner.Scan(System.Text.RegularExpressions.Regex regex, string text, int textbeg, int textend, int textstart, int prevlen, bool quick, System.TimeSpan timeout)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.Run(bool quick, int prevlen, string input, int beginning, int length, int startat)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.IsMatch(string input, int startat)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.IsMatch(string input)	Unknown
+ 	TypeMock.dll!fl.a(int A_0, string[] A_1)	Unknown
+ 	TypeMock.dll!fl.a(System.Exception A_0)	Unknown
+ 	TypeMock.dll!TypeMock.MockManager.getReturn(object context, string typeName, string methodName, object methodGenericParams, bool isDecorated, bool isInterceptedType, object[] methodArguments)	Unknown
+ 	TypeMock.Interceptors.dll!Typemock.Interceptors.Profiler.InternalMockManager.getReturn(object that, string typeName, string methodName, object methodParameters, bool isInjected, bool isInterceptedType)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.RightToLeft.get()	Unknown
+ 	System.dll!System.Text.RegularExpressions.RegexRunner.Scan(System.Text.RegularExpressions.Regex regex, string text, int textbeg, int textend, int textstart, int prevlen, bool quick, System.TimeSpan timeout)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.Run(bool quick, int prevlen, string input, int beginning, int length, int startat)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.IsMatch(string input, int startat)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.IsMatch(string input)	Unknown
+ 	TypeMock.dll!fl.a(int A_0, string[] A_1)	Unknown
+ 	TypeMock.dll!fl.a(System.Exception A_0)	Unknown
+ 	TypeMock.dll!TypeMock.MockManager.getReturn(object context, string typeName, string methodName, object methodGenericParams, bool isDecorated, bool isInterceptedType, object[] methodArguments)	Unknown
+ 	TypeMock.Interceptors.dll!Typemock.Interceptors.Profiler.InternalMockManager.getReturn(object that, string typeName, string methodName, object methodParameters, bool isInjected, bool isInterceptedType)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.RightToLeft.get()	Unknown
+ 	System.dll!System.Text.RegularExpressions.RegexRunner.Scan(System.Text.RegularExpressions.Regex regex, string text, int textbeg, int textend, int textstart, int prevlen, bool quick, System.TimeSpan timeout)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.Run(bool quick, int prevlen, string input, int beginning, int length, int startat)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.IsMatch(string input, int startat)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.IsMatch(string input)	Unknown
+ 	TypeMock.dll!fl.a(int A_0, string[] A_1)	Unknown
+ 	TypeMock.dll!fl.a(System.Exception A_0)	Unknown
+ 	TypeMock.dll!TypeMock.MockManager.getReturn(object context, string typeName, string methodName, object methodGenericParams, bool isDecorated, bool isInterceptedType, object[] methodArguments)	Unknown
+ 	TypeMock.Interceptors.dll!Typemock.Interceptors.Profiler.InternalMockManager.getReturn(object that, string typeName, string methodName, object methodParameters, bool isInjected, bool isInterceptedType)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.RightToLeft.get()	Unknown
+ 	System.dll!System.Text.RegularExpressions.RegexRunner.Scan(System.Text.RegularExpressions.Regex regex, string text, int textbeg, int textend, int textstart, int prevlen, bool quick, System.TimeSpan timeout)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.Run(bool quick, int prevlen, string input, int beginning, int length, int startat)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.IsMatch(string input, int startat)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.IsMatch(string input)	Unknown
+ 	TypeMock.dll!fl.a(int A_0, string[] A_1)	Unknown
+ 	TypeMock.dll!fl.a(System.Exception A_0)	Unknown
+ 	TypeMock.dll!TypeMock.MockManager.getReturn(object context, string typeName, string methodName, object methodGenericParams, bool isDecorated, bool isInterceptedType, object[] methodArguments)	Unknown
+ 	TypeMock.Interceptors.dll!Typemock.Interceptors.Profiler.InternalMockManager.getReturn(object that, string typeName, string methodName, object methodParameters, bool isInjected, bool isInterceptedType)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.RightToLeft.get()	Unknown
+ 	System.dll!System.Text.RegularExpressions.RegexRunner.Scan(System.Text.RegularExpressions.Regex regex, string text, int textbeg, int textend, int textstart, int prevlen, bool quick, System.TimeSpan timeout)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.Run(bool quick, int prevlen, string input, int beginning, int length, int startat)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.IsMatch(string input, int startat)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.IsMatch(string input)	Unknown
+ 	TypeMock.dll!fl.a(int A_0, string[] A_1)	Unknown
+ 	TypeMock.dll!fl.a(System.Exception A_0)	Unknown
+ 	TypeMock.dll!TypeMock.MockManager.getReturn(object context, string typeName, string methodName, object methodGenericParams, bool isDecorated, bool isInterceptedType, object[] methodArguments)	Unknown
+ 	TypeMock.Interceptors.dll!Typemock.Interceptors.Profiler.InternalMockManager.getReturn(object that, string typeName, string methodName, object methodParameters, bool isInjected, bool isInterceptedType)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.RightToLeft.get()	Unknown
+ 	System.dll!System.Text.RegularExpressions.RegexRunner.Scan(System.Text.RegularExpressions.Regex regex, string text, int textbeg, int textend, int textstart, int prevlen, bool quick, System.TimeSpan timeout)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.Run(bool quick, int prevlen, string input, int beginning, int length, int startat)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.IsMatch(string input, int startat)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.IsMatch(string input)	Unknown
+ 	TypeMock.dll!fl.a(int A_0, string[] A_1)	Unknown
+ 	TypeMock.dll!fl.a(System.Exception A_0)	Unknown
+ 	TypeMock.dll!TypeMock.MockManager.getReturn(object context, string typeName, string methodName, object methodGenericParams, bool isDecorated, bool isInterceptedType, object[] methodArguments)	Unknown
+ 	TypeMock.Interceptors.dll!Typemock.Interceptors.Profiler.InternalMockManager.getReturn(object that, string typeName, string methodName, object methodParameters, bool isInjected, bool isInterceptedType)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.RightToLeft.get()	Unknown
+ 	System.dll!System.Text.RegularExpressions.RegexRunner.Scan(System.Text.RegularExpressions.Regex regex, string text, int textbeg, int textend, int textstart, int prevlen, bool quick, System.TimeSpan timeout)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.Run(bool quick, int prevlen, string input, int beginning, int length, int startat)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.IsMatch(string input, int startat)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.IsMatch(string input)	Unknown
+ 	TypeMock.dll!fl.a(int A_0, string[] A_1)	Unknown
+ 	TypeMock.dll!fl.a(System.Exception A_0)	Unknown
+ 	TypeMock.dll!TypeMock.MockManager.getReturn(object context, string typeName, string methodName, object methodGenericParams, bool isDecorated, bool isInterceptedType, object[] methodArguments)	Unknown
+ 	TypeMock.Interceptors.dll!Typemock.Interceptors.Profiler.InternalMockManager.getReturn(object that, string typeName, string methodName, object methodParameters, bool isInjected, bool isInterceptedType)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.RightToLeft.get()	Unknown
+ 	System.dll!System.Text.RegularExpressions.RegexRunner.Scan(System.Text.RegularExpressions.Regex regex, string text, int textbeg, int textend, int textstart, int prevlen, bool quick, System.TimeSpan timeout)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.Run(bool quick, int prevlen, string input, int beginning, int length, int startat)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.IsMatch(string input, int startat)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.IsMatch(string input)	Unknown
+ 	TypeMock.dll!fl.a(int A_0, string[] A_1)	Unknown
+ 	TypeMock.dll!fl.a(System.Exception A_0)	Unknown
+ 	TypeMock.dll!TypeMock.MockManager.getReturn(object context, string typeName, string methodName, object methodGenericParams, bool isDecorated, bool isInterceptedType, object[] methodArguments)	Unknown
+ 	TypeMock.Interceptors.dll!Typemock.Interceptors.Profiler.InternalMockManager.getReturn(object that, string typeName, string methodName, object methodParameters, bool isInjected, bool isInterceptedType)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.RightToLeft.get()	Unknown
+ 	System.dll!System.Text.RegularExpressions.RegexRunner.Scan(System.Text.RegularExpressions.Regex regex, string text, int textbeg, int textend, int textstart, int prevlen, bool quick, System.TimeSpan timeout)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.Run(bool quick, int prevlen, string input, int beginning, int length, int startat)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.IsMatch(string input, int startat)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.IsMatch(string input)	Unknown
+ 	TypeMock.dll!fl.a(int A_0, string[] A_1)	Unknown
+ 	TypeMock.dll!fl.a(System.Exception A_0)	Unknown
+ 	TypeMock.dll!TypeMock.MockManager.getReturn(object context, string typeName, string methodName, object methodGenericParams, bool isDecorated, bool isInterceptedType, object[] methodArguments)	Unknown
+ 	TypeMock.Interceptors.dll!Typemock.Interceptors.Profiler.InternalMockManager.getReturn(object that, string typeName, string methodName, object methodParameters, bool isInjected, bool isInterceptedType)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.RightToLeft.get()	Unknown
+ 	System.dll!System.Text.RegularExpressions.RegexRunner.Scan(System.Text.RegularExpressions.Regex regex, string text, int textbeg, int textend, int textstart, int prevlen, bool quick, System.TimeSpan timeout)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.Run(bool quick, int prevlen, string input, int beginning, int length, int startat)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.IsMatch(string input, int startat)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.IsMatch(string input)	Unknown
+ 	TypeMock.dll!fl.a(int A_0, string[] A_1)	Unknown
+ 	TypeMock.dll!fl.a(System.Exception A_0)	Unknown
+ 	TypeMock.dll!TypeMock.MockManager.getReturn(object context, string typeName, string methodName, object methodGenericParams, bool isDecorated, bool isInterceptedType, object[] methodArguments)	Unknown
+ 	TypeMock.Interceptors.dll!Typemock.Interceptors.Profiler.InternalMockManager.getReturn(object that, string typeName, string methodName, object methodParameters, bool isInjected, bool isInterceptedType)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.RightToLeft.get()	Unknown
+ 	System.dll!System.Text.RegularExpressions.RegexRunner.Scan(System.Text.RegularExpressions.Regex regex, string text, int textbeg, int textend, int textstart, int prevlen, bool quick, System.TimeSpan timeout)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.Run(bool quick, int prevlen, string input, int beginning, int length, int startat)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.IsMatch(string input, int startat)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.IsMatch(string input)	Unknown
+ 	TypeMock.dll!fl.a(int A_0, string[] A_1)	Unknown
+ 	TypeMock.dll!fl.a(System.Exception A_0)	Unknown
+ 	TypeMock.dll!TypeMock.MockManager.getReturn(object context, string typeName, string methodName, object methodGenericParams, bool isDecorated, bool isInterceptedType, object[] methodArguments)	Unknown
+ 	TypeMock.Interceptors.dll!Typemock.Interceptors.Profiler.InternalMockManager.getReturn(object that, string typeName, string methodName, object methodParameters, bool isInjected, bool isInterceptedType)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.RightToLeft.get()	Unknown
+ 	System.dll!System.Text.RegularExpressions.RegexRunner.Scan(System.Text.RegularExpressions.Regex regex, string text, int textbeg, int textend, int textstart, int prevlen, bool quick, System.TimeSpan timeout)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.Run(bool quick, int prevlen, string input, int beginning, int length, int startat)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.IsMatch(string input, int startat)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.IsMatch(string input)	Unknown
+ 	TypeMock.dll!fl.a(int A_0, string[] A_1)	Unknown
+ 	TypeMock.dll!fl.a(System.Exception A_0)	Unknown
+ 	TypeMock.dll!TypeMock.MockManager.getReturn(object context, string typeName, string methodName, object methodGenericParams, bool isDecorated, bool isInterceptedType, object[] methodArguments)	Unknown
+ 	TypeMock.Interceptors.dll!Typemock.Interceptors.Profiler.InternalMockManager.getReturn(object that, string typeName, string methodName, object methodParameters, bool isInjected, bool isInterceptedType)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.RightToLeft.get()	Unknown
+ 	System.dll!System.Text.RegularExpressions.RegexRunner.Scan(System.Text.RegularExpressions.Regex regex, string text, int textbeg, int textend, int textstart, int prevlen, bool quick, System.TimeSpan timeout)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.Run(bool quick, int prevlen, string input, int beginning, int length, int startat)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.IsMatch(string input, int startat)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.IsMatch(string input)	Unknown
+ 	TypeMock.dll!fl.a(int A_0, string[] A_1)	Unknown
+ 	TypeMock.dll!fl.a(System.Exception A_0)	Unknown
+ 	TypeMock.dll!TypeMock.MockManager.getReturn(object context, string typeName, string methodName, object methodGenericParams, bool isDecorated, bool isInterceptedType, object[] methodArguments)	Unknown
+ 	TypeMock.Interceptors.dll!Typemock.Interceptors.Profiler.InternalMockManager.getReturn(object that, string typeName, string methodName, object methodParameters, bool isInjected, bool isInterceptedType)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.RightToLeft.get()	Unknown
+ 	System.dll!System.Text.RegularExpressions.RegexRunner.Scan(System.Text.RegularExpressions.Regex regex, string text, int textbeg, int textend, int textstart, int prevlen, bool quick, System.TimeSpan timeout)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.Run(bool quick, int prevlen, string input, int beginning, int length, int startat)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.IsMatch(string input, int startat)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.IsMatch(string input)	Unknown
+ 	TypeMock.dll!fl.a(int A_0, string[] A_1)	Unknown
+ 	TypeMock.dll!fl.a(System.Exception A_0)	Unknown
+ 	TypeMock.dll!TypeMock.MockManager.getReturn(object context, string typeName, string methodName, object methodGenericParams, bool isDecorated, bool isInterceptedType, object[] methodArguments)	Unknown
+ 	TypeMock.Interceptors.dll!Typemock.Interceptors.Profiler.InternalMockManager.getReturn(object that, string typeName, string methodName, object methodParameters, bool isInjected, bool isInterceptedType)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.RightToLeft.get()	Unknown
+ 	System.dll!System.Text.RegularExpressions.RegexRunner.Scan(System.Text.RegularExpressions.Regex regex, string text, int textbeg, int textend, int textstart, int prevlen, bool quick, System.TimeSpan timeout)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.Run(bool quick, int prevlen, string input, int beginning, int length, int startat)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.IsMatch(string input, int startat)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.IsMatch(string input)	Unknown
+ 	TypeMock.dll!fl.a(int A_0, string[] A_1)	Unknown
+ 	TypeMock.dll!fl.a(System.Exception A_0)	Unknown
+ 	TypeMock.dll!TypeMock.MockManager.getReturn(object context, string typeName, string methodName, object methodGenericParams, bool isDecorated, bool isInterceptedType, object[] methodArguments)	Unknown
+ 	TypeMock.Interceptors.dll!Typemock.Interceptors.Profiler.InternalMockManager.getReturn(object that, string typeName, string methodName, object methodParameters, bool isInjected, bool isInterceptedType)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.RightToLeft.get()	Unknown
+ 	System.dll!System.Text.RegularExpressions.RegexRunner.Scan(System.Text.RegularExpressions.Regex regex, string text, int textbeg, int textend, int textstart, int prevlen, bool quick, System.TimeSpan timeout)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.Run(bool quick, int prevlen, string input, int beginning, int length, int startat)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.IsMatch(string input, int startat)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.IsMatch(string input)	Unknown
+ 	TypeMock.dll!fl.a(int A_0, string[] A_1)	Unknown
+ 	TypeMock.dll!fl.a(System.Exception A_0)	Unknown
+ 	TypeMock.dll!TypeMock.MockManager.getReturn(object context, string typeName, string methodName, object methodGenericParams, bool isDecorated, bool isInterceptedType, object[] methodArguments)	Unknown
+ 	TypeMock.Interceptors.dll!Typemock.Interceptors.Profiler.InternalMockManager.getReturn(object that, string typeName, string methodName, object methodParameters, bool isInjected, bool isInterceptedType)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.RightToLeft.get()	Unknown
+ 	System.dll!System.Text.RegularExpressions.RegexRunner.Scan(System.Text.RegularExpressions.Regex regex, string text, int textbeg, int textend, int textstart, int prevlen, bool quick, System.TimeSpan timeout)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.Run(bool quick, int prevlen, string input, int beginning, int length, int startat)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.IsMatch(string input, int startat)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.IsMatch(string input)	Unknown
+ 	TypeMock.dll!fl.a(int A_0, string[] A_1)	Unknown
+ 	TypeMock.dll!fl.a(System.Exception A_0)	Unknown
+ 	TypeMock.dll!TypeMock.MockManager.getReturn(object context, string typeName, string methodName, object methodGenericParams, bool isDecorated, bool isInterceptedType, object[] methodArguments)	Unknown
+ 	TypeMock.Interceptors.dll!Typemock.Interceptors.Profiler.InternalMockManager.getReturn(object that, string typeName, string methodName, object methodParameters, bool isInjected, bool isInterceptedType)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.RightToLeft.get()	Unknown
+ 	System.dll!System.Text.RegularExpressions.RegexRunner.Scan(System.Text.RegularExpressions.Regex regex, string text, int textbeg, int textend, int textstart, int prevlen, bool quick, System.TimeSpan timeout)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.Run(bool quick, int prevlen, string input, int beginning, int length, int startat)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.IsMatch(string input, int startat)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.IsMatch(string input)	Unknown
+ 	TypeMock.dll!fl.a(int A_0, string[] A_1)	Unknown
+ 	TypeMock.dll!fl.a(System.Exception A_0)	Unknown
+ 	TypeMock.dll!TypeMock.MockManager.getReturn(object context, string typeName, string methodName, object methodGenericParams, bool isDecorated, bool isInterceptedType, object[] methodArguments)	Unknown
+ 	TypeMock.Interceptors.dll!Typemock.Interceptors.Profiler.InternalMockManager.getReturn(object that, string typeName, string methodName, object methodParameters, bool isInjected, bool isInterceptedType)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.RightToLeft.get()	Unknown
+ 	System.dll!System.Text.RegularExpressions.RegexRunner.Scan(System.Text.RegularExpressions.Regex regex, string text, int textbeg, int textend, int textstart, int prevlen, bool quick, System.TimeSpan timeout)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.Run(bool quick, int prevlen, string input, int beginning, int length, int startat)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.IsMatch(string input, int startat)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.IsMatch(string input)	Unknown
+ 	TypeMock.dll!fl.a(int A_0, string[] A_1)	Unknown
+ 	TypeMock.dll!fl.a(System.Exception A_0)	Unknown
+ 	TypeMock.dll!TypeMock.MockManager.getReturn(object context, string typeName, string methodName, object methodGenericParams, bool isDecorated, bool isInterceptedType, object[] methodArguments)	Unknown
+ 	TypeMock.Interceptors.dll!Typemock.Interceptors.Profiler.InternalMockManager.getReturn(object that, string typeName, string methodName, object methodParameters, bool isInjected, bool isInterceptedType)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.RightToLeft.get()	Unknown
+ 	System.dll!System.Text.RegularExpressions.RegexRunner.Scan(System.Text.RegularExpressions.Regex regex, string text, int textbeg, int textend, int textstart, int prevlen, bool quick, System.TimeSpan timeout)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.Run(bool quick, int prevlen, string input, int beginning, int length, int startat)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.IsMatch(string input, int startat)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.IsMatch(string input)	Unknown
+ 	TypeMock.dll!fl.a(int A_0, string[] A_1)	Unknown
+ 	TypeMock.dll!fl.a(System.Exception A_0)	Unknown
+ 	TypeMock.dll!TypeMock.MockManager.getReturn(object context, string typeName, string methodName, object methodGenericParams, bool isDecorated, bool isInterceptedType, object[] methodArguments)	Unknown
+ 	TypeMock.Interceptors.dll!Typemock.Interceptors.Profiler.InternalMockManager.getReturn(object that, string typeName, string methodName, object methodParameters, bool isInjected, bool isInterceptedType)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.RightToLeft.get()	Unknown
+ 	System.dll!System.Text.RegularExpressions.RegexRunner.Scan(System.Text.RegularExpressions.Regex regex, string text, int textbeg, int textend, int textstart, int prevlen, bool quick, System.TimeSpan timeout)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.Run(bool quick, int prevlen, string input, int beginning, int length, int startat)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.IsMatch(string input, int startat)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.IsMatch(string input)	Unknown
+ 	TypeMock.dll!fl.a(int A_0, string[] A_1)	Unknown
+ 	TypeMock.dll!fl.a(System.Exception A_0)	Unknown
+ 	TypeMock.dll!TypeMock.MockManager.getReturn(object context, string typeName, string methodName, object methodGenericParams, bool isDecorated, bool isInterceptedType, object[] methodArguments)	Unknown
+ 	TypeMock.Interceptors.dll!Typemock.Interceptors.Profiler.InternalMockManager.getReturn(object that, string typeName, string methodName, object methodParameters, bool isInjected, bool isInterceptedType)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.RightToLeft.get()	Unknown
+ 	System.dll!System.Text.RegularExpressions.RegexRunner.Scan(System.Text.RegularExpressions.Regex regex, string text, int textbeg, int textend, int textstart, int prevlen, bool quick, System.TimeSpan timeout)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.Run(bool quick, int prevlen, string input, int beginning, int length, int startat)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.IsMatch(string input, int startat)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.IsMatch(string input)	Unknown
+ 	TypeMock.dll!fl.a(int A_0, string[] A_1)	Unknown
+ 	TypeMock.dll!fl.a(System.Exception A_0)	Unknown
+ 	TypeMock.dll!TypeMock.MockManager.getReturn(object context, string typeName, string methodName, object methodGenericParams, bool isDecorated, bool isInterceptedType, object[] methodArguments)	Unknown
+ 	TypeMock.Interceptors.dll!Typemock.Interceptors.Profiler.InternalMockManager.getReturn(object that, string typeName, string methodName, object methodParameters, bool isInjected, bool isInterceptedType)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.RightToLeft.get()	Unknown
+ 	System.dll!System.Text.RegularExpressions.RegexRunner.Scan(System.Text.RegularExpressions.Regex regex, string text, int textbeg, int textend, int textstart, int prevlen, bool quick, System.TimeSpan timeout)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.Run(bool quick, int prevlen, string input, int beginning, int length, int startat)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.IsMatch(string input, int startat)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.IsMatch(string input)	Unknown
+ 	TypeMock.dll!fl.a(int A_0, string[] A_1)	Unknown
+ 	TypeMock.dll!fl.a(System.Exception A_0)	Unknown
+ 	TypeMock.dll!TypeMock.MockManager.getReturn(object context, string typeName, string methodName, object methodGenericParams, bool isDecorated, bool isInterceptedType, object[] methodArguments)	Unknown
+ 	TypeMock.Interceptors.dll!Typemock.Interceptors.Profiler.InternalMockManager.getReturn(object that, string typeName, string methodName, object methodParameters, bool isInjected, bool isInterceptedType)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.RightToLeft.get()	Unknown
+ 	System.dll!System.Text.RegularExpressions.RegexRunner.Scan(System.Text.RegularExpressions.Regex regex, string text, int textbeg, int textend, int textstart, int prevlen, bool quick, System.TimeSpan timeout)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.Run(bool quick, int prevlen, string input, int beginning, int length, int startat)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.IsMatch(string input, int startat)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.IsMatch(string input)	Unknown
+ 	TypeMock.dll!fl.a(int A_0, string[] A_1)	Unknown
+ 	TypeMock.dll!fl.a(System.Exception A_0)	Unknown
+ 	TypeMock.dll!TypeMock.MockManager.getReturn(object context, string typeName, string methodName, object methodGenericParams, bool isDecorated, bool isInterceptedType, object[] methodArguments)	Unknown
+ 	TypeMock.Interceptors.dll!Typemock.Interceptors.Profiler.InternalMockManager.getReturn(object that, string typeName, string methodName, object methodParameters, bool isInjected, bool isInterceptedType)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.RightToLeft.get()	Unknown
+ 	System.dll!System.Text.RegularExpressions.RegexRunner.Scan(System.Text.RegularExpressions.Regex regex, string text, int textbeg, int textend, int textstart, int prevlen, bool quick, System.TimeSpan timeout)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.Run(bool quick, int prevlen, string input, int beginning, int length, int startat)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.IsMatch(string input, int startat)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.IsMatch(string input)	Unknown
+ 	TypeMock.dll!fl.a(int A_0, string[] A_1)	Unknown
+ 	TypeMock.dll!fl.a(System.Exception A_0)	Unknown
+ 	TypeMock.dll!TypeMock.MockManager.getReturn(object context, string typeName, string methodName, object methodGenericParams, bool isDecorated, bool isInterceptedType, object[] methodArguments)	Unknown
+ 	TypeMock.Interceptors.dll!Typemock.Interceptors.Profiler.InternalMockManager.getReturn(object that, string typeName, string methodName, object methodParameters, bool isInjected, bool isInterceptedType)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.RightToLeft.get()	Unknown
+ 	System.dll!System.Text.RegularExpressions.RegexRunner.Scan(System.Text.RegularExpressions.Regex regex, string text, int textbeg, int textend, int textstart, int prevlen, bool quick, System.TimeSpan timeout)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.Run(bool quick, int prevlen, string input, int beginning, int length, int startat)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.IsMatch(string input, int startat)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.IsMatch(string input)	Unknown
+ 	TypeMock.dll!fl.a(int A_0, string[] A_1)	Unknown
+ 	TypeMock.dll!fl.a(System.Exception A_0)	Unknown
+ 	TypeMock.dll!TypeMock.MockManager.getReturn(object context, string typeName, string methodName, object methodGenericParams, bool isDecorated, bool isInterceptedType, object[] methodArguments)	Unknown
+ 	TypeMock.Interceptors.dll!Typemock.Interceptors.Profiler.InternalMockManager.getReturn(object that, string typeName, string methodName, object methodParameters, bool isInjected, bool isInterceptedType)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.RightToLeft.get()	Unknown
+ 	System.dll!System.Text.RegularExpressions.RegexRunner.Scan(System.Text.RegularExpressions.Regex regex, string text, int textbeg, int textend, int textstart, int prevlen, bool quick, System.TimeSpan timeout)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.Run(bool quick, int prevlen, string input, int beginning, int length, int startat)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.IsMatch(string input, int startat)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.IsMatch(string input)	Unknown
+ 	TypeMock.dll!fl.a(int A_0, string[] A_1)	Unknown
+ 	TypeMock.dll!fl.a(System.Exception A_0)	Unknown
+ 	TypeMock.dll!TypeMock.MockManager.getReturn(object context, string typeName, string methodName, object methodGenericParams, bool isDecorated, bool isInterceptedType, object[] methodArguments)	Unknown
+ 	TypeMock.Interceptors.dll!Typemock.Interceptors.Profiler.InternalMockManager.getReturn(object that, string typeName, string methodName, object methodParameters, bool isInjected, bool isInterceptedType)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.RightToLeft.get()	Unknown
+ 	System.dll!System.Text.RegularExpressions.RegexRunner.Scan(System.Text.RegularExpressions.Regex regex, string text, int textbeg, int textend, int textstart, int prevlen, bool quick, System.TimeSpan timeout)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.Run(bool quick, int prevlen, string input, int beginning, int length, int startat)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.IsMatch(string input, int startat)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.IsMatch(string input)	Unknown
+ 	TypeMock.dll!fl.a(int A_0, string[] A_1)	Unknown
+ 	TypeMock.dll!fl.a(System.Exception A_0)	Unknown
+ 	TypeMock.dll!TypeMock.MockManager.getReturn(object context, string typeName, string methodName, object methodGenericParams, bool isDecorated, bool isInterceptedType, object[] methodArguments)	Unknown
+ 	TypeMock.Interceptors.dll!Typemock.Interceptors.Profiler.InternalMockManager.getReturn(object that, string typeName, string methodName, object methodParameters, bool isInjected, bool isInterceptedType)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.RightToLeft.get()	Unknown
+ 	System.dll!System.Text.RegularExpressions.RegexRunner.Scan(System.Text.RegularExpressions.Regex regex, string text, int textbeg, int textend, int textstart, int prevlen, bool quick, System.TimeSpan timeout)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.Run(bool quick, int prevlen, string input, int beginning, int length, int startat)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.IsMatch(string input, int startat)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.IsMatch(string input)	Unknown
+ 	TypeMock.dll!fl.a(int A_0, string[] A_1)	Unknown
+ 	TypeMock.dll!fl.a(System.Exception A_0)	Unknown
+ 	TypeMock.dll!TypeMock.MockManager.getReturn(object context, string typeName, string methodName, object methodGenericParams, bool isDecorated, bool isInterceptedType, object[] methodArguments)	Unknown
+ 	TypeMock.Interceptors.dll!Typemock.Interceptors.Profiler.InternalMockManager.getReturn(object that, string typeName, string methodName, object methodParameters, bool isInjected, bool isInterceptedType)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.RightToLeft.get()	Unknown
+ 	System.dll!System.Text.RegularExpressions.RegexRunner.Scan(System.Text.RegularExpressions.Regex regex, string text, int textbeg, int textend, int textstart, int prevlen, bool quick, System.TimeSpan timeout)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.Run(bool quick, int prevlen, string input, int beginning, int length, int startat)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.IsMatch(string input, int startat)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.IsMatch(string input)	Unknown
+ 	TypeMock.dll!fl.a(int A_0, string[] A_1)	Unknown
+ 	TypeMock.dll!fl.a(System.Exception A_0)	Unknown
+ 	TypeMock.dll!TypeMock.MockManager.getReturn(object context, string typeName, string methodName, object methodGenericParams, bool isDecorated, bool isInterceptedType, object[] methodArguments)	Unknown
+ 	TypeMock.Interceptors.dll!Typemock.Interceptors.Profiler.InternalMockManager.getReturn(object that, string typeName, string methodName, object methodParameters, bool isInjected, bool isInterceptedType)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.RightToLeft.get()	Unknown
+ 	System.dll!System.Text.RegularExpressions.RegexRunner.Scan(System.Text.RegularExpressions.Regex regex, string text, int textbeg, int textend, int textstart, int prevlen, bool quick, System.TimeSpan timeout)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.Run(bool quick, int prevlen, string input, int beginning, int length, int startat)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.IsMatch(string input, int startat)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.IsMatch(string input)	Unknown
+ 	TypeMock.dll!fl.a(int A_0, string[] A_1)	Unknown
+ 	TypeMock.dll!fl.a(System.Exception A_0)	Unknown
+ 	TypeMock.dll!TypeMock.MockManager.getReturn(object context, string typeName, string methodName, object methodGenericParams, bool isDecorated, bool isInterceptedType, object[] methodArguments)	Unknown
+ 	TypeMock.Interceptors.dll!Typemock.Interceptors.Profiler.InternalMockManager.getReturn(object that, string typeName, string methodName, object methodParameters, bool isInjected, bool isInterceptedType)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.RightToLeft.get()	Unknown
+ 	System.dll!System.Text.RegularExpressions.RegexRunner.Scan(System.Text.RegularExpressions.Regex regex, string text, int textbeg, int textend, int textstart, int prevlen, bool quick, System.TimeSpan timeout)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.Run(bool quick, int prevlen, string input, int beginning, int length, int startat)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.IsMatch(string input, int startat)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.IsMatch(string input)	Unknown
+ 	TypeMock.dll!fl.a(int A_0, string[] A_1)	Unknown
+ 	TypeMock.dll!fl.a(System.Exception A_0)	Unknown
+ 	TypeMock.dll!TypeMock.MockManager.getReturn(object context, string typeName, string methodName, object methodGenericParams, bool isDecorated, bool isInterceptedType, object[] methodArguments)	Unknown
+ 	TypeMock.Interceptors.dll!Typemock.Interceptors.Profiler.InternalMockManager.getReturn(object that, string typeName, string methodName, object methodParameters, bool isInjected, bool isInterceptedType)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.RightToLeft.get()	Unknown
+ 	System.dll!System.Text.RegularExpressions.RegexRunner.Scan(System.Text.RegularExpressions.Regex regex, string text, int textbeg, int textend, int textstart, int prevlen, bool quick, System.TimeSpan timeout)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.Run(bool quick, int prevlen, string input, int beginning, int length, int startat)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.IsMatch(string input, int startat)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.IsMatch(string input)	Unknown
+ 	TypeMock.dll!fl.a(int A_0, string[] A_1)	Unknown
+ 	TypeMock.dll!fl.a(System.Exception A_0)	Unknown
+ 	TypeMock.dll!TypeMock.MockManager.getReturn(object context, string typeName, string methodName, object methodGenericParams, bool isDecorated, bool isInterceptedType, object[] methodArguments)	Unknown
+ 	TypeMock.Interceptors.dll!Typemock.Interceptors.Profiler.InternalMockManager.getReturn(object that, string typeName, string methodName, object methodParameters, bool isInjected, bool isInterceptedType)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.RightToLeft.get()	Unknown
+ 	System.dll!System.Text.RegularExpressions.RegexRunner.Scan(System.Text.RegularExpressions.Regex regex, string text, int textbeg, int textend, int textstart, int prevlen, bool quick, System.TimeSpan timeout)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.Run(bool quick, int prevlen, string input, int beginning, int length, int startat)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.IsMatch(string input, int startat)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.IsMatch(string input)	Unknown
+ 	TypeMock.dll!fl.a(int A_0, string[] A_1)	Unknown
+ 	TypeMock.dll!fl.a(System.Exception A_0)	Unknown
+ 	TypeMock.dll!TypeMock.MockManager.getReturn(object context, string typeName, string methodName, object methodGenericParams, bool isDecorated, bool isInterceptedType, object[] methodArguments)	Unknown
+ 	TypeMock.Interceptors.dll!Typemock.Interceptors.Profiler.InternalMockManager.getReturn(object that, string typeName, string methodName, object methodParameters, bool isInjected, bool isInterceptedType)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.RightToLeft.get()	Unknown
+ 	System.dll!System.Text.RegularExpressions.RegexRunner.Scan(System.Text.RegularExpressions.Regex regex, string text, int textbeg, int textend, int textstart, int prevlen, bool quick, System.TimeSpan timeout)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.Run(bool quick, int prevlen, string input, int beginning, int length, int startat)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.IsMatch(string input, int startat)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.IsMatch(string input)	Unknown
+ 	TypeMock.dll!fl.a(int A_0, string[] A_1)	Unknown
+ 	TypeMock.dll!fl.a(System.Exception A_0)	Unknown
+ 	TypeMock.dll!TypeMock.MockManager.getReturn(object context, string typeName, string methodName, object methodGenericParams, bool isDecorated, bool isInterceptedType, object[] methodArguments)	Unknown
+ 	TypeMock.Interceptors.dll!Typemock.Interceptors.Profiler.InternalMockManager.getReturn(object that, string typeName, string methodName, object methodParameters, bool isInjected, bool isInterceptedType)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.RightToLeft.get()	Unknown
+ 	System.dll!System.Text.RegularExpressions.RegexRunner.Scan(System.Text.RegularExpressions.Regex regex, string text, int textbeg, int textend, int textstart, int prevlen, bool quick, System.TimeSpan timeout)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.Run(bool quick, int prevlen, string input, int beginning, int length, int startat)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.IsMatch(string input, int startat)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.IsMatch(string input)	Unknown
+ 	TypeMock.dll!fl.a(int A_0, string[] A_1)	Unknown
+ 	TypeMock.dll!fl.a(System.Exception A_0)	Unknown
+ 	TypeMock.dll!TypeMock.MockManager.getReturn(object context, string typeName, string methodName, object methodGenericParams, bool isDecorated, bool isInterceptedType, object[] methodArguments)	Unknown
+ 	TypeMock.Interceptors.dll!Typemock.Interceptors.Profiler.InternalMockManager.getReturn(object that, string typeName, string methodName, object methodParameters, bool isInjected, bool isInterceptedType)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.RightToLeft.get()	Unknown
+ 	System.dll!System.Text.RegularExpressions.RegexRunner.Scan(System.Text.RegularExpressions.Regex regex, string text, int textbeg, int textend, int textstart, int prevlen, bool quick, System.TimeSpan timeout)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.Run(bool quick, int prevlen, string input, int beginning, int length, int startat)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.IsMatch(string input, int startat)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.IsMatch(string input)	Unknown
+ 	TypeMock.dll!fl.a(int A_0, string[] A_1)	Unknown
+ 	TypeMock.dll!fl.a(System.Exception A_0)	Unknown
+ 	TypeMock.dll!TypeMock.MockManager.getReturn(object context, string typeName, string methodName, object methodGenericParams, bool isDecorated, bool isInterceptedType, object[] methodArguments)	Unknown
+ 	TypeMock.Interceptors.dll!Typemock.Interceptors.Profiler.InternalMockManager.getReturn(object that, string typeName, string methodName, object methodParameters, bool isInjected, bool isInterceptedType)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.RightToLeft.get()	Unknown
+ 	System.dll!System.Text.RegularExpressions.RegexRunner.Scan(System.Text.RegularExpressions.Regex regex, string text, int textbeg, int textend, int textstart, int prevlen, bool quick, System.TimeSpan timeout)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.Run(bool quick, int prevlen, string input, int beginning, int length, int startat)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.IsMatch(string input, int startat)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.IsMatch(string input)	Unknown
+ 	TypeMock.dll!fl.a(int A_0, string[] A_1)	Unknown
+ 	TypeMock.dll!fl.a(System.Exception A_0)	Unknown
+ 	TypeMock.dll!TypeMock.MockManager.getReturn(object context, string typeName, string methodName, object methodGenericParams, bool isDecorated, bool isInterceptedType, object[] methodArguments)	Unknown
+ 	TypeMock.Interceptors.dll!Typemock.Interceptors.Profiler.InternalMockManager.getReturn(object that, string typeName, string methodName, object methodParameters, bool isInjected, bool isInterceptedType)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.RightToLeft.get()	Unknown
+ 	System.dll!System.Text.RegularExpressions.RegexRunner.Scan(System.Text.RegularExpressions.Regex regex, string text, int textbeg, int textend, int textstart, int prevlen, bool quick, System.TimeSpan timeout)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.Run(bool quick, int prevlen, string input, int beginning, int length, int startat)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.IsMatch(string input, int startat)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.IsMatch(string input)	Unknown
+ 	TypeMock.dll!fl.a(int A_0, string[] A_1)	Unknown
+ 	TypeMock.dll!fl.a(System.Exception A_0)	Unknown
+ 	TypeMock.dll!TypeMock.MockManager.getReturn(object context, string typeName, string methodName, object methodGenericParams, bool isDecorated, bool isInterceptedType, object[] methodArguments)	Unknown
+ 	TypeMock.Interceptors.dll!Typemock.Interceptors.Profiler.InternalMockManager.getReturn(object that, string typeName, string methodName, object methodParameters, bool isInjected, bool isInterceptedType)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.RightToLeft.get()	Unknown
+ 	System.dll!System.Text.RegularExpressions.RegexRunner.Scan(System.Text.RegularExpressions.Regex regex, string text, int textbeg, int textend, int textstart, int prevlen, bool quick, System.TimeSpan timeout)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.Run(bool quick, int prevlen, string input, int beginning, int length, int startat)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.IsMatch(string input, int startat)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.IsMatch(string input)	Unknown
+ 	TypeMock.dll!fl.a(int A_0, string[] A_1)	Unknown
+ 	TypeMock.dll!fl.a(System.Exception A_0)	Unknown
+ 	TypeMock.dll!TypeMock.MockManager.getReturn(object context, string typeName, string methodName, object methodGenericParams, bool isDecorated, bool isInterceptedType, object[] methodArguments)	Unknown
+ 	TypeMock.Interceptors.dll!Typemock.Interceptors.Profiler.InternalMockManager.getReturn(object that, string typeName, string methodName, object methodParameters, bool isInjected, bool isInterceptedType)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.RightToLeft.get()	Unknown
+ 	System.dll!System.Text.RegularExpressions.RegexRunner.Scan(System.Text.RegularExpressions.Regex regex, string text, int textbeg, int textend, int textstart, int prevlen, bool quick, System.TimeSpan timeout)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.Run(bool quick, int prevlen, string input, int beginning, int length, int startat)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.IsMatch(string input, int startat)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.IsMatch(string input)	Unknown
+ 	TypeMock.dll!fl.a(int A_0, string[] A_1)	Unknown
+ 	TypeMock.dll!fl.a(System.Exception A_0)	Unknown
+ 	TypeMock.dll!TypeMock.MockManager.getReturn(object context, string typeName, string methodName, object methodGenericParams, bool isDecorated, bool isInterceptedType, object[] methodArguments)	Unknown
+ 	TypeMock.Interceptors.dll!Typemock.Interceptors.Profiler.InternalMockManager.getReturn(object that, string typeName, string methodName, object methodParameters, bool isInjected, bool isInterceptedType)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.RightToLeft.get()	Unknown
+ 	System.dll!System.Text.RegularExpressions.RegexRunner.Scan(System.Text.RegularExpressions.Regex regex, string text, int textbeg, int textend, int textstart, int prevlen, bool quick, System.TimeSpan timeout)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.Run(bool quick, int prevlen, string input, int beginning, int length, int startat)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.IsMatch(string input, int startat)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.IsMatch(string input)	Unknown
+ 	TypeMock.dll!fl.a(int A_0, string[] A_1)	Unknown
+ 	TypeMock.dll!fl.a(System.Exception A_0)	Unknown
+ 	TypeMock.dll!TypeMock.MockManager.getReturn(object context, string typeName, string methodName, object methodGenericParams, bool isDecorated, bool isInterceptedType, object[] methodArguments)	Unknown
+ 	TypeMock.Interceptors.dll!Typemock.Interceptors.Profiler.InternalMockManager.getReturn(object that, string typeName, string methodName, object methodParameters, bool isInjected, bool isInterceptedType)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.RightToLeft.get()	Unknown
+ 	System.dll!System.Text.RegularExpressions.RegexRunner.Scan(System.Text.RegularExpressions.Regex regex, string text, int textbeg, int textend, int textstart, int prevlen, bool quick, System.TimeSpan timeout)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.Run(bool quick, int prevlen, string input, int beginning, int length, int startat)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.IsMatch(string input, int startat)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.IsMatch(string input)	Unknown
+ 	TypeMock.dll!fl.a(int A_0, string[] A_1)	Unknown
+ 	TypeMock.dll!fl.a(System.Exception A_0)	Unknown
+ 	TypeMock.dll!TypeMock.MockManager.getReturn(object context, string typeName, string methodName, object methodGenericParams, bool isDecorated, bool isInterceptedType, object[] methodArguments)	Unknown
+ 	TypeMock.Interceptors.dll!Typemock.Interceptors.Profiler.InternalMockManager.getReturn(object that, string typeName, string methodName, object methodParameters, bool isInjected, bool isInterceptedType)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.RightToLeft.get()	Unknown
+ 	System.dll!System.Text.RegularExpressions.RegexRunner.Scan(System.Text.RegularExpressions.Regex regex, string text, int textbeg, int textend, int textstart, int prevlen, bool quick, System.TimeSpan timeout)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.Run(bool quick, int prevlen, string input, int beginning, int length, int startat)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.IsMatch(string input, int startat)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.IsMatch(string input)	Unknown
+ 	TypeMock.dll!fl.a(int A_0, string[] A_1)	Unknown
+ 	TypeMock.dll!fl.a(System.Exception A_0)	Unknown
+ 	TypeMock.dll!TypeMock.MockManager.getReturn(object context, string typeName, string methodName, object methodGenericParams, bool isDecorated, bool isInterceptedType, object[] methodArguments)	Unknown
+ 	TypeMock.Interceptors.dll!Typemock.Interceptors.Profiler.InternalMockManager.getReturn(object that, string typeName, string methodName, object methodParameters, bool isInjected, bool isInterceptedType)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.RightToLeft.get()	Unknown
+ 	System.dll!System.Text.RegularExpressions.RegexRunner.Scan(System.Text.RegularExpressions.Regex regex, string text, int textbeg, int textend, int textstart, int prevlen, bool quick, System.TimeSpan timeout)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.Run(bool quick, int prevlen, string input, int beginning, int length, int startat)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.IsMatch(string input, int startat)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.IsMatch(string input)	Unknown
+ 	TypeMock.dll!fl.a(int A_0, string[] A_1)	Unknown
+ 	TypeMock.dll!fl.a(System.Exception A_0)	Unknown
+ 	TypeMock.dll!TypeMock.MockManager.getReturn(object context, string typeName, string methodName, object methodGenericParams, bool isDecorated, bool isInterceptedType, object[] methodArguments)	Unknown
+ 	TypeMock.Interceptors.dll!Typemock.Interceptors.Profiler.InternalMockManager.getReturn(object that, string typeName, string methodName, object methodParameters, bool isInjected, bool isInterceptedType)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.RightToLeft.get()	Unknown
+ 	System.dll!System.Text.RegularExpressions.RegexRunner.Scan(System.Text.RegularExpressions.Regex regex, string text, int textbeg, int textend, int textstart, int prevlen, bool quick, System.TimeSpan timeout)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.Run(bool quick, int prevlen, string input, int beginning, int length, int startat)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.IsMatch(string input, int startat)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.IsMatch(string input)	Unknown
+ 	TypeMock.dll!fl.a(int A_0, string[] A_1)	Unknown
+ 	TypeMock.dll!fl.a(System.Exception A_0)	Unknown
+ 	TypeMock.dll!TypeMock.MockManager.getReturn(object context, string typeName, string methodName, object methodGenericParams, bool isDecorated, bool isInterceptedType, object[] methodArguments)	Unknown
+ 	TypeMock.Interceptors.dll!Typemock.Interceptors.Profiler.InternalMockManager.getReturn(object that, string typeName, string methodName, object methodParameters, bool isInjected, bool isInterceptedType)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.RightToLeft.get()	Unknown
+ 	System.dll!System.Text.RegularExpressions.RegexRunner.Scan(System.Text.RegularExpressions.Regex regex, string text, int textbeg, int textend, int textstart, int prevlen, bool quick, System.TimeSpan timeout)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.Run(bool quick, int prevlen, string input, int beginning, int length, int startat)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.IsMatch(string input, int startat)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.IsMatch(string input)	Unknown
+ 	TypeMock.dll!fl.a(int A_0, string[] A_1)	Unknown
+ 	TypeMock.dll!fl.a(System.Exception A_0)	Unknown
+ 	TypeMock.dll!TypeMock.MockManager.getReturn(object context, string typeName, string methodName, object methodGenericParams, bool isDecorated, bool isInterceptedType, object[] methodArguments)	Unknown
+ 	TypeMock.Interceptors.dll!Typemock.Interceptors.Profiler.InternalMockManager.getReturn(object that, string typeName, string methodName, object methodParameters, bool isInjected, bool isInterceptedType)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.RightToLeft.get()	Unknown
+ 	System.dll!System.Text.RegularExpressions.RegexRunner.Scan(System.Text.RegularExpressions.Regex regex, string text, int textbeg, int textend, int textstart, int prevlen, bool quick, System.TimeSpan timeout)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.Run(bool quick, int prevlen, string input, int beginning, int length, int startat)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.IsMatch(string input, int startat)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.IsMatch(string input)	Unknown
+ 	TypeMock.dll!fl.a(int A_0, string[] A_1)	Unknown
+ 	TypeMock.dll!fl.a(System.Exception A_0)	Unknown
+ 	TypeMock.dll!TypeMock.MockManager.getReturn(object context, string typeName, string methodName, object methodGenericParams, bool isDecorated, bool isInterceptedType, object[] methodArguments)	Unknown
+ 	TypeMock.Interceptors.dll!Typemock.Interceptors.Profiler.InternalMockManager.getReturn(object that, string typeName, string methodName, object methodParameters, bool isInjected, bool isInterceptedType)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.RightToLeft.get()	Unknown
+ 	System.dll!System.Text.RegularExpressions.RegexRunner.Scan(System.Text.RegularExpressions.Regex regex, string text, int textbeg, int textend, int textstart, int prevlen, bool quick, System.TimeSpan timeout)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.Run(bool quick, int prevlen, string input, int beginning, int length, int startat)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.IsMatch(string input, int startat)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.IsMatch(string input)	Unknown
+ 	TypeMock.dll!fl.a(int A_0, string[] A_1)	Unknown
+ 	TypeMock.dll!fl.a(System.Exception A_0)	Unknown
+ 	TypeMock.dll!TypeMock.MockManager.getReturn(object context, string typeName, string methodName, object methodGenericParams, bool isDecorated, bool isInterceptedType, object[] methodArguments)	Unknown
+ 	TypeMock.Interceptors.dll!Typemock.Interceptors.Profiler.InternalMockManager.getReturn(object that, string typeName, string methodName, object methodParameters, bool isInjected, bool isInterceptedType)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.RightToLeft.get()	Unknown
+ 	System.dll!System.Text.RegularExpressions.RegexRunner.Scan(System.Text.RegularExpressions.Regex regex, string text, int textbeg, int textend, int textstart, int prevlen, bool quick, System.TimeSpan timeout)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.Run(bool quick, int prevlen, string input, int beginning, int length, int startat)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.IsMatch(string input, int startat)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.IsMatch(string input)	Unknown
+ 	TypeMock.dll!fl.a(int A_0, string[] A_1)	Unknown
+ 	TypeMock.dll!fl.a(System.Exception A_0)	Unknown
+ 	TypeMock.dll!TypeMock.MockManager.getReturn(object context, string typeName, string methodName, object methodGenericParams, bool isDecorated, bool isInterceptedType, object[] methodArguments)	Unknown
+ 	TypeMock.Interceptors.dll!Typemock.Interceptors.Profiler.InternalMockManager.getReturn(object that, string typeName, string methodName, object methodParameters, bool isInjected, bool isInterceptedType)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.RightToLeft.get()	Unknown
+ 	System.dll!System.Text.RegularExpressions.RegexRunner.Scan(System.Text.RegularExpressions.Regex regex, string text, int textbeg, int textend, int textstart, int prevlen, bool quick, System.TimeSpan timeout)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.Run(bool quick, int prevlen, string input, int beginning, int length, int startat)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.IsMatch(string input, int startat)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.IsMatch(string input)	Unknown
+ 	TypeMock.dll!fl.a(int A_0, string[] A_1)	Unknown
+ 	TypeMock.dll!fl.a(System.Exception A_0)	Unknown
+ 	TypeMock.dll!TypeMock.MockManager.getReturn(object context, string typeName, string methodName, object methodGenericParams, bool isDecorated, bool isInterceptedType, object[] methodArguments)	Unknown
+ 	TypeMock.Interceptors.dll!Typemock.Interceptors.Profiler.InternalMockManager.getReturn(object that, string typeName, string methodName, object methodParameters, bool isInjected, bool isInterceptedType)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.RightToLeft.get()	Unknown
+ 	System.dll!System.Text.RegularExpressions.RegexRunner.Scan(System.Text.RegularExpressions.Regex regex, string text, int textbeg, int textend, int textstart, int prevlen, bool quick, System.TimeSpan timeout)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.Run(bool quick, int prevlen, string input, int beginning, int length, int startat)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.IsMatch(string input, int startat)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.IsMatch(string input)	Unknown
+ 	TypeMock.dll!fl.a(int A_0, string[] A_1)	Unknown
+ 	TypeMock.dll!fl.a(System.Exception A_0)	Unknown
+ 	TypeMock.dll!TypeMock.MockManager.getReturn(object context, string typeName, string methodName, object methodGenericParams, bool isDecorated, bool isInterceptedType, object[] methodArguments)	Unknown
+ 	TypeMock.Interceptors.dll!Typemock.Interceptors.Profiler.InternalMockManager.getReturn(object that, string typeName, string methodName, object methodParameters, bool isInjected, bool isInterceptedType)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.RightToLeft.get()	Unknown
+ 	System.dll!System.Text.RegularExpressions.RegexRunner.Scan(System.Text.RegularExpressions.Regex regex, string text, int textbeg, int textend, int textstart, int prevlen, bool quick, System.TimeSpan timeout)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.Run(bool quick, int prevlen, string input, int beginning, int length, int startat)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.IsMatch(string input, int startat)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.IsMatch(string input)	Unknown
+ 	TypeMock.dll!fl.a(int A_0, string[] A_1)	Unknown
+ 	TypeMock.dll!fl.a(System.Exception A_0)	Unknown
+ 	TypeMock.dll!TypeMock.MockManager.getReturn(object context, string typeName, string methodName, object methodGenericParams, bool isDecorated, bool isInterceptedType, object[] methodArguments)	Unknown
+ 	TypeMock.Interceptors.dll!Typemock.Interceptors.Profiler.InternalMockManager.getReturn(object that, string typeName, string methodName, object methodParameters, bool isInjected, bool isInterceptedType)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.RightToLeft.get()	Unknown
+ 	System.dll!System.Text.RegularExpressions.RegexRunner.Scan(System.Text.RegularExpressions.Regex regex, string text, int textbeg, int textend, int textstart, int prevlen, bool quick, System.TimeSpan timeout)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.Run(bool quick, int prevlen, string input, int beginning, int length, int startat)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.IsMatch(string input, int startat)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.IsMatch(string input)	Unknown
+ 	TypeMock.dll!fl.a(int A_0, string[] A_1)	Unknown
+ 	TypeMock.dll!fl.a(System.Exception A_0)	Unknown
+ 	TypeMock.dll!TypeMock.MockManager.getReturn(object context, string typeName, string methodName, object methodGenericParams, bool isDecorated, bool isInterceptedType, object[] methodArguments)	Unknown
+ 	TypeMock.Interceptors.dll!Typemock.Interceptors.Profiler.InternalMockManager.getReturn(object that, string typeName, string methodName, object methodParameters, bool isInjected, bool isInterceptedType)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.RightToLeft.get()	Unknown
+ 	System.dll!System.Text.RegularExpressions.RegexRunner.Scan(System.Text.RegularExpressions.Regex regex, string text, int textbeg, int textend, int textstart, int prevlen, bool quick, System.TimeSpan timeout)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.Run(bool quick, int prevlen, string input, int beginning, int length, int startat)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.IsMatch(string input, int startat)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.IsMatch(string input)	Unknown
+ 	TypeMock.dll!fl.a(int A_0, string[] A_1)	Unknown
+ 	TypeMock.dll!fl.a(System.Exception A_0)	Unknown
+ 	TypeMock.dll!TypeMock.MockManager.getReturn(object context, string typeName, string methodName, object methodGenericParams, bool isDecorated, bool isInterceptedType, object[] methodArguments)	Unknown
+ 	TypeMock.Interceptors.dll!Typemock.Interceptors.Profiler.InternalMockManager.getReturn(object that, string typeName, string methodName, object methodParameters, bool isInjected, bool isInterceptedType)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.RightToLeft.get()	Unknown
+ 	System.dll!System.Text.RegularExpressions.RegexRunner.Scan(System.Text.RegularExpressions.Regex regex, string text, int textbeg, int textend, int textstart, int prevlen, bool quick, System.TimeSpan timeout)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.Run(bool quick, int prevlen, string input, int beginning, int length, int startat)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.IsMatch(string input, int startat)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.IsMatch(string input)	Unknown
+ 	TypeMock.dll!fl.a(int A_0, string[] A_1)	Unknown
+ 	TypeMock.dll!fl.a(System.Exception A_0)	Unknown
+ 	TypeMock.dll!TypeMock.MockManager.getReturn(object context, string typeName, string methodName, object methodGenericParams, bool isDecorated, bool isInterceptedType, object[] methodArguments)	Unknown
+ 	TypeMock.Interceptors.dll!Typemock.Interceptors.Profiler.InternalMockManager.getReturn(object that, string typeName, string methodName, object methodParameters, bool isInjected, bool isInterceptedType)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.RightToLeft.get()	Unknown
+ 	System.dll!System.Text.RegularExpressions.RegexRunner.Scan(System.Text.RegularExpressions.Regex regex, string text, int textbeg, int textend, int textstart, int prevlen, bool quick, System.TimeSpan timeout)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.Run(bool quick, int prevlen, string input, int beginning, int length, int startat)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.IsMatch(string input, int startat)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.IsMatch(string input)	Unknown
+ 	TypeMock.dll!fl.a(int A_0, string[] A_1)	Unknown
+ 	TypeMock.dll!fl.a(System.Exception A_0)	Unknown
+ 	TypeMock.dll!TypeMock.MockManager.getReturn(object context, string typeName, string methodName, object methodGenericParams, bool isDecorated, bool isInterceptedType, object[] methodArguments)	Unknown
+ 	TypeMock.Interceptors.dll!Typemock.Interceptors.Profiler.InternalMockManager.getReturn(object that, string typeName, string methodName, object methodParameters, bool isInjected, bool isInterceptedType)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.RightToLeft.get()	Unknown
+ 	System.dll!System.Text.RegularExpressions.RegexRunner.Scan(System.Text.RegularExpressions.Regex regex, string text, int textbeg, int textend, int textstart, int prevlen, bool quick, System.TimeSpan timeout)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.Run(bool quick, int prevlen, string input, int beginning, int length, int startat)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.IsMatch(string input, int startat)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.IsMatch(string input)	Unknown
+ 	TypeMock.dll!fl.a(int A_0, string[] A_1)	Unknown
+ 	TypeMock.dll!fl.a(System.Exception A_0)	Unknown
+ 	TypeMock.dll!TypeMock.MockManager.getReturn(object context, string typeName, string methodName, object methodGenericParams, bool isDecorated, bool isInterceptedType, object[] methodArguments)	Unknown
+ 	TypeMock.Interceptors.dll!Typemock.Interceptors.Profiler.InternalMockManager.getReturn(object that, string typeName, string methodName, object methodParameters, bool isInjected, bool isInterceptedType, object p1)	Unknown
+ 	System.dll!System.Text.RegularExpressions.Regex.IsMatch(string input)	Unknown
+ 	TypeMock.dll!fl.a(int A_0, string[] A_1)	Unknown
+ 	TypeMock.dll!fl.a(System.Exception A_0)	Unknown
+ 	TypeMock.dll!TypeMock.MockManager.getReturn(object context, string typeName, string methodName, object methodGenericParams, bool isDecorated, bool isInterceptedType, object[] methodArguments)	Unknown
+ 	TypeMock.Interceptors.dll!Typemock.Interceptors.Profiler.InternalMockManager.getReturn(object that, string typeName, string methodName, object methodParameters, bool isInjected, bool isInterceptedType, object p1)	Unknown
+>	JetBrains.TeamCity.Utils.dll!JetBrains.TeamCity.Utils.AssemblyNameCache.AddEntry(System.Reflection.Assembly assembly) Line 158	C#
+ 	JetBrains.TeamCity.Utils.dll!JetBrains.TeamCity.Utils.AssemblyResolver.AssemblyLoad(object sender, System.AssemblyLoadEventArgs args) Line 61	C#
+ 	mscorlib.dll!System.AppDomain.OnAssemblyLoadEvent(System.Reflection.RuntimeAssembly LoadedAssembly)	Unknown
+ 	[Native to Managed Transition]	
+ 	DLBR.DCF.KDB.UnitTests.dll!DLBR.DCF.KDB.UnitTests.BusinessLogic.AddressLogicTest.GetHerdChrAddressEntityByHerdIdMultithreadedTest.AnonymousMethod__18() Line 221	C#
+ 	[Native to Managed Transition]	
+ 	mscorlib.dll!System.Delegate.DynamicInvokeImpl(object[] args)	Unknown
+ 	mscorlib.dll!System.Delegate.DynamicInvoke(object[] args)	Unknown
+ 	TypeMock.dll!gp.c()	Unknown
+ 	TypeMock.dll!be.a(bool A_0)	Unknown
+ 	Typemock.ArrangeActAssert.dll!dq.b(bool A_0)	Unknown
+ 	Typemock.ArrangeActAssert.dll!iw.b(bool A_0)	Unknown
+ 	Typemock.ArrangeActAssert.dll!iw.a(object A_0, bool A_1, System.Func<bool> A_2, System.Action A_3, System.Action A_4, System.Action A_5, bool A_6)	Unknown
+ 	Typemock.ArrangeActAssert.dll!iw.b(object A_0)	Unknown
+ 	Typemock.ArrangeActAssert.dll!TypeMock.ArrangeActAssert.ExpectationEngine<bool>.a(System.Func<TypeMock.MethodCallContext,bool> A_0)	Unknown
+ 	DLBR.DCF.KDB.UnitTests.dll!DLBR.DCF.KDB.UnitTests.BusinessLogic.AddressLogicTest.GetHerdChrAddressEntityByHerdIdMultithreadedTest() Line 227	C#
+ 	[Native to Managed Transition]	
+ 	TypeMock.dll!TypeMock.MethodDecorator.CallRealMethod()	Unknown
+ 	TypeMock.dll!TypeMock.DecoratorAttribute.CallDecoratedMethod()	Unknown
+ 	Typemock.ArrangeActAssert.dll!TypeMock.ArrangeActAssert.IsolatedAttribute.Execute()	Unknown
+ 	TypeMock.dll!TypeMock.DecoratorAttribute.CallDecoratedMethod()	Unknown
+ 	Typemock.ArrangeActAssert.dll!TypeMock.ArrangeActAssert.IsolatedAttribute.Execute()	Unknown
+ 	TypeMock.dll!TypeMock.MethodDecorator.f()	Unknown
+ 	TypeMock.dll!TypeMock.MockManager.a(string A_0, string A_1, object A_2, System.Reflection.MethodBase A_3, object[] A_4)	Unknown
+ 	TypeMock.dll!TypeMock.MockManager.getReturn(object context, string typeName, string methodName, object methodGenericParams, bool isDecorated, bool isInterceptedType, object[] methodArguments)	Unknown
+ 	TypeMock.Interceptors.dll!Typemock.Interceptors.Profiler.InternalMockManager.getReturn(object that, string typeName, string methodName, object methodParameters, bool isInjected, bool isInterceptedType)	Unknown
+ 	DLBR.DCF.KDB.UnitTests.dll!DLBR.DCF.KDB.UnitTests.BusinessLogic.AddressLogicTest.GetHerdChrAddressEntityByHerdIdMultithreadedTest() Line 208	C#
+ 	[Native to Managed Transition]	
+ 	nunit.core.dll!NUnit.Core.Reflect.InvokeMethod(System.Reflection.MethodInfo method, object fixture, object[] args)	Unknown
+ 	nunit.core.dll!NUnit.Core.TestMethod.RunTestMethod()	Unknown
+ 	nunit.core.dll!NUnit.Core.TestMethod.RunTestCase(NUnit.Core.TestResult testResult)	Unknown
+ 	nunit.core.dll!NUnit.Core.TestMethod.RunTest()	Unknown
+ 	nunit.core.dll!NUnit.Core.NUnitTestMethod.RunTest()	Unknown
+ 	nunit.core.dll!NUnit.Core.TestMethod.RunRepeatedTest()	Unknown
+ 	nunit.core.dll!NUnit.Core.TestMethod.RunTestInContext()	Unknown
+ 	nunit.core.dll!NUnit.Core.TestMethod.Run(NUnit.Core.EventListener listener, NUnit.Core.ITestFilter filter)	Unknown
+ 	nunit.core.dll!NUnit.Core.TestSuite.RunAllTests(NUnit.Core.TestResult suiteResult, NUnit.Core.EventListener listener, NUnit.Core.ITestFilter filter)	Unknown
+ 	nunit.core.dll!NUnit.Core.TestSuite.RunSuite(NUnit.Core.EventListener listener, NUnit.Core.ITestFilter filter)	Unknown
+ 	nunit.core.dll!NUnit.Core.TestSuite.RunSuiteInContext(NUnit.Core.EventListener listener, NUnit.Core.ITestFilter filter)	Unknown
+ 	nunit.core.dll!NUnit.Core.TestSuite.Run(NUnit.Core.EventListener listener, NUnit.Core.ITestFilter filter)	Unknown
+ 	nunit.core.dll!NUnit.Core.TestFixture.Run(NUnit.Core.EventListener listener, NUnit.Core.ITestFilter filter)	Unknown
+ 	nunit.core.dll!NUnit.Core.TestSuite.RunAllTests(NUnit.Core.TestResult suiteResult, NUnit.Core.EventListener listener, NUnit.Core.ITestFilter filter)	Unknown
+ 	nunit.core.dll!NUnit.Core.TestSuite.RunSuite(NUnit.Core.EventListener listener, NUnit.Core.ITestFilter filter)	Unknown
+ 	nunit.core.dll!NUnit.Core.TestSuite.RunSuiteInContext(NUnit.Core.EventListener listener, NUnit.Core.ITestFilter filter)	Unknown
+ 	nunit.core.dll!NUnit.Core.TestSuite.Run(NUnit.Core.EventListener listener, NUnit.Core.ITestFilter filter)	Unknown
+ 	nunit.core.dll!NUnit.Core.TestSuite.RunAllTests(NUnit.Core.TestResult suiteResult, NUnit.Core.EventListener listener, NUnit.Core.ITestFilter filter)	Unknown
+ 	nunit.core.dll!NUnit.Core.TestSuite.RunSuite(NUnit.Core.EventListener listener, NUnit.Core.ITestFilter filter)	Unknown
+ 	nunit.core.dll!NUnit.Core.TestSuite.RunSuiteInContext(NUnit.Core.EventListener listener, NUnit.Core.ITestFilter filter)	Unknown
+ 	nunit.core.dll!NUnit.Core.TestSuite.Run(NUnit.Core.EventListener listener, NUnit.Core.ITestFilter filter)	Unknown
+ 	nunit.core.dll!NUnit.Core.TestSuite.RunAllTests(NUnit.Core.TestResult suiteResult, NUnit.Core.EventListener listener, NUnit.Core.ITestFilter filter)	Unknown
+ 	nunit.core.dll!NUnit.Core.TestSuite.RunSuite(NUnit.Core.EventListener listener, NUnit.Core.ITestFilter filter)	Unknown
+ 	nunit.core.dll!NUnit.Core.TestSuite.RunSuiteInContext(NUnit.Core.EventListener listener, NUnit.Core.ITestFilter filter)	Unknown
+ 	nunit.core.dll!NUnit.Core.TestSuite.Run(NUnit.Core.EventListener listener, NUnit.Core.ITestFilter filter)	Unknown
+ 	nunit.core.dll!NUnit.Core.TestSuite.RunAllTests(NUnit.Core.TestResult suiteResult, NUnit.Core.EventListener listener, NUnit.Core.ITestFilter filter)	Unknown
+ 	nunit.core.dll!NUnit.Core.TestSuite.RunSuite(NUnit.Core.EventListener listener, NUnit.Core.ITestFilter filter)	Unknown
+ 	nunit.core.dll!NUnit.Core.TestSuite.RunSuiteInContext(NUnit.Core.EventListener listener, NUnit.Core.ITestFilter filter)	Unknown
+ 	nunit.core.dll!NUnit.Core.TestSuite.Run(NUnit.Core.EventListener listener, NUnit.Core.ITestFilter filter)	Unknown
+ 	nunit.core.dll!NUnit.Core.TestSuite.RunAllTests(NUnit.Core.TestResult suiteResult, NUnit.Core.EventListener listener, NUnit.Core.ITestFilter filter)	Unknown
+ 	nunit.core.dll!NUnit.Core.TestSuite.RunSuite(NUnit.Core.EventListener listener, NUnit.Core.ITestFilter filter)	Unknown
+ 	nunit.core.dll!NUnit.Core.TestSuite.RunSuiteInContext(NUnit.Core.EventListener listener, NUnit.Core.ITestFilter filter)	Unknown
+ 	nunit.core.dll!NUnit.Core.TestSuite.Run(NUnit.Core.EventListener listener, NUnit.Core.ITestFilter filter)	Unknown
+ 	nunit.core.dll!NUnit.Core.TestSuite.RunAllTests(NUnit.Core.TestResult suiteResult, NUnit.Core.EventListener listener, NUnit.Core.ITestFilter filter)	Unknown
+ 	nunit.core.dll!NUnit.Core.TestSuite.RunSuite(NUnit.Core.EventListener listener, NUnit.Core.ITestFilter filter)	Unknown
+ 	nunit.core.dll!NUnit.Core.TestSuite.RunSuiteInContext(NUnit.Core.EventListener listener, NUnit.Core.ITestFilter filter)	Unknown
+ 	nunit.core.dll!NUnit.Core.TestSuite.Run(NUnit.Core.EventListener listener, NUnit.Core.ITestFilter filter)	Unknown
+ 	nunit.core.dll!NUnit.Core.TestSuite.RunAllTests(NUnit.Core.TestResult suiteResult, NUnit.Core.EventListener listener, NUnit.Core.ITestFilter filter)	Unknown
+ 	nunit.core.dll!NUnit.Core.TestSuite.RunSuite(NUnit.Core.EventListener listener, NUnit.Core.ITestFilter filter)	Unknown
+ 	nunit.core.dll!NUnit.Core.TestSuite.RunSuiteInContext(NUnit.Core.EventListener listener, NUnit.Core.ITestFilter filter)	Unknown
+ 	nunit.core.dll!NUnit.Core.TestSuite.Run(NUnit.Core.EventListener listener, NUnit.Core.ITestFilter filter)	Unknown
+ 	nunit.core.dll!NUnit.Core.SimpleTestRunner.Run(NUnit.Core.EventListener listener, NUnit.Core.ITestFilter filter, bool tracing, NUnit.Core.LoggingThreshold logLevel)	Unknown
+ 	nunit.core.dll!NUnit.Core.TestRunnerThread.TestRunnerThreadProc()	Unknown
+ 	mscorlib.dll!System.Threading.ThreadHelper.ThreadStart_Context(object state)	Unknown
+ 	mscorlib.dll!System.Threading.ExecutionContext.RunInternal(System.Threading.ExecutionContext executionContext, System.Threading.ContextCallback callback, object state, bool preserveSyncCtx)	Unknown
+ 	mscorlib.dll!System.Threading.ExecutionContext.Run(System.Threading.ExecutionContext executionContext, System.Threading.ContextCallback callback, object state, bool preserveSyncCtx)	Unknown
+ 	mscorlib.dll!System.Threading.ExecutionContext.Run(System.Threading.ExecutionContext executionContext, System.Threading.ContextCallback callback, object state)	Unknown
+ 	mscorlib.dll!System.Threading.ThreadHelper.ThreadStart()	Unknown
+ 	[Native to Managed Transition]	

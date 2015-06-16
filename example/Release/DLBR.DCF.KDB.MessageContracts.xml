@@ -1,0 +1,3759 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>DLBR.DCF.KDB.MessageContracts</name>
+    </assembly>
+    <members>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.FindAnimalsByCHRNumberRequest">
+            <summary>
+            Service Contract Class - FindAnimalsByCHRNumberRequest
+            </summary>
+        </member>
+        <member name="P:DLBR.DCF.KDB.MessageContracts.FindAnimalsByCHRNumberRequest.CHRNumber">
+            <summary>
+            CHR number
+            </summary>
+        </member>
+        <member name="P:DLBR.DCF.KDB.MessageContracts.FindAnimalsByCHRNumberRequest.AnimalType">
+            <summary>
+            Animal type
+            </summary>
+        </member>
+        <member name="P:DLBR.DCF.KDB.MessageContracts.FindAnimalsByCHRNumberRequest.GenderList">
+            <summary>
+            List of genders to filter on. Empty list returns all.
+            </summary>
+        </member>
+        <member name="P:DLBR.DCF.KDB.MessageContracts.FindAnimalsByCHRNumberRequest.FromDate">
+            <summary>
+            From date
+            </summary>
+        </member>
+        <member name="P:DLBR.DCF.KDB.MessageContracts.FindAnimalsByCHRNumberRequest.ToDate">
+            <summary>
+            to date
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.FindAnimalsByCHRNumberResponse">
+            <summary>
+            Service Contract Class - FindAnimalsByCHRNumberResponse
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.DeleteAnimalWeightRequest">
+            <summary>
+            Service Contract Class - DeleteAnimalWeightRequest
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.DeleteAnimalWeightResponse">
+            <summary>
+            Service Contract Class - DeleteAnimalWeightResponse
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.FindAnimalWeightsByAnimalNumberRequest">
+            <summary>
+            Service Contract Class - FindAnimalWeightsByAnimalNumberRequest
+            </summary>
+        </member>
+        <member name="P:DLBR.DCF.KDB.MessageContracts.FindAnimalWeightsByAnimalNumberRequest.IncludeExpectedWeightInformation">
+            <summary>
+            Include expected weight informations, 
+            ExpectedWeight, MarginalWeightGain, AverageWeightGainBirth, AverageWeightGainHerd
+            Default=false
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.FindAnimalWeightsByAnimalNumberResponse">
+            <summary>
+            Service Contract Class - FindAnimalWeightsByAnimalNumberResponse
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.FindAnimalWeightsByHerdNumberRequest">
+            <summary>
+            Service Contract Class - FindAnimalWeightsByHerdNumberRequest
+            </summary>
+        </member>
+        <member name="P:DLBR.DCF.KDB.MessageContracts.FindAnimalWeightsByHerdNumberRequest.IncludeExpectedWeightInformation">
+            <summary>
+            Include expected weight informations, 
+            ExpectedWeight, MarginalWeightGain, AverageWeightGainBirth, AverageWeightGainHerd
+            Default=false
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.FindAnimalWeightsByHerdNumberResponse">
+            <summary>
+            Service Contract Class - FindAnimalWeightsByHerdNumberResponse
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.GetAnimalWeightByIdRequest">
+            <summary>
+            Service Contract Class - GetAnimalWeightByIdRequest
+            </summary>
+        </member>
+        <member name="P:DLBR.DCF.KDB.MessageContracts.GetAnimalWeightByIdRequest.IncludeExpectedWeightInformation">
+            <summary>
+            Include expected weight informations, 
+            ExpectedWeight, MarginalWeightGain, AverageWeightGainBirth, AverageWeightGainHerd
+            Default=false
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.GetAnimalWeightByIdResponse">
+            <summary>
+            Service Contract Class - GetAnimalWeightByIdResponse
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.BenchmarkService.FindBenchmarkMetaDataRequest">
+            <summary>
+            Service Contract Class - FindBenchmarkMetaDataRequest
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.BenchmarkService.FindBenchmarkMetaDataResponse">
+            <summary>
+            Service Contract Class - FindBenchmarkMetaDataResponse
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.BenchmarkService.FindCriteriaByManagementUnitRequest">
+            <summary>
+            Service Contract Class - FindCriteriaByManagementUnitRequest
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.BenchmarkService.FindCriteriaByManagementUnitResponse">
+            <summary>
+            Service Contract Class - FindCriteriaByManagementUnitResponse
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.CowmarketEntityService.FindInvoiceableByCVRNumberRequest">
+            <summary>
+            Service Contract Class - FindInvoiceableByCVRNumberRequest
+            </summary>
+        </member>
+        <member name="P:DLBR.DCF.KDB.MessageContracts.CowmarketEntityService.FindInvoiceableByCVRNumberRequest.CVRNumber">
+            <summary>
+            CVRNumber
+            </summary>
+        </member>
+        <member name="P:DLBR.DCF.KDB.MessageContracts.CowmarketEntityService.FindInvoiceableByCVRNumberRequest.DateFrom">
+            <summary>
+            DateFrom
+            </summary>
+        </member>
+        <member name="P:DLBR.DCF.KDB.MessageContracts.CowmarketEntityService.FindInvoiceableByCVRNumberRequest.DateTo">
+            <summary>
+            DateTo
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.CowmarketEntityService.FindInvoiceableByCVRNumberResponse">
+            <summary>
+            Service Contract Class - FindInvoiceableByCVRNumberResponse
+            </summary>
+        </member>
+        <member name="P:DLBR.DCF.KDB.MessageContracts.CowmarketEntityService.FindInvoiceableByCVRNumberResponse.InvoiceableAnimalTransferList">
+            <summary>
+            List of <see cref="T:DLBR.DCF.KDB.DataContracts.CowmarketEntityService.CowmarketAnimalTransfer"/> entities that represent animals to send invoices for.
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.CowmarketEntityService.DeactivateAnimalRequest">
+            <summary>
+            Service Contract Class - DeactivateAnimalRequest
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.CowmarketEntityService.DeactivateAnimalResponse">
+            <summary>
+            Service Contract Class - DeactivateAnimalResponse
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.CowmarketEntityService.FindAnimalsToRemoveAdRequest">
+            <summary>
+            Service Contract Class - FindAnimalsToRemoveAdRequest
+            </summary>
+        </member>
+        <member name="P:DLBR.DCF.KDB.MessageContracts.CowmarketEntityService.FindAnimalsToRemoveAdRequest.DateFrom">
+            <summary>
+            DateFrom
+            </summary>
+        </member>
+        <member name="P:DLBR.DCF.KDB.MessageContracts.CowmarketEntityService.FindAnimalsToRemoveAdRequest.DateTo">
+            <summary>
+            DateTo
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.CowmarketEntityService.FindAnimalsToRemoveAdResponse">
+            <summary>
+            Service Contract Class - FindAnimalsToRemoveAdResponse
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.CowmarketEntityService.FindCowmarketInformationByHerdNumberOnAnimalsForSaleRequest">
+            <summary>
+            Service Contract Class - FindCowmarketInformationByHerdNumberOnAnimalsForSaleRequest
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.CowmarketEntityService.FindCowmarketInformationByHerdNumberOnAnimalsForSaleResponse">
+            <summary>
+            Service Contract Class - FindCowmarketInformationByHerdNumberOnAnimalsForSaleResponse
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.CowmarketEntityService.FindCowmarketInformationOnAnimalsForSaleRequest">
+            <summary>
+            Service Contract Class - FindCowmarketInformationOnAnimalsForSaleRequest
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.CowmarketEntityService.FindCowmarketInformationOnAnimalsForSaleResponse">
+            <summary>
+            Service Contract Class - FindCowmarketInformationOnAnimalsForSaleResponse
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.CowmarketEntityService.FindInvoiceableByCHRNumberRequest">
+            <summary>
+            Service Contract Class - FindInvoiceableByCHRNumberRequest
+            </summary>
+        </member>
+        <member name="P:DLBR.DCF.KDB.MessageContracts.CowmarketEntityService.FindInvoiceableByCHRNumberRequest.ChrNumber">
+            <summary>
+            ChrNumber
+            </summary>
+        </member>
+        <member name="P:DLBR.DCF.KDB.MessageContracts.CowmarketEntityService.FindInvoiceableByCHRNumberRequest.DateFrom">
+            <summary>
+            DateFrom
+            </summary>
+        </member>
+        <member name="P:DLBR.DCF.KDB.MessageContracts.CowmarketEntityService.FindInvoiceableByCHRNumberRequest.DateTo">
+            <summary>
+            DateTo
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.CowmarketEntityService.FindInvoiceableByCHRNumberResponse">
+            <summary>
+            Service Contract Class - FindInvoiceableByCHRNumberResponse
+            </summary>
+        </member>
+        <member name="P:DLBR.DCF.KDB.MessageContracts.CowmarketEntityService.FindInvoiceableByCHRNumberResponse.InvoiceableAnimalTransferList">
+            <summary>
+            List of <see cref="T:DLBR.DCF.KDB.DataContracts.CowmarketEntityService.CowmarketAnimalTransfer"/> entities that represent animals to send invoices for.
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.CowmarketEntityService.GetCowmarketInformationOnAnimalRequest">
+            <summary>
+            Service Contract Class - GetCowmarketInformationOnAnimalRequest
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.CowmarketEntityService.GetCowmarketInformationOnAnimalResponse">
+            <summary>
+            Service Contract Class - 
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.CowmarketEntityService.ActivateAnimalRequest">
+            <summary>
+            Service Contract Class - ActivateAnimalRequest
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.CowmarketEntityService.ActivateAnimalResponse">
+            <summary>
+            Service Contract Class - ActivateAnimalResponse
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.FindFCIKeyfiguresByManagementUnitIdRequest">
+            <summary>
+            Service Contract Class - FindFCIKeyfiguresByManagementUnitIdRequest
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.FindFCIKeyfiguresByManagementUnitIdResponse">
+            <summary>
+            Service Contract Class - FindFCIKeyfiguresByManagementUnitIdResponse
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.GetAnimalDataByManagementUnitIdRequest">
+            <summary>
+            Service Contract Class - GetAnimalDataByManagementUnitIdRequest
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.GetAnimalDataByManagementUnitIdResponse">
+            <summary>
+            Service Contract Class - GetAnimalDataByManagementUnitIdResponse
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.GetKeyfigureDataByManagementUnitIdRequest">
+            <summary>
+            Service Contract Class - GetKeyfigureDataByManagementUnitIdRequest
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.GetKeyfigureDataByManagementUnitIdResponse">
+            <summary>
+            Service Contract Class - GetKeyfigureDataByManagementUnitIdResponse
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.CheckEarmarkColorRequest">
+            <summary>
+            Service Contract Class - CheckEarmarkColorRequest
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.CheckEarmarkColorResponse">
+            <summary>
+            Service Contract Class - CheckEarmarkColorResponse
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.GetEarmarkSeriesCombinationByIdRequest">
+            <summary>
+            Service Contract Class - GetEarmarkSeriesCombinationByIdRequest
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.GetEarmarkSeriesCombinationByIdResponse">
+            <summary>
+            Service Contract Class - GetEarmarkSeriesCombinationByIdResponse
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.FindAnimalEventLogItemsByAnimalNumberRequest">
+            <summary>
+            Service Contract Class - FindAnimalEventLogItemsByAnimalNumberRequest
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.FindAnimalEventLogItemsByAnimalNumberResponse">
+            <summary>
+            Service Contract Class - FindAnimalEventLogItemsByAnimalNumberResponse
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.FindKPOFeedingDaysByManagementUnitIdRequest">
+            <summary>
+            Service Contract Class - FindKPOFeedingDaysByManagementUnitIdRequest
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.FindKPOFeedingDaysByManagementUnitIdResponse">
+            <summary>
+            Service Contract Class - FindKPOFeedingDaysByManagementUnitIdResponse
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.GetAnimalEventLogDetailRequest">
+            <summary>
+            Service Contract Class - GetAnimalEventLogDetailRequest
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.GetAnimalEventLogDetailResponse">
+            <summary>
+            Service Contract Class - GetAnimalEventLogDetailResponse
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.GetFoodTagByAnimalNumberRequest">
+            <summary>
+            Service Contract Class - GetFoodTagByAnimalNumberRequest
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.GetFoodTagByAnimalNumberResponse">
+            <summary>
+            Service Contract Class - GetFoodTagByAnimalNumberResponse
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.AddSubscriberInvoiceRequest">
+            <summary>
+            Service Contract Class - AddSubscriberInvoiceRequest
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.AddSubscriberInvoiceResponse">
+            <summary>
+            Service Contract Class - AddSubscriberInvoiceResponse
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.BatchCommitTimeRecordRequest">
+            <summary>
+            Service Contract Class - BatchCommitTimeRecordRequest
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.BatchCommitTimeRecordResponse">
+            <summary>
+            Service Contract Class - BatchCommitTimeRecordResponse
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.CalculateInBreedingRequest">
+            <summary>
+            Service Contract Class - CalculateInBreedingRequest
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.CalculateInBreedingResponse">
+            <summary>
+            Service Contract Class - CalculateInBreedingResponse
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.CheckAuthorizationForReportRequest">
+            <summary>
+            Service Contract Class - CheckAuthorizationForReportRequest
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.CheckAuthorizationForReportResponse">
+            <summary>
+            Service Contract Class - CheckAuthorizationForReportResponse
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.CheckEarmarkNumberRequest">
+            <summary>
+            Service Contract Class - CheckEarmarkNumberRequest
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.CheckEarmarkNumberResponse">
+            <summary>
+            Service Contract Class - CheckEarmarkNumberResponse
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.GetManagementUnitTypeCollectionRequest">
+            <summary>
+            Service Contract Class - GetManagementUnitTypeCollectionRequest
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.GetManagementUnitTypeCollectionResponse">
+            <summary>
+            Service Contract Class - GetManagementUnitTypeCollectionResponse
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.GetVetSamplePCRTypeCollectionRequest">
+            <summary>
+            Service Contract Class - GetVetSamplePCRTypeCollectionRequest
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.GetVetSamplePCRTypeCollectionResponse">
+            <summary>
+            Service Contract Class - GetVetSamplePCRTypeCollectionResponse
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.GetInseminatorHomeTimeCollectionRequest">
+            <summary>
+            Service Contract Class - GetInseminatorHomeTimeCollectionRequest
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.GetInseminatorHomeTimeCollectionResponse">
+            <summary>
+            Service Contract Class - GetInseminatorHomeTimeCollectionResponse
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.FindCalvingsByCalvingNumberRequest">
+            <summary>
+            Service Contract Class - FindCalvingsByCalvingNumberRequest
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.FindCalvingsByCalvingNumberResponse">
+            <summary>
+            Service Contract Class - FindCalvingsByCalvingNumberResponse
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.DeleteTreatmentLineRequest">
+            <summary>
+            Service Contract Class - DeleteTreatmentLineRequest
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.DeleteTreatmentLineResponse">
+            <summary>
+            Service Contract Class - DeleteTreatmentLineResponse
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.InseminatorDeliveredSemen.DeleteDeliveredSemenRequest">
+            <summary>
+            Service Contract Class - DeleteDeliveredSemenRequest
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.InseminatorDeliveredSemen.DeleteDeliveredSemenResponse">
+            <summary>
+            Service Contract Class - DeleteDeliveredSemenResponse
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.InseminatorDeliveredSemen.FindDeliveredSemenRegistrationsByInseminatorRequest">
+            <summary>
+            Service Contract Class - FindDeliveredSemenRegistrationsByInseminatorRequest
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.InseminatorDeliveredSemen.FindDeliveredSemenRegistrationsByInseminatorResponse">
+            <summary>
+            Service Contract Class - FindDeliveredSemenRegistrationsByInseminatorResponse
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.InseminatorDeliveredSemen.RegisterDeliveredSemenRequest">
+            <summary>
+            Service Contract Class - RegisterDeliveredSemenRequest
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.InseminatorDeliveredSemen.RegisterDeliveredSemenResponse">
+            <summary>
+            Service Contract Class - RegisterDeliveredSemenResponse
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.InseminatorDeliveredSemen.UpdateDeliveredSemenRequest">
+            <summary>
+            Service Contract Class - UpdateDeliveredSemenRequest
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.InseminatorDeliveredSemen.UpdateDeliveredSemenResponse">
+            <summary>
+            Service Contract Class - UpdateDeliveredSemenResponse
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.InseminatorHomeTime.FindHomeTimeRegistrationsByInseminatorRequest">
+            <summary>
+            Service Contract Class - FindHomeTimeRegistrationsByInseminatorRequest
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.InseminatorHomeTime.FindHomeTimeRegistrationsByInseminatorResponse">
+            <summary>
+            Service Contract Class - FindHomeTimeRegistrationsByInseminatorResponse
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.InseminatorHomeTime.RegisterHomeTimeRequest">
+            <summary>
+            Service Contract Class - RegisterHomeTimeRequest
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.InseminatorHomeTime.RegisterHomeTimeResponse">
+            <summary>
+            Service Contract Class - RegisterHomeTimeResponse
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.InseminatorHomeTime.UpdateHomeTimeRequest">
+            <summary>
+            Service Contract Class - UpdateHomeTimeRequest
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.InseminatorHomeTime.UpdateHomeTimeResponse">
+            <summary>
+            Service Contract Class - UpdateHomeTimeResponse
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.UpdateTreatmentLineRequest">
+            <summary>
+            Service Contract Class - UpdateTreatmentLineRequest
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.UpdateTreatmentLineResponse">
+            <summary>
+            Service Contract Class - UpdateTreatmentLineResponse
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.DeleteActiveTreatmentsRequest">
+            <summary>
+            Service Contract Class - DeleteActiveTreatmentsRequest
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.DeleteActiveTreatmentsResponse">
+            <summary>
+            Service Contract Class - DeleteActiveTreatmentsResponse
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.DeleteAnimalGroupTransferRequest">
+            <summary>
+            Service Contract Class - DeleteAnimalGroupTransferRequest
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.DeleteAnimalGroupTransferResponse">
+            <summary>
+            Service Contract Class - DeleteAnimalGroupTransferResponse
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.DeleteAnimalHealthRequest">
+            <summary>
+            Service Contract Class - DeleteAnimalHealthRequest
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.DeleteAnimalHealthResponse">
+            <summary>
+            Service Contract Class - DeleteAnimalHealthResponse
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.DeleteAnimalTransferRequest">
+            <summary>
+            Service Contract Class - DeleteAnimalTransferRequest
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.DeleteAnimalTransferResponse">
+            <summary>
+            Service Contract Class - DeleteAnimalTransferResponse
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.DeleteBasicInformationsRequest">
+            <summary>
+            Service Contract Class - DeleteBasicInformationsRequest
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.DeleteBasicInformationsResponse">
+            <summary>
+            Service Contract Class - DeleteBasicInformationsResponse
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.DeleteCalvingRequest">
+            <summary>
+            Service Contract Class - DeleteCalvingRequest
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.DeleteCalvingResponse">
+            <summary>
+            Service Contract Class - DeleteCalvingResponse
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.DeleteClinicalRecordingRequest">
+            <summary>
+            Service Contract Class - DeleteClinicalRecordingRequest
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.DeleteClinicalRecordingResponse">
+            <summary>
+            Service Contract Class - DeleteClinicalRecordingResponse
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.DeleteCullingRequest">
+            <summary>
+            Service Contract Class - DeleteCullingRequest
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.DeleteCullingResponse">
+            <summary>
+            Service Contract Class - DeleteCullingResponse
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.DeleteDryPeriodRequest">
+            <summary>
+            Service Contract Class - DeleteDryPeriodRequest
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.DeleteDryPeriodResponse">
+            <summary>
+            Service Contract Class - DeleteDryPeriodResponse
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.DeleteEarmarkOrderRequest">
+            <summary>
+            Service Contract Class - DeleteEarmarkOrderRequest
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.DeleteEarmarkOrderResponse">
+            <summary>
+            Service Contract Class - DeleteEarmarkOrderResponse
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.DeleteInseminationRequest">
+            <summary>
+            Service Contract Class - DeleteInseminationRequest
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.DeleteInseminationResponse">
+            <summary>
+            Service Contract Class - DeleteInseminationResponse
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.DeleteInseminationRouteRequest">
+            <summary>
+            Service Contract Class - DeleteInseminationRouteRequest
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.DeleteInseminationRouteResponse">
+            <summary>
+            Service Contract Class - DeleteInseminationRouteResponse
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.DeleteInseminationTreatmentRequest">
+            <summary>
+            Service Contract Class - DeleteInseminationTreatmentRequest
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.DeleteInseminationTreatmentResponse">
+            <summary>
+            Service Contract Class - DeleteInseminationTreatmentResponse
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.DeleteInseminatorTourplanRequest">
+            <summary>
+            Service Contract Class - DeleteInseminatorTourplanRequest
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.DeleteInseminatorTourplanResponse">
+            <summary>
+            Service Contract Class - DeleteInseminatorTourplanResponse
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.DeleteInternalAnimalIdentifierRequest">
+            <summary>
+            Service Contract Class - DeleteInternalAnimalIdentifierRequest
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.DeleteInternalAnimalIdentifierResponse">
+            <summary>
+            Service Contract Class - DeleteInternalAnimalIdentifierResponse
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.DeleteMedicationRequest">
+            <summary>
+            Service Contract Class - DeleteMedicationRequest
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.DeleteMedicationResponse">
+            <summary>
+            Service Contract Class - DeleteMedicationResponse
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.DeletePostingRequest">
+            <summary>
+            Service Contract Class - DeletePostingRequest
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.DeletePostingResponse">
+            <summary>
+            Service Contract Class - DeletePostingResponse
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.DeletePregnancyCheckRequest">
+            <summary>
+            Service Contract Class - DeletePregnancyCheckRequest
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.DeletePregnancyCheckResponse">
+            <summary>
+            Service Contract Class - DeletePregnancyCheckResponse
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.DeleteTreatmentRequest">
+            <summary>
+            Service Contract Class - DeleteTreatmentRequest
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.DeleteTreatmentResponse">
+            <summary>
+            Service Contract Class - DeleteTreatmentResponse
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.FindActiveTreatmentsByHerdNumberRequest">
+            <summary>
+            Service Contract Class - FindActiveTreatmentsByHerdNumberRequest
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.FindActiveTreatmentsByHerdNumberResponse">
+            <summary>
+            Service Contract Class - FindActiveTreatmentsByHerdNumberResponse
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.FindAdvisorsRequest">
+            <summary>
+            Service Contract Class - FindAdvisorsRequest
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.FindAdvisorsResponse">
+            <summary>
+            Service Contract Class - FindAdvisorsResponse
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.FindAgriBusinessesByCVRNumberRequest">
+            <summary>
+            Service Contract Class - FindAgriBusinessesByCVRNumberRequest
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.FindAgriBusinessesByCVRNumberResponse">
+            <summary>
+            Service Contract Class - FindAgriBusinessesByCVRNumberResponse
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.FindAnimalGroupTransfersByHerdNumberRequest">
+            <summary>
+            Service Contract Class - FindAnimalGroupTransfersByHerdNumberRequest
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.FindAnimalGroupTransfersByHerdNumberResopnse">
+            <summary>
+            Service Contract Class - FindAnimalGroupTransfersByHerdNumberResopnse
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.FindAnimalGroupTransfersByHerdNumberResponse">
+            <summary>
+            Service Contract Class - FindAnimalGroupTransfersByHerdNumberResponse
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.FindAnimalHealthsByAnimalNumberRequest">
+            <summary>
+            Service Contract Class - FindAnimalHealthsByAnimalNumberRequest
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.FindAnimalHealthsByAnimalNumberResponse">
+            <summary>
+            Service Contract Class - FindAnimalHealthsByAnimalNumberResponse
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.FindAnimalHealthsByHerdNumberRequest">
+            <summary>
+            Service Contract Class - FindAnimalHealthsByHerdNumberRequest
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.FindAnimalHealthsByHerdNumberResponse">
+            <summary>
+            Service Contract Class - FindAnimalHealthsByHerdNumberResponse
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.FindAnimalNumbersByOwnerRequest">
+            <summary>
+            Service Contract Class - FindAnimalNumbersByOwnerRequest
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.FindAnimalNumbersByOwnerResponse">
+            <summary>
+            Service Contract Class - FindAnimalNumbersByOwnerResponse
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.FindAnimalNumbersRequest">
+            <summary>
+            Service Contract Class - FindAnimalNumbersRequest
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.FindAnimalNumbersResponse">
+            <summary>
+            Service Contract Class - FindAnimalNumbersResponse
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.FindAnimalsByHerdNumberRequest">
+            <summary>
+            Service Contract Class - FindAnimalsByHerdNumberRequest
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.FindAnimalsByHerdNumberResponse">
+            <summary>
+            Service Contract Class - FindAnimalsByHerdNumberResponse
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.FindAnimalsByIndividualNumberRequest">
+            <summary>
+            Service Contract Class - FindAnimalsByIndividualNumberRequest
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.FindAnimalsByIndividualNumberResponse">
+            <summary>
+            Service Contract Class - FindAnimalsByIndividualNumberResponse
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.FindAnimalsForClassificationByAreaCodeRequest">
+            <summary>
+            Service Contract Class - FindAnimalsForClassificationByAreaCodeRequest
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.FindAnimalsForClassificationByAreaCodeResponse">
+            <summary>
+            Service Contract Class - FindAnimalsForClassificationByAreaCodeResponse
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.FindAnimalsForClassificationByHerdNumberRequest">
+            <summary>
+            Service Contract Class - FindAnimalsForClassificationByHerdNumberRequest
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.FindAnimalsForClassificationByHerdNumberResponse">
+            <summary>
+            Service Contract Class - FindAnimalsForClassificationByHerdNumberResponse
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.FindAnimalTransfersByAnimalNumberRequest">
+            <summary>
+            Service Contract Class - FindAnimalTransfersByAnimalNumberRequest
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.FindAnimalTransfersByAnimalNumberResponse">
+            <summary>
+            Service Contract Class - FindAnimalTransfersByAnimalNumberResponse
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.FindAnimalTransfersByHerdNumberRequest">
+            <summary>
+            Service Contract Class - FindAnimalTransfersByHerdNumberRequest
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.FindAnimalTransfersByHerdNumberResponse">
+            <summary>
+            Service Contract Class - FindAnimalTransfersByHerdNumberResponse
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.FindAnimalTransfersByManagementUnitIdRequest">
+            <summary>
+            Service Contract Class - FindAnimalTransfersByManagementUnitIdRequest
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.FindAnimalTransfersByManagementUnitIdResponse">
+            <summary>
+            Service Contract Class - FindAnimalTransfersByManagementUnitIdResponse
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.FindCalvingsByCowAnimalNumberRequest">
+            <summary>
+            Service Contract Class - FindCalvingsByCowAnimalNumberRequest
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.FindCalvingsByCowAnimalNumberResponse">
+            <summary>
+            Service Contract Class - FindCalvingsByCowAnimalNumberResponse
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.FindCalvingsByHerdNumberRequest">
+            <summary>
+            Service Contract Class - FindCalvingsByHerdNumberRequest
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.FindCalvingsByHerdNumberResponse">
+            <summary>
+            Service Contract Class - FindCalvingsByHerdNumberResponse
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.FindClinicalRecordingsByAnimalNumberRequest">
+            <summary>
+            Service Contract Class - FindClinicalRecordingsByAnimalNumberRequest
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.FindClinicalRecordingsByAnimalNumberResponse">
+            <summary>
+            Service Contract Class - FindClinicalRecordingsByAnimalNumberResponse
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.FindClinicalRecordingsByHerdNumberRequest">
+            <summary>
+            Service Contract Class - FindClinicalRecordingsByHerdNumberRequest
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.FindClinicalRecordingsByHerdNumberResponse">
+            <summary>
+            Service Contract Class - FindClinicalRecordingsByHerdNumberResponse
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.FindCprInfoByCprNumbersRequest">
+            <summary>
+            Service Contract Class - FindCprInfoByCprNumbersRequest
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.FindCprInfoByCprNumbersResponse">
+            <summary>
+            Service Contract Class - FindCprInfoByCprNumbersResponse
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.FindCullingsByAnimalNumberRequest">
+            <summary>
+            Service Contract Class - FindCullingsByAnimalNumberRequest
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.FindCullingsByAnimalNumberResponse">
+            <summary>
+            Service Contract Class - FindCullingsByAnimalNumberResponse
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.FindCullingsByHerdNumberRequest">
+            <summary>
+            Service Contract Class - FindCullingsByHerdNumberRequest
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.FindCullingsByHerdNumberResponse">
+            <summary>
+            Service Contract Class - FindCullingsByHerdNumberResponse
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.FindCvrInfoByCvrNumbersRequest">
+            <summary>
+            Service Contract Class - FindCvrInfoByCvrNumbersRequest
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.FindCvrInfoByCvrNumbersResponse">
+            <summary>
+            Service Contract Class - FindCvrInfoByCvrNumbersResponse
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.FindDiagnosisByHerdNumberRequest">
+            <summary>
+            Service Contract Class - FindDiagnosisByHerdNumberRequest
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.FindDiagnosisByHerdNumberResponse">
+            <summary>
+            Service Contract Class - FindDiagnosisByHerdNumberResponse
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.FindDryPeriodsByAnimalNumberRequest">
+            <summary>
+            Service Contract Class - FindDryPeriodsByAnimalNumberRequest
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.FindDryPeriodsByAnimalNumberResponse">
+            <summary>
+            Service Contract Class - FindDryPeriodsByAnimalNumberResponse
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.FindDryPeriodsByHerdNumberRequest">
+            <summary>
+            Service Contract Class - FindDryPeriodsByHerdNumberRequest
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.FindDryPeriodsByHerdNumberResponse">
+            <summary>
+            Service Contract Class - FindDryPeriodsByHerdNumberResponse
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.FindEarmarkArticlesPricesRequest">
+            <summary>
+            Service Contract Class - FindEarmarkArticlesPricesRequest
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.FindEarmarkArticlesPricesResponse">
+            <summary>
+            Service Contract Class - FindEarmarkArticlesPricesResponse
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.FindEarmarkCombinationsRequest">
+            <summary>
+            Service Contract Class - FindEarmarkCombinationsRequest
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.FindEarmarkCombinationsResponse">
+            <summary>
+            Service Contract Class - FindEarmarkCombinationsResponse
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.FindEarmarkMaxQuantityByCHRNumberRequest">
+            <summary>
+            Service Contract Class - FindEarmarkMaxQuantityByCHRNumberRequest
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.FindEarmarkMaxQuantityByCHRNumberResponse">
+            <summary>
+            Service Contract Class - FindEarmarkMaxQuantityByCHRNumberResponse
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.FindEarmarkOrderCostsRequest">
+            <summary>
+            Service Contract Class - FindEarmarkOrderCostsRequest
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.FindEarmarkOrderCostsResponse">
+            <summary>
+            Service Contract Class - FindEarmarkOrderCostsResponse
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.FindEarmarkOrderLineCostsRequest">
+            <summary>
+            Service Contract Class - FindEarmarkOrderLineCostsRequest
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.FindEarmarkOrderLineCostsResponse">
+            <summary>
+            Service Contract Class - FindEarmarkOrderLineCostsResponse
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.FindEarmarkOrderReplacementByAnimalNumberRequest">
+            <summary>
+            Service Contract Class - FindEarmarkOrderReplacementByAnimalNumberRequest
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.FindEarmarkOrderReplacementByAnimalNumberResponse">
+            <summary>
+            Service Contract Class - FindEarmarkOrderReplacementByAnimalNumberResponse
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.FindEarmarkOrdersByCHRNumberRequest">
+            <summary>
+            Service Contract Class - FindEarmarkOrdersByCHRNumberRequest
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.FindEarmarkOrdersByCHRNumberResponse">
+            <summary>
+            Service Contract Class - FindEarmarkOrdersByCHRNumberResponse
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.FindEarmarkSeriesCombinationsManifactorRequest">
+            <summary>
+            Service Contract Class - FindEarmarkSeriesCombinationsManifactorRequest
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.FindEarmarkSeriesCombinationsManifactorResponse">
+            <summary>
+            Service Contract Class - FindEarmarkSeriesCombinationsManifactorResponse
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.FindEarmarkSeriesCombinationsRequest">
+            <summary>
+            Service Contract Class - FindEarmarkSeriesCombinationsRequest
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.FindEarmarkSeriesCombinationsResponse">
+            <summary>
+            Service Contract Class - FindEarmarkSeriesCombinationsResponse
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.FindEarmarkSeriesPricesRequest">
+            <summary>
+            Service Contract Class - FindEarmarkSeriesPricesRequest
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.FindEarmarkSeriesPricesResponse">
+            <summary>
+            Service Contract Class - FindEarmarkSeriesPricesResponse
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.FindGeneticsByHerdBookRequest">
+            <summary>
+            Service Contract Class - FindGeneticsByHerdBookRequest
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.FindGeneticsByHerdBookResponse">
+            <summary>
+            Service Contract Class - FindGeneticsByHerdBookResponse
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.FindHerdHealthStatusByCHRNumberRequest">
+            <summary>
+            Service Contract Class - FindHerdHealthStatusByCHRNumberRequest
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.FindHerdHealthStatusByCHRNumberResponse">
+            <summary>
+            Service Contract Class - FindHerdHealthStatusByCHRNumberResponse
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.FindHerdsByCHRNumberRequest">
+            <summary>
+            Service Contract Class - FindHerdsByCHRNumberRequest
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.FindHerdsByCHRNumberResponse">
+            <summary>
+            Service Contract Class - FindHerdsByCHRNumberResponse
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.FindHerdsByCVRCPRNumbersRequest">
+            <summary>
+            Service Contract Class - FindHerdsByCVRCPRNumbersRequest
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.FindHerdsByCVRCPRNumbersResponse">
+            <summary>
+            Service Contract Class - FindHerdsByCVRCPRNumbersResponse
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.FindHerdsByDistrictNumberRequest">
+            <summary>
+            Service Contract Class - FindHerdsByDistrictNumberRequest
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.FindHerdsByDistrictNumberResponse">
+            <summary>
+            Service Contract Class - FindHerdsByDistrictNumberResponse
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.FindHerdsByHerdNumberRequest">
+            <summary>
+            Service Contract Class - FindHerdsByHerdNumberRequest
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.FindHerdsByHerdNumberResponse">
+            <summary>
+            Service Contract Class - FindHerdsByHerdNumberResponse
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.FindHerdsWithHeifersInPensionRequest">
+            <summary>
+            Service Contract Class - FindHerdsWithHeifersInPensionRequest
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.FindHerdsWithHeifersInPensionResponse">
+            <summary>
+            Service Contract Class - FindHerdsWithHeifersInPensionResponse
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.FindInseminationRouteRequest">
+            <summary>
+            Service Contract Class - FindInseminationRouteRequest
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.FindInseminationRouteResponse">
+            <summary>
+            Service Contract Class - FindInseminationRouteResponse
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.FindInseminationsByAnimalNumberRequest">
+            <summary>
+            Service Contract Class - FindInseminationsByAnimalNumberRequest
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.FindInseminationsByAnimalNumberResponse">
+            <summary>
+            Service Contract Class - FindInseminationsByAnimalNumberResponse
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.FindInseminationsByHerdNumberRequest">
+            <summary>
+            Service Contract Class - FindInseminationsByHerdNumberRequest
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.FindInseminationsByHerdNumberResponse">
+            <summary>
+            Service Contract Class - FindInseminationsByHerdNumberResponse
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.FindInseminationTreatmentsRequest">
+            <summary>
+            Service Contract Class - FindInseminationTreatmentsRequest
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.FindInseminationTreatmentsResponse">
+            <summary>
+            Service Contract Class - FindInseminationTreatmentsResponse
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.FindInseminatorTimeRecordByInseminatorRequest">
+            <summary>
+            Service Contract Class - FindInseminatorTimeRecordByInseminatorRequest
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.FindInseminatorTimeRecordByInseminatorResponse">
+            <summary>
+            Service Contract Class - FindInseminatorTimeRecordByInseminatorResponse
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.FindInseminatorTourplanByDistrictNumbersRequest">
+            <summary>
+            Service Contract Class - FindInseminatorTourplanByDistrictNumbersRequest
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.FindInseminatorTourplanByDistrictNumbersResponse">
+            <summary>
+            Service Contract Class - FindInseminatorTourplanByDistrictNumbersResponse
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.FindInseminatorTourplanByNameRequest">
+            <summary>
+            Service Contract Class - FindInseminatorTourplanByNameRequest
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.FindInseminatorTourplanByNameResponse">
+            <summary>
+            Service Contract Class - FindInseminatorTourplanByNameResponse
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.FindInseminatorTourplansByDistrictNumbersRequest">
+            <summary>
+            Service Contract Class - FindInseminatorTourplansByDistrictNumbersRequest
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.FindInseminatorTourplansByDistrictNumbersResponse">
+            <summary>
+            Service Contract Class - FindInseminatorTourplansByDistrictNumbersResponse
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.FindInseminatorTourplansByHerdNumbersRequest">
+            <summary>
+            Service Contract Class - FindInseminatorTourplansByHerdNumbersRequest
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.FindInseminatorTourplansByHerdNumbersResponse">
+            <summary>
+            Service Contract Class - FindInseminatorTourplansByHerdNumbersResponse
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.FindInseminatorTourplansByNameRequest">
+            <summary>
+            Service Contract Class - FindInseminatorTourplansByNameRequest
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.FindInseminatorTourplansByNameResponse">
+            <summary>
+            Service Contract Class - FindInseminatorTourplansByNameResponse
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.FindInternalAnimalIdentifiersByAnimalNumberRequest">
+            <summary>
+            Service Contract Class - FindInternalAnimalIdentifiersByAnimalNumberRequest
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.FindInternalAnimalIdentifiersByAnimalNumberResponse">
+            <summary>
+            Service Contract Class - FindInternalAnimalIdentifiersByAnimalNumberResponse
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.FindInternalAnimalIdentifiersByHerdNumberRequest">
+            <summary>
+            Service Contract Class - FindInternalAnimalIdentifiersByHerdNumberRequest
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.FindInternalAnimalIdentifiersByHerdNumberResponse">
+            <summary>
+            Service Contract Class - FindInternalAnimalIdentifiersByHerdNumberResponse
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.FindMatingSchemeByHerdNumberRequest">
+            <summary>
+            Service Contract Class - FindMatingSchemeByHerdNumberRequest
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.FindMatingSchemeByHerdNumberResponse">
+            <summary>
+            Service Contract Class - FindMatingSchemeByHerdNumberResponse
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.FindMatingSchemesByHerdNumberRequest">
+            <summary>
+            Service Contract Class - FindMatingSchemesByHerdNumberRequest
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.FindMatingSchemesByHerdNumberResponse">
+            <summary>
+            Service Contract Class - FindMatingSchemesByHerdNumberResponse
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.FindMedicationByAnimalNumberRequest">
+            <summary>
+            Service Contract Class - FindMedicationByAnimalNumberRequest
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.FindMedicationByAnimalNumberResponse">
+            <summary>
+            Service Contract Class - FindMedicationByAnimalNumberResponse
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.FindMedicationByHerdNumberRequest">
+            <summary>
+            Service Contract Class - FindMedicationByHerdNumberRequest
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.FindMedicationByHerdNumberResponse">
+            <summary>
+            Service Contract Class - FindMedicationByHerdNumberResponse
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.FindMedicationByIdRequest">
+            <summary>
+            Service Contract Class - FindMedicationByIdRequest
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.FindMedicationByIdResponse">
+            <summary>
+            Service Contract Class - FindMedicationByIdResponse
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.FindPostingsByAnimalNumberRequest">
+            <summary>
+            Service Contract Class - FindPostingsByAnimalNumberRequest
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.FindPostingsByAnimalNumberResponse">
+            <summary>
+            Service Contract Class - FindPostingsByAnimalNumberResponse
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.FindPostingsByHerdNumberRequest">
+            <summary>
+            Service Contract Class - FindPostingsByHerdNumberRequest
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.FindPostingsByHerdNumberResponse">
+            <summary>
+            Service Contract Class - FindPostingsByHerdNumberResponse
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.FindPregnancyChecksByAnimalNumberRequest">
+            <summary>
+            Service Contract Class - FindPregnancyChecksByAnimalNumberRequest
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.FindPregnancyChecksByAnimalNumberResponse">
+            <summary>
+            Service Contract Class - FindPregnancyChecksByAnimalNumberResponse
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.FindPregnancyChecksByHerdNumberRequest">
+            <summary>
+            Service Contract Class - FindPregnancyChecksByHerdNumberRequest
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.FindPregnancyChecksByHerdNumberResponse">
+            <summary>
+            Service Contract Class - FindPregnancyChecksByHerdNumberResponse
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.FindReportFileDefinitionsRequest">
+            <summary>
+            Service Contract Class - FindReportFileDefinitionsRequest
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.FindReportFileDefinitionsResponse">
+            <summary>
+            Service Contract Class - FindReportFileDefinitionsResponse
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.FindReproductionStatusByHerdNumberRequest">
+            <summary>
+            Service Contract Class - FindReproductionStatusByHerdNumberRequest
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.FindReproductionStatusByHerdNumberResponse">
+            <summary>
+            Service Contract Class - FindReproductionStatusByHerdNumberResponse
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.FindSemenStocksByDistrictListRequest">
+            <summary>
+            Service Contract Class - FindSemenStocksByDistrictListRequest
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.FindSemenStocksByDistrictListResponse">
+            <summary>
+            Service Contract Class - FindSemenStocksByDistrictListResponse
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.KPIService.FindKMPKPIsByCVRNumberRequest">
+            <summary>
+            Service Contract Class - FindKMPKPIsByCVRNumberRequest
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.KPIService.FindKMPKPIsByCVRNumberResponse">
+            <summary>
+            Service Contract Class - FindKMPKPIsByCVRNumberResponse
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.KPIService.FindKPIAlarmsRequest">
+            <summary>
+            Service Contract Class - FindKPIAlarmsRequest
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.KPIService.FindKPIAlarmsResponse">
+            <summary>
+            Service Contract Class - FindKPIAlarmsResponse
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.NaturalMatingEntityService.BatchRegisterNaturalMatingsRequest">
+            <summary>
+            Service Contract Class - BatchRegisterNaturalMatingsRequest
+            </summary>
+        </member>
+        <member name="P:DLBR.DCF.KDB.MessageContracts.NaturalMatingEntityService.BatchRegisterNaturalMatingsRequest.NaturalMatingsToRegister">
+            <summary>
+            A list of <see cref="T:DLBR.DCF.KDB.DataContracts.NaturalMatingService.NaturalService"/> entities to register. Set Id and LastUpdate to null.
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.NaturalMatingEntityService.BatchRegisterNaturalMatingsResponse">
+            <summary>
+            Service Contract Class - BatchRegisterNaturalMatingsResponse
+            </summary>
+        </member>
+        <member name="P:DLBR.DCF.KDB.MessageContracts.NaturalMatingEntityService.BatchRegisterNaturalMatingsResponse.NaturalMatingsRegistered">
+            <summary>
+            List of <see cref="T:DLBR.DCF.KDB.DataContracts.NaturalMatingService.NaturalService"/> entities registered
+            </summary>
+        </member>
+        <member name="P:DLBR.DCF.KDB.MessageContracts.NaturalMatingEntityService.BatchRegisterNaturalMatingsResponse.NaturalMatingsFailedToRegister">
+            <summary>
+            List of <see cref="T:DLBR.DCF.KDB.DataContracts.NaturalMatingService.NaturalMatingRegistrationFailed"/> entities that failed to register
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.MilkRecordings.FindMilkRecordingsByAnimalNumberRequest">
+            <summary>
+            Service Contract Class - FindMilkRecordingsByAnimalNumberRequest
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.MilkRecordings.FindMilkRecordingsByAnimalNumberResponse">
+            <summary>
+            Service Contract Class - FindMilkRecordingsByAnimalNumberResponse
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.MilkRecordings.FindMilkRecordingsByHerdNumberRequest">
+            <summary>
+            Service Contract Class - FindMilkRecordingsByHerdNumberRequest
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.MilkRecordings.FindMilkRecordingsByHerdNumberResponse">
+            <summary>
+            Service Contract Class - FindMilkRecordingsByHerdNumberResponse
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.NaturalMatingEntityService.DeleteNaturalServiceRequest">
+            <summary>
+            Service Contract Class - DeleteNaturalServiceRequest
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.NaturalMatingEntityService.DeleteNaturalServiceResponse">
+            <summary>
+            Service Contract Class - DeleteNaturalServiceResponse
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.NaturalMatingEntityService.FindNaturalServicesByAnimalNumberRequest">
+            <summary>
+            Service Contract Class - FindNaturalServicesByAnimalNumberRequest
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.NaturalMatingEntityService.FindNaturalServicesByAnimalNumberResponse">
+            <summary>
+            Service Contract Class - FindNaturalServicesByAnimalNumberResponse
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.NaturalMatingEntityService.FindNaturalServicesByHerdNumberRequest">
+            <summary>
+            Service Contract Class - FindNaturalServicesByHerdNumberRequest
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.NaturalMatingEntityService.FindNaturalServicesByHerdNumberResponse">
+            <summary>
+            Service Contract Class - FindNaturalServicesByHerdNumberResponse
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.NaturalMatingEntityService.GetNaturalServiceByIdRequest">
+            <summary>
+            Service Contract Class - GetNaturalServiceByIdRequest
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.NaturalMatingEntityService.GetNaturalServiceByIdResponse">
+            <summary>
+            Service Contract Class - GetNaturalServiceByIdResponse
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.NaturalMatingEntityService.RegisterNaturalServiceRequest">
+            <summary>
+            Service Contract Class - RegisterNaturalServiceRequest
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.NaturalMatingEntityService.RegisterNaturalServiceResponse">
+            <summary>
+            Service Contract Class - RegisterNaturalServiceResponse
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.NaturalMatingEntityService.UpdateNaturalServiceRequest">
+            <summary>
+            Service Contract Class - UpdateNaturalServiceRequest
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.NaturalMatingEntityService.UpdateNaturalServiceResponse">
+            <summary>
+            Service Contract Class - UpdateNaturalServiceResponse
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.PedigreeService.FindPedigreesByHerdNumberRequest">
+            <summary>
+            Service Contract Class - FindPedigreeByHerdNumberRequest
+            </summary>
+        </member>
+        <member name="P:DLBR.DCF.KDB.MessageContracts.PedigreeService.FindPedigreesByHerdNumberRequest.HerdNumber">
+            <summary>
+            return pedigree for all active animals on this herd
+            </summary>
+        </member>
+        <member name="P:DLBR.DCF.KDB.MessageContracts.PedigreeService.FindPedigreesByHerdNumberRequest.AnimalType">
+            <summary>
+            Animal type
+            </summary>
+        </member>
+        <member name="P:DLBR.DCF.KDB.MessageContracts.PedigreeService.FindPedigreesByHerdNumberRequest.NoOfLevels">
+            <summary>
+            No of levels of ancestors, 1= parents, 2= grandparents, etc
+            Default=1
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.PedigreeService.FindPedigreesByHerdNumberResponse">
+            <summary>
+            Service Contract Class - FindPedigreeByHerdNumberResponse
+            </summary>
+        </member>
+        <member name="P:DLBR.DCF.KDB.MessageContracts.PedigreeService.FindPedigreesByHerdNumberResponse.PedigreeList">
+            <summary>
+            List of <see cref="T:DLBR.DCF.KDB.DataContracts.PedigreeService.Pedigree"/> entities.
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.PedigreeService.GetPedigreeByAnimalNumberRequest">
+            <summary>
+            Service Contract Class - GetPedigreeByAnimalNumberRequest
+            </summary>
+        </member>
+        <member name="P:DLBR.DCF.KDB.MessageContracts.PedigreeService.GetPedigreeByAnimalNumberRequest.AnimalNumber">
+            <summary>
+            Animal number for the pedigree
+            </summary>
+        </member>
+        <member name="P:DLBR.DCF.KDB.MessageContracts.PedigreeService.GetPedigreeByAnimalNumberRequest.NoOfLevels">
+            <summary>
+            Noof levels of ancestors, 1= parents, 2= grandparents, etc
+            Default = 3
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.PedigreeService.GetPedigreeByAnimalNumberResponse">
+            <summary>
+            Service Contract Class - GetPedigreeByAnimalNumberResponse
+            </summary>
+        </member>
+        <member name="P:DLBR.DCF.KDB.MessageContracts.PedigreeService.GetPedigreeByAnimalNumberResponse.Pedigree">
+            <summary>
+            <see cref="P:DLBR.DCF.KDB.MessageContracts.PedigreeService.GetPedigreeByAnimalNumberResponse.Pedigree"/> entity of the actual animal
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.ReportBuilderEntityService.DeleteReportDefinitionRequest">
+            <summary>
+            Service Contract Class - DeleteReportDefinitionRequest
+            </summary>
+        </member>
+        <member name="P:DLBR.DCF.KDB.MessageContracts.ReportBuilderEntityService.DeleteReportDefinitionRequest.XmlReportRefId">
+            <summary>
+            The unique Id of the specific report to delete
+            </summary>
+        </member>
+        <member name="P:DLBR.DCF.KDB.MessageContracts.ReportBuilderEntityService.DeleteReportDefinitionRequest.UserId">
+            <summary>
+            The Id of the user performing the operation
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.ReportBuilderEntityService.DeleteReportDefinitionResponse">
+            <summary>
+            Service Contract Class - DeleteReportDefinitionResponse
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.ReportBuilderEntityService.FindReportDefinitionsRequest">
+            <summary>
+            Service Contract Class - FindReportDefinitionsRequest
+            </summary>
+        </member>
+        <member name="P:DLBR.DCF.KDB.MessageContracts.ReportBuilderEntityService.FindReportDefinitionsRequest.AgriBusinessId">
+            <summary>
+            The Id of the AgriBusiness
+            </summary>
+        </member>
+        <member name="P:DLBR.DCF.KDB.MessageContracts.ReportBuilderEntityService.FindReportDefinitionsRequest.UserId">
+            <summary>
+            The Id of the user performing the operation
+            </summary>
+        </member>
+        <member name="P:DLBR.DCF.KDB.MessageContracts.ReportBuilderEntityService.FindReportDefinitionsRequest.XmlReportRefId">
+            <summary>
+            The unique Id of a specific report to retreive (Optional)
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.ReportBuilderEntityService.FindReportDefinitionsResponse">
+            <summary>
+            Service Contract Class - FindReportDefinitionsResponse
+            </summary>
+        </member>
+        <member name="P:DLBR.DCF.KDB.MessageContracts.ReportBuilderEntityService.FindReportDefinitionsResponse.ReportDefinitions">
+            <summary>
+            A list of <see cref="T:DLBR.DCF.KDB.DataContracts.ReportBuilderEntityService.ReportDefinition"/> entities.
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.ReportBuilderEntityService.FindStandardReportsRequest">
+            <summary>
+            Service Contract Class - FindStandardReportsRequest
+            </summary>
+        </member>
+        <member name="P:DLBR.DCF.KDB.MessageContracts.ReportBuilderEntityService.FindStandardReportsRequest.AgriBusinessId">
+            <summary>
+            The Id of the AgriBusiness
+            </summary>
+        </member>
+        <member name="P:DLBR.DCF.KDB.MessageContracts.ReportBuilderEntityService.FindStandardReportsRequest.UserId">
+            <summary>
+            The Id of the user performing the operation
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.ReportBuilderEntityService.FindStandardReportsResponse">
+            <summary>
+            Service Contract Class - FindStandardReportsResponse
+            </summary>
+        </member>
+        <member name="P:DLBR.DCF.KDB.MessageContracts.ReportBuilderEntityService.FindStandardReportsResponse.Categories">
+            <summary>
+            A list of <see cref="T:DLBR.DCF.KDB.DataContracts.ReportBuilderEntityService.StandardReportCategory"/> entities.
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.ReportBuilderEntityService.FindSubReportPicturesRequest">
+            <summary>
+            Service Contract Class - FindSubReportPicturesRequest
+            </summary>
+        </member>
+        <member name="P:DLBR.DCF.KDB.MessageContracts.ReportBuilderEntityService.FindSubReportPicturesRequest.SubReportId">
+            <summary>
+            The Id of the SubReport
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.ReportBuilderEntityService.FindSubReportPicturesResponse">
+            <summary>
+            Service Contract Class - FindSubReportPicturesResponse
+            </summary>
+        </member>
+        <member name="F:DLBR.DCF.KDB.MessageContracts.ReportBuilderEntityService.FindSubReportPicturesResponse.SubReportPictures">
+            <summary>
+            A list of <see cref="T:DLBR.DCF.KDB.DataContracts.ReportBuilderEntityService.SubReportPicture"/> entities.
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.ReportBuilderEntityService.FindSubReportsRequest">
+            <summary>
+            Service Contract Class - FindSubReportsRequest
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.ReportBuilderEntityService.FindSubReportsResponse">
+            <summary>
+            Service Contract Class - FindSubReportsResponse
+            </summary>
+        </member>
+        <member name="P:DLBR.DCF.KDB.MessageContracts.ReportBuilderEntityService.FindSubReportsResponse.Categories">
+            <summary>
+            A list of <see cref="T:DLBR.DCF.KDB.DataContracts.ReportBuilderEntityService.SubReportCategory"/> entities.
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.ReportBuilderEntityService.GetKPOSubReportDefaultConfigurationRequest">
+            <summary>
+            Service Contract Class - GetKPOSubReportDefaultConfigurationRequest
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.ReportBuilderEntityService.GetKPOSubReportDefaultConfigurationResponse">
+            <summary>
+            Service Contract Class - GetKPOSubReportDefaultConfigurationResponse
+            </summary>
+        </member>
+        <member name="P:DLBR.DCF.KDB.MessageContracts.ReportBuilderEntityService.GetKPOSubReportDefaultConfigurationResponse.KPOSubReportConfigurationList">
+            <summary>
+            A list of <see cref="T:DLBR.DCF.KDB.DataContracts.ReportBuilderEntityService.KPOSubReportConfiguration"/> entities.
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.ReportBuilderEntityService.GetStandardReportStatusRequest">
+            <summary>
+            Service Contract Class - GetStandardReportStatusRequest
+            </summary>
+        </member>
+        <member name="P:DLBR.DCF.KDB.MessageContracts.ReportBuilderEntityService.GetStandardReportStatusRequest.ReportId">
+            <summary>
+            The Id of the Report
+            </summary>
+        </member>
+        <member name="P:DLBR.DCF.KDB.MessageContracts.ReportBuilderEntityService.GetStandardReportStatusRequest.ManagementUnitId">
+            <summary>
+            The Id of the ManagementUnit
+            </summary>
+        </member>
+        <member name="P:DLBR.DCF.KDB.MessageContracts.ReportBuilderEntityService.GetStandardReportStatusRequest.UserId">
+            <summary>
+            The Id of the User
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.ReportBuilderEntityService.GetStandardReportStatusResponse">
+            <summary>
+            Service Contract Class - GetStandardReportStatusResponse
+            </summary>
+        </member>
+        <member name="P:DLBR.DCF.KDB.MessageContracts.ReportBuilderEntityService.GetStandardReportStatusResponse.ReportStatus">
+            <summary>
+            The Status of the Report
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.ReportBuilderEntityService.UpdateReportDefinitionRequest">
+            <summary>
+            Service Contract Class - UpdateReportDefinitionRequest
+            </summary>
+        </member>
+        <member name="P:DLBR.DCF.KDB.MessageContracts.ReportBuilderEntityService.UpdateReportDefinitionRequest.XmlReportRefId">
+            <summary>
+            The optional unique Id of the report to update
+            If not specified, a new report is created
+            </summary>
+        </member>
+        <member name="P:DLBR.DCF.KDB.MessageContracts.ReportBuilderEntityService.UpdateReportDefinitionRequest.AgriBusinessId">
+            <summary>
+            The Id of the AgriBusiness
+            </summary>
+        </member>
+        <member name="P:DLBR.DCF.KDB.MessageContracts.ReportBuilderEntityService.UpdateReportDefinitionRequest.UserId">
+            <summary>
+            The Id of the user performing the operation
+            </summary>
+        </member>
+        <member name="P:DLBR.DCF.KDB.MessageContracts.ReportBuilderEntityService.UpdateReportDefinitionRequest.ReportName">
+            <summary>
+            The name of the report
+            An existing report may be renamed
+            </summary>
+        </member>
+        <member name="P:DLBR.DCF.KDB.MessageContracts.ReportBuilderEntityService.UpdateReportDefinitionRequest.SubReports">
+            <summary>
+            A list of <see cref="T:DLBR.DCF.KDB.DataContracts.ReportBuilderEntityService.SubReportEdition"/> entities belonging to the report.
+            </summary>
+        </member>
+        <member name="P:DLBR.DCF.KDB.MessageContracts.ReportBuilderEntityService.UpdateReportDefinitionRequest.SubReportParameters">
+            <summary>
+            A list of <see cref="T:DLBR.DCF.KDB.DataContracts.ReportBuilderEntityService.SubReportEditionParameterValue"/> entities belonging to the report.
+            </summary>
+        </member>
+        <member name="P:DLBR.DCF.KDB.MessageContracts.ReportBuilderEntityService.UpdateReportDefinitionRequest.TemplateReportRefId">
+            <summary>
+            The id of the referenced template report
+            NULL if the report does not reference a template
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.ReportBuilderEntityService.UpdateReportDefinitionResponse">
+            <summary>
+            Service Contract Class - UpdateReportDefinitionResponse
+            </summary>
+        </member>
+        <member name="P:DLBR.DCF.KDB.MessageContracts.ReportBuilderEntityService.UpdateReportDefinitionResponse.Result">
+            <summary>
+            <see cref="T:DLBR.DCF.KDB.DataContracts.ReportBuilderEntityService.ReportDefinitionUpdateResult"/> entity describing the result of the operation
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.RegisterSemenStockTransferRequest">
+            <summary>
+            Service Contract Class - RegisterSemenStockTransferRequest
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.RegisterSemenStockTransferResponse">
+            <summary>
+            Service Contract Class - RegisterSemenStockTransferResponse
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.FindSemenStocksByHerdBookNumberRequest">
+            <summary>
+            Service Contract Class - FindSemenStocksByHerdBookNumberRequest
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.FindSemenStocksByHerdBookNumberResponse">
+            <summary>
+            Service Contract Class - FindSemenStocksByHerdBookNumberResponse
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.FindSemenStocksByHerdNumberRequest">
+            <summary>
+            Service Contract Class - FindSemenStocksByHerdNumberRequest
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.FindSemenStocksByHerdNumberResponse">
+            <summary>
+            Service Contract Class - FindSemenStocksByHerdNumberResponse
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.FindSemenStocksByInseminatorNumberRequest">
+            <summary>
+            Service Contract Class - FindSemenStocksByInseminatorNumberRequest
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.FindSemenStocksByInseminatorNumberResponse">
+            <summary>
+            Service Contract Class - FindSemenStocksByInseminatorNumberResponse
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.FindSiresByNameRequest">
+            <summary>
+            Service Contract Class - FindSiresByNameRequest
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.FindSiresByNameResponse">
+            <summary>
+            Service Contract Class - FindSiresByNameResponse
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.FindUpdatedCprInfoByDateRequest">
+            <summary>
+            Service Contract Class - FindUpdatedCprInfoByDateRequest
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.FindUpdatedCprInfoByDateResponse">
+            <summary>
+            Service Contract Class - FindUpdatedCprInfoByDateResponse
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.FindUpdatedCvrInfoByDateRequest">
+            <summary>
+            Service Contract Class - FindUpdatedCvrInfoByDateRequest
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.FindUpdatedCvrInfoByDateResponse">
+            <summary>
+            Service Contract Class - FindUpdatedCvrInfoByDateResponse
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.FindUserAgriBusinessesRequest">
+            <summary>
+            Service Contract Class - FindUserAgriBusinessesRequest
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.FindUserAgriBusinessesResponse">
+            <summary>
+            Service Contract Class - FindUserAgriBusinessesResponse
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.FindUserHerdsRequest">
+            <summary>
+            Service Contract Class - FindUserHerdsRequest
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.FindUserHerdsResponse">
+            <summary>
+            Service Contract Class - FindUserHerdsResponse
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.FindUserSpecificAdvisorsRequest">
+            <summary>
+            Service Contract Class - FindUserSpecificAdvisorsRequest
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.FindUserSpecificAdvisorsResponse">
+            <summary>
+            Service Contract Class - FindUserSpecificAdvisorsResponse
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.GenerateReportDataRequest">
+            <summary>
+            Service Contract Class - GenerateReportDataRequest
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.GenerateReportDataResponse">
+            <summary>
+            Service Contract Class - GenerateReportDataResponse
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.GenerateReportFileRequest">
+            <summary>
+            Service Contract Class - GenerateReportFileRequest
+            </summary>
+        </member>
+        <member name="P:DLBR.DCF.KDB.MessageContracts.GenerateReportFileRequest.ReportFileDefinition">
+            <summary>
+            The definition of the report file to generate.
+            </summary>
+        </member>
+        <member name="P:DLBR.DCF.KDB.MessageContracts.GenerateReportFileRequest.HerdNumber">
+            <summary>
+            A herd number specifying which herd to generate the report file for.
+            </summary>
+        </member>
+        <member name="P:DLBR.DCF.KDB.MessageContracts.GenerateReportFileRequest.AnimalType">
+            <summary>
+            The <see cref="P:DLBR.DCF.KDB.MessageContracts.GenerateReportFileRequest.AnimalType"/> type of animals in the herd, e.g. Cattle.
+            </summary>
+        </member>
+        <member name="P:DLBR.DCF.KDB.MessageContracts.GenerateReportFileRequest.FromDate">
+            <summary>
+            From date to generate the report file for. Required for some reports.
+            </summary>
+        </member>
+        <member name="P:DLBR.DCF.KDB.MessageContracts.GenerateReportFileRequest.ToDate">
+            <summary>
+            To date to generate the report file for. Required for some reports.
+            </summary>
+        </member>
+        <member name="P:DLBR.DCF.KDB.MessageContracts.GenerateReportFileRequest.AnimalNumber">
+            <summary>
+            Animal number to generate the report file for. Required for some reports.
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.GenerateReportFileResponse">
+            <summary>
+            Service Contract Class - GenerateReportFileResponse
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.GetAdvisorByAdvisorNumberRequest">
+            <summary>
+            Service Contract Class - GetAdvisorByAdvisorNumberRequest
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.GetAdvisorByAdvisorNumberResponse">
+            <summary>
+            Service Contract Class - GetAdvisorByAdvisorNumberResponse
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.GetAdvisorTypeCollectionRequest">
+            <summary>
+            Service Contract Class - GetAdvisorTypeCollectionRequest
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.GetAdvisorTypeCollectionResponse">
+            <summary>
+            Service Contract Class - GetAdvisorTypeCollectionResponse
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.GetAgriBusinessByIdRequest">
+            <summary>
+            Service Contract Class - GetAgriBusinessByIdRequest
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.GetAgriBusinessByIdResponse">
+            <summary>
+            Service Contract Class - GetAgriBusinessByIdResponse
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.GetAllBasicInformationsRequest">
+            <summary>
+            Service Contract Class - GetAllBasicInformationsRequest
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.GetAllBasicInformationsResponse">
+            <summary>
+            Service Contract Class - GetAllBasicInformationsResponse
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.GetAnimalByNumberRequest">
+            <summary>
+            Service Contract Class - GetAnimalByNumberRequest
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.GetAnimalByNumberResponse">
+            <summary>
+            Service Contract Class - GetAnimalByNumberResponse
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.GetAnimalColorCollectionRequest">
+            <summary>
+            Service Contract Class - GetAnimalColorCollectionRequest
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.GetAnimalColorCollectionResponse">
+            <summary>
+            Service Contract Class - GetAnimalColorCollectionResponse
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.GetAnimalCountByHerdNumberRequest">
+            <summary>
+            Service Contract Class - GetAnimalCountByHerdNumberRequest
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.GetAnimalCountByHerdNumberResponse">
+            <summary>
+            Service Contract Class - GetAnimalCountByHerdNumberResponse
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.GetAnimalDataByDistrictNumberRequest">
+            <summary>
+            Service Contract Class - GetAnimalDataByDistrictNumberRequest
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.GetAnimalDataByDistrictNumberResponse">
+            <summary>
+            Service Contract Class - GetAnimalDataByDistrictNumberResponse
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.GetAnimalEventLogCollectionResponse">
+            <summary>
+            Service Contract Class - GetAnimalEventLogCollectionResponse
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.GetAnimalEventLogTypeCollectionRequest">
+            <summary>
+            Service Contract Class - GetAnimalEventLogTypeCollectionRequest
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.GetAnimalEventLogTypeCollectionResponse">
+            <summary>
+            Service Contract Class - GetAnimalEventLogTypeCollectionResponse
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.GetAnimalGroupCollectionRequest">
+            <summary>
+            Service Contract Class - GetAnimalGroupCollectionRequest
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.GetAnimalGroupCollectionResponse">
+            <summary>
+            Service Contract Class - GetAnimalGroupCollectionResponse
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.GetAnimalHealthByIdRequest">
+            <summary>
+            Service Contract Class - GetAnimalHealthByIdRequest
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.GetAnimalHealthByIdResponse">
+            <summary>
+            Service Contract Class - GetAnimalHealthByIdResponse
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.GetAnimalOriginCollectionRequest">
+            <summary>
+            Service Contract Class - GetAnimalOriginCollectionRequest
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.GetAnimalOriginCollectionResponse">
+            <summary>
+            Service Contract Class - GetAnimalOriginCollectionResponse
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.GetAnimalRaceCollectionRequest">
+            <summary>
+            Service Contract Class - GetAnimalRaceCollectionRequest
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.GetAnimalRaceCollectionResponse">
+            <summary>
+            Service Contract Class - GetAnimalRaceCollectionResponse
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.GetAnimalSizeCollectionRequest">
+            <summary>
+            Service Contract Class - GetAnimalSizeCollectionRequest
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.GetAnimalSizeCollectionResponse">
+            <summary>
+            Service Contract Class - GetAnimalSizeCollectionResponse
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.GetAnimalStatusCollectionRequest">
+            <summary>
+            Service Contract Class - GetAnimalStatusCollectionRequest
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.GetAnimalStatusCollectionResponse">
+            <summary>
+            Service Contract Class - GetAnimalStatusCollectionResponse
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.GetAnimalTransferTypeCollectionRequest">
+            <summary>
+            Service Contract Class - GetAnimalTransferTypeCollectionRequest
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.GetAnimalTransferTypeCollectionResponse">
+            <summary>
+            Service Contract Class - GetAnimalTransferTypeCollectionResponse
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.GetAnimalTypeCollectionRequest">
+            <summary>
+            Service Contract Class - GetAnimalTypeCollectionRequest
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.GetAnimalTypeCollectionResponse">
+            <summary>
+            Service Contract Class - GetAnimalTypeCollectionResponse
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.GetAppendixPDFRequest">
+            <summary>
+            Service Contract Class - GetAppendixPDFRequest
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.GetAppendixPDFResponse">
+            <summary>
+            Service Contract Class - GetAppendixPDFResponse
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.GetAuthorizedReportsRequest">
+            <summary>
+            Service Contract Class - GetAuthorizedReportsRequest
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.GetAuthorizedReportsResponse">
+            <summary>
+            Service Contract Class - GetAuthorizedReportsResponse
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.GetBasicInformationsRequest">
+            <summary>
+            Service Contract Class - GetBasicInformationsRequest
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.GetBasicInformationsResponse">
+            <summary>
+            Service Contract Class - GetBasicInformationsResponse
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.GetBasicMetadataRequest">
+            <summary>
+            Service Contract Class - GetBasicMetadataRequest
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.GetBasicMetadataResponse">
+            <summary>
+            Service Contract Class - GetBasicMetadataResponse
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.GetBullDataRequest">
+            <summary>
+            Service Contract Class - GetBullDataRequest
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.GetBullDataResponse">
+            <summary>
+            Service Contract Class - GetBullDataResponse
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.GetCalvingByCalfAnimalNumberRequest">
+            <summary>
+            Service Contract Class - GetCalvingByCalfAnimalNumberRequest
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.GetCalvingByDBIDRequest">
+            <summary>
+            Service Contract Class - GetCalvingByDBIDRequest
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.GetCalvingByCalfAnimalNumberResponse">
+            <summary>
+            Service Contract Class - GetCalvingByCalfAnimalNumberResponse
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.GetCalvingByDBIDResponse">
+            <summary>
+            Service Contract Class - GetCalvingByDBIDResponse
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.GetCalvingOutcomeCollectionRequest">
+            <summary>
+            Service Contract Class - GetCalvingOutcomeCollectionRequest
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.GetCalvingOutcomeCollectionResponse">
+            <summary>
+            Service Contract Class - GetCalvingOutcomeCollectionResponse
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.GetCalvingProgressCollectionRequest">
+            <summary>
+            Service Contract Class - GetCalvingProgressCollectionRequest
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.GetCalvingProgressCollectionResponse">
+            <summary>
+            Service Contract Class - GetCalvingProgressCollectionResponse
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.GetClinicalParameterCollectionRequest">
+            <summary>
+            Service Contract Class - GetClinicalParameterCollectionRequest
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.GetClinicalParameterCollectionResponse">
+            <summary>
+            Service Contract Class - GetClinicalParameterCollectionResponse
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.GetClinicalRecordingByIdRequest">
+            <summary>
+            Service Contract Class - GetClinicalRecordingByIdRequest
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.GetClinicalRecordingByIdResponse">
+            <summary>
+            Service Contract Class - GetClinicalRecordingByIdResponse
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.GetCollectionsRequest">
+            <summary>
+            Service Contract Class - GetCollectionsRequest
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.GetCollectionsResponse">
+            <summary>
+            Service Contract Class - GetCollectionsResponse
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.GetCprInfoByCprNumberRequest">
+            <summary>
+            Service Contract Class - GetCprInfoByCprNumberRequest
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.GetCprInfoByCprNumberResponse">
+            <summary>
+            Service Contract Class - GetCprInfoByCprNumberResponse
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.GetCullingByIdRequest">
+            <summary>
+            Service Contract Class - GetCullingByIdRequest
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.GetCullingByIdResponse">
+            <summary>
+            Service Contract Class - GetCullingByIdResponse
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.GetCullingTypeCollectionRequest">
+            <summary>
+            Service Contract Class - GetCullingTypeCollectionRequest
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.GetCullingTypeCollectionResponse">
+            <summary>
+            Service Contract Class - GetCullingTypeCollectionResponse
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.GetCvrInfoByCvrNumberRequest">
+            <summary>
+            Service Contract Class - GetCvrInfoByCvrNumberRequest
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.GetCvrInfoByCvrNumberResponse">
+            <summary>
+            Service Contract Class - GetCvrInfoByCvrNumberResponse
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.GetDiseaseCharacteristicCollectionRequest">
+            <summary>
+            Service Contract Class - GetDiseaseCharacteristicCollectionRequest
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.GetDiseaseCharacteristicCollectionResponse">
+            <summary>
+            Service Contract Class - GetDiseaseCharacteristicCollectionResponse
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.GetDiseaseSeverityCollectionRequest">
+            <summary>
+            Service Contract Class - GetDiseaseSeverityCollectionRequest
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.GetDiseaseSeverityCollectionResponse">
+            <summary>
+            Service Contract Class - GetDiseaseSeverityCollectionResponse
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.GetDiseaseSiteCollectionRequest">
+            <summary>
+            Service Contract Class - GetDiseaseSiteCollectionRequest
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.GetDiseaseSiteCollectionResponse">
+            <summary>
+            Service Contract Class - GetDiseaseSiteCollectionResponse
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.GetDiseaseTreatmentMethodCollectionRequest">
+            <summary>
+            Service Contract Class - GetDiseaseTreatmentMethodCollectionRequest
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.GetDiseaseTreatmentMethodCollectionResponse">
+            <summary>
+            Service Contract Class - GetDiseaseTreatmentMethodCollectionResponse
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.GetDiseaseTypeCollectionRequest">
+            <summary>
+            Service Contract Class - GetDiseaseTypeCollectionRequest
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.GetDiseaseTypeCollectionResponse">
+            <summary>
+            Service Contract Class - GetDiseaseTypeCollectionResponse
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.GetDrugCollectionRequest">
+            <summary>
+            Service Contract Class - GetDrugCollectionRequest
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.GetDrugCollectionResponse">
+            <summary>
+            Service Contract Class - GetDrugCollectionResponse
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.GetDrugUnitCollectionRequest">
+            <summary>
+            Service Contract Class - GetDrugUnitCollectionRequest
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.GetDrugUnitCollectionResponse">
+            <summary>
+            Service Contract Class - GetDrugUnitCollectionResponse
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.GetDrugUsageCollectionRequest">
+            <summary>
+            Service Contract Class - GetDrugUsageCollectionRequest
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.GetDrugUsageCollectionResponse">
+            <summary>
+            Service Contract Class - GetDrugUsageCollectionResponse
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.GetEarmarkArticleTypeCollectionRequest">
+            <summary>
+            Service Contract Class - GetEarmarkArticleTypeCollectionRequest
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.GetEarmarkArticleTypeCollectionResponse">
+            <summary>
+            Service Contract Class - GetEarmarkArticleTypeCollectionResponse
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.GetEarmarkCashOnDeliveryByCHRNumberRequest">
+            <summary>
+            Service Contract Class - GetEarmarkCashOnDeliveryByCHRNumberRequest
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.GetEarmarkCashOnDeliveryByCHRNumberResponse">
+            <summary>
+            Service Contract Class - GetEarmarkCashOnDeliveryByCHRNumberResponse
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.GetEarmarkColorTypeCollectionRequest">
+            <summary>
+            Service Contract Class - GetEarmarkColorTypeCollectionRequest
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.GetEarmarkColorTypeCollectionResponse">
+            <summary>
+            Service Contract Class - GetEarmarkColorTypeCollectionResponse
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.GetEarmarkEmailRequest">
+            <summary>
+            Service Contract Class - GetEarmarkEmailRequest
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.GetEarmarkEmailResponse">
+            <summary>
+            Service Contract Class - GetEarmarkEmailResponse
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.GetEarmarkManufacturerTypeCollectionRequest">
+            <summary>
+            Service Contract Class - GetEarmarkManufacturerTypeCollectionRequest
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.GetEarmarkManufacturerTypeCollectionResponse">
+            <summary>
+            Service Contract Class - GetEarmarkManufacturerTypeCollectionResponse
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.GetEarmarkOptionalTextTypeCollectionRequest">
+            <summary>
+            Service Contract Class - GetEarmarkOptionalTextTypeCollectionRequest
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.GetEarmarkOptionalTextTypeCollectionResponse">
+            <summary>
+            Service Contract Class - GetEarmarkOptionalTextTypeCollectionResponse
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.GetFeedingDaysByManagementUnitIdRequest">
+            <summary>
+            Service Contract Class - GetFeedingDaysByManagementUnitIdRequest
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.GetFeedingDaysByManagementUnitIdResponse">
+            <summary>
+            Service Contract Class - GetFeedingDaysByManagementUnitIdResponse
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.GetEventLogRequest">
+            <summary>
+            Service Contract Class - GetEventLogRequest
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.GetEventLogResponse">
+            <summary>
+            Service Contract Class - GetEventLogResponse
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.GetGenderCollectionRequest">
+            <summary>
+            Service Contract Class - GetGenderCollectionRequest
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.GetGenderCollectionResponse">
+            <summary>
+            Service Contract Class - GetGenderCollectionResponse
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.GetGHIDataRequest">
+            <summary>
+            Service Contract Class - GetGHIDataRequest
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.GetGHIDataResponse">
+            <summary>
+            Service Contract Class - GetGHIDataResponse
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.GetHerdByHerdNumberRequest">
+            <summary>
+            Service Contract Class - GetHerdByHerdNumberRequest
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.GetHerdByHerdNumberResponse">
+            <summary>
+            Service Contract Class - GetHerdByHerdNumberResponse
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.GetHerdHealthStatusRequest">
+            <summary>
+            Service Contract Class - GetHerdHealthStatusRequest
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.GetHerdHealthStatusResponse">
+            <summary>
+            Service Contract Class - GetHerdHealthStatusResponse
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.GetHerdPracticeRequest">
+            <summary>
+            Service Contract Class - GetHerdPracticeRequest
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.GetHerdPracticeResponse">
+            <summary>
+            Service Contract Class - GetHerdPracticeResponse
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.GetHerdRecordDataRequest">
+            <summary>
+            Service Contract Class - GetHerdRecordDataRequest
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.GetHerdRecordDataResponse">
+            <summary>
+            Service Contract Class - GetHerdRecordDataResponse
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.GetHerdRemarkTypeCollectionRequest">
+            <summary>
+            Service Contract Class - GetHerdRemarkTypeCollectionRequest
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.GetHerdRemarkTypeCollectionResponse">
+            <summary>
+            Service Contract Class - GetHerdRemarkTypeCollectionResponse
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.GetHerdsRequest">
+            <summary>
+            Service Contract Class - GetHerdsRequest
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.GetHerdsResponse">
+            <summary>
+            Service Contract Class - GetHerdsResponse
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.GetHerdTypeCollectionRequest">
+            <summary>
+            Service Contract Class - GetHerdTypeCollectionRequest
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.GetHerdTypeCollectionResponse">
+            <summary>
+            Service Contract Class - GetHerdTypeCollectionResponse
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.GetInseminationByIdRequest">
+            <summary>
+            Service Contract Class - GetInseminationByIdRequest
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.GetInseminationByIdResponse">
+            <summary>
+            Service Contract Class - GetInseminationByIdResponse
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.GetInseminationProductCollectionRequest">
+            <summary>
+            Service Contract Class - GetInseminationProductCollectionRequest
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.GetInseminationProductCollectionResponse">
+            <summary>
+            Service Contract Class - GetInseminationProductCollectionResponse
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.GetInseminationTreatmentCodeCollectionRequest">
+            <summary>
+            Service Contract Class - GetInseminationTreatmentCodeCollectionRequest
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.GetInseminationTreatmentCodeCollectionResponse">
+            <summary>
+            Service Contract Class - GetInseminationTreatmentCodeCollectionResponse
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.GetInseminatorTimeRecordPartCollectionRequest">
+            <summary>
+            Service Contract Class - GetInseminatorTimeRecordPartCollectionRequest
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.GetInseminatorTimeRecordPartCollectionResponse">
+            <summary>
+            Service Contract Class - GetInseminatorTimeRecordPartCollectionResponse
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.GetInseminatorTourplanByIdRequest">
+            <summary>
+            Service Contract Class - GetInseminatorTourplanByIdRequest
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.GetInseminatorTourplanByIdResponse">
+            <summary>
+            Service Contract Class - GetInseminatorTourplanByIdResponse
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.GetInseminatorTourplanByNameRequest">
+            <summary>
+            Service Contract Class - GetInseminatorTourplanByNameRequest
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.GetInseminatorTourplanByNameResponse">
+            <summary>
+            Service Contract Class - GetInseminatorTourplanByNameResponse
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.GetInsOwnerCategoryCollectionRequest">
+            <summary>
+            Service Contract Class - GetInsOwnerCategoryCollectionRequest
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.GetInsOwnerCategoryCollectionResponse">
+            <summary>
+            Service Contract Class - GetInsOwnerCategoryCollectionResponse
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.GetInternalAnimalIdentifierTypeRequest">
+            <summary>
+            Service Contract Class - GetInternalAnimalIdentifierTypeRequest
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.GetInternalAnimalIdentifierTypeResponse">
+            <summary>
+            Service Contract Class - GetInternalAnimalIdentifierTypeResponse
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.GetInvoicesPDFRequest">
+            <summary>
+            Service Contract Class - GetInvoicesPDFRequest
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.GetInvoicesPDFResponse">
+            <summary>
+            Service Contract Class - GetInvoicesPDFResponse
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.GetInvoicesRequest">
+            <summary>
+            Service Contract Class - GetInvoicesRequest
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.GetInvoicesResponse">
+            <summary>
+            Service Contract Class - GetInvoicesResponse
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.GetMatingSchemeByAnimalNumberRequest">
+            <summary>
+            Service Contract Class - GetMatingSchemeByAnimalNumberRequest
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.GetMatingSchemeByAnimalNumberResponse">
+            <summary>
+            Service Contract Class - GetMatingSchemeByAnimalNumberResponse
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.GetMeatRetentionUnitCollectionRequest">
+            <summary>
+            Service Contract Class - GetMeatRetentionUnitCollectionRequest
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.GetMeatRetentionUnitCollectionResponse">
+            <summary>
+            Service Contract Class - GetMeatRetentionUnitCollectionResponse
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.GetMilkRecordingNoteCollectionRequest">
+            <summary>
+            Service Contract Class - GetMilkRecordingNoteCollectionRequest
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.GetMilkRecordingNoteCollectionResponse">
+            <summary>
+            Service Contract Class - GetMilkRecordingNoteCollectionResponse
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.GetMilkRetentionUnitCollectionRequest">
+            <summary>
+            Service Contract Class - GetMilkRetentionUnitCollectionRequest
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.GetMilkRetentionUnitCollectionResponse">
+            <summary>
+            Service Contract Class - GetMilkRetentionUnitCollectionResponse
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.GetModulesRequest">
+            <summary>
+            Service Contract Class - GetModulesRequest
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.GetModulesResponse">
+            <summary>
+            Service Contract Class - GetModulesResponse
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.GetNationalityCollectionRequest">
+            <summary>
+            Service Contract Class - GetNationalityCollectionRequest
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.GetNationalityCollectionResponse">
+            <summary>
+            Service Contract Class - GetNationalityCollectionResponse
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.GetPostingTypeCollectionRequest">
+            <summary>
+            Service Contract Class - GetPostingTypeCollectionRequest
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.GetPostingTypeCollectionResponse">
+            <summary>
+            Service Contract Class - GetPostingTypeCollectionResponse
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.GetPregnancyCheckByIdRequest">
+            <summary>
+            Service Contract Class - GetPregnancyCheckByIdRequest
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.GetPregnancyCheckByIdResponse">
+            <summary>
+            Service Contract Class - GetPregnancyCheckByIdResponse
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.GetPrescriptionGroupCollectionRequest">
+            <summary>
+            Service Contract Class - GetPrescriptionGroupCollectionRequest
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.GetPrescriptionGroupCollectionResponse">
+            <summary>
+            Service Contract Class - GetPrescriptionGroupCollectionResponse
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.GetReducedAnimalGroupsByMangementUnitIdRequest">
+            <summary>
+            Service Contract Class - GetReducedAnimalGroupsByMangementUnitIdRequest
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.GetReducedAnimalGroupsByMangementUnitIdResponse">
+            <summary>
+            Service Contract Class - GetReducedAnimalGroupsByMangementUnitIdResponse
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.GetReportDataRequest">
+            <summary>
+            Service Contract Class - GetReportDataRequest
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.GetReportDataResponse">
+            <summary>
+            Service Contract Class - GetReportDataResponse
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.GetReportFileLinkRequest">
+            <summary>
+            Service Contract Class - GetReportFileLinkRequest
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.GetReportFileLinkResponse">
+            <summary>
+            Service Contract Class - GetReportFileLinkResponse
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.GetReportFileRequest">
+            <summary>
+            Service Contract Class - GetReportFileRequest
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.GetReportFileResponse">
+            <summary>
+            Service Contract Class - GetReportFileResponse
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.GetReportFileStatusRequest">
+            <summary>
+            Service Contract Class - GetReportFileStatusRequest
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.GetReportFileStatusResponse">
+            <summary>
+            Service Contract Class - GetReportFileStatusResponse
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.GetReportStatusRequest">
+            <summary>
+            Service Contract Class - GetReportStatusRequest
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.GetReportStatusResponse">
+            <summary>
+            Service Contract Class - GetReportStatusResponse
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.GetReproductionObservationListByHerdNumberRequest">
+            <summary>
+            Service Contract Class - GetReproductionObservationListByHerdNumberRequest
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.GetReproductionObservationListByHerdNumberResponse">
+            <summary>
+            Service Contract Class - GetReproductionObservationListByHerdNumberResponse
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.GetReproductionPreObservationListByHerdNumberRequest">
+            <summary>
+            Service Contract Class - GetReproductionPreObservationListByHerdNumberRequest
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.GetReproductionPreObservationListByHerdNumberResponse">
+            <summary>
+            Service Contract Class - GetReproductionPreObservationListByHerdNumberResponse
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.GetReproductionStatusByAnimalNumberRequest">
+            <summary>
+            Service Contract Class - GetReproductionStatusByAnimalNumberRequest
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.GetReproductionStatusByAnimalNumberResponse">
+            <summary>
+            Service Contract Class - GetReproductionStatusByAnimalNumberResponse
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.GetRYKAppendixPDFRequest">
+            <summary>
+            Service Contract Class - GetRYKAppendixPDFRequest
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.GetRYKAppendixPDFResponse">
+            <summary>
+            Service Contract Class - GetRYKAppendixPDFResponse
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.GetRYKHerdsRequest">
+            <summary>
+            Service Contract Class - GetRYKHerdsRequest
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.GetRYKHerdsResponse">
+            <summary>
+            Service Contract Class - GetRYKHerdsResponse
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.GetRYKInvoicesPDFRequest">
+            <summary>
+            Service Contract Class - GetRYKInvoicesPDFRequest
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.GetRYKInvoicesPDFResponse">
+            <summary>
+            Service Contract Class - GetRYKInvoicesPDFResponse
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.GetRYKInvoicesRequest">
+            <summary>
+            Service Contract Class - GetRYKInvoicesRequest
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.GetRYKInvoicesResponse">
+            <summary>
+            Service Contract Class - GetRYKInvoicesResponse
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.GetRYKSubscriberContactListRequest">
+            <summary>
+            Service Contract Class - GetRYKSubscriberContactListRequest
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.GetRYKSubscriberContactListResponse">
+            <summary>
+            Service Contract Class - GetRYKSubscriberContactListResponse
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.GetRYKSubscriberInvoiceListRequest">
+            <summary>
+            Service Contract Class - GetRYKSubscriberInvoiceListRequest
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.GetRYKSubscriberInvoiceListResponse">
+            <summary>
+            Service Contract Class - GetRYKSubscriberInvoiceListResponse
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.GetSemenStockByIdRequest">
+            <summary>
+            Service Contract Class - GetSemenStockByIdRequest
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.GetSemenStockByIdResponse">
+            <summary>
+            Service Contract Class - GetSemenStockByIdResponse
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.GetSireByHerdBookNumberRequest">
+            <summary>
+            Service Contract Class - GetSireByHerdBookNumberRequest
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.GetSireByHerdBookNumberResponse">
+            <summary>
+            Service Contract Class - GetSireByHerdBookNumberResponse
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.GetSubscriberContactListRequest">
+            <summary>
+            Service Contract Class - GetSubscriberContactListRequest
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.GetSubscriberContactListResponse">
+            <summary>
+            Service Contract Class - GetSubscriberContactListResponse
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.GetSubscriberInvoiceListRequest">
+            <summary>
+            Service Contract Class - GetSubscriberInvoiceListRequest
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.GetSubscriberInvoiceListResponse">
+            <summary>
+            Service Contract Class - GetSubscriberInvoiceListResponse
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.GetTransferCauseCollectionRequest">
+            <summary>
+            Service Contract Class - GetTransferCauseCollectionRequest
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.GetTransferCauseCollectionResponse">
+            <summary>
+            Service Contract Class - GetTransferCauseCollectionResponse
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.GetTwinCodeCollectionRequest">
+            <summary>
+            Service Contract Class - GetTwinCodeCollectionRequest
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.GetTwinCodeCollectionResponse">
+            <summary>
+            Service Contract Class - GetTwinCodeCollectionResponse
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.GetUserHerdCountRequest">
+            <summary>
+            Service Contract Class - GetUserHerdCountRequest
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.GetUserHerdCountResponse">
+            <summary>
+            Service Contract Class - GetUserHerdCountResponse
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.GetValidationInformationRequest">
+            <summary>
+            Service Contract Class - GetValidationInformationRequest
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.GetValidationInformationResponse">
+            <summary>
+            Service Contract Class - GetValidationInformationResponse
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.GetVetSampleTypeCollectionRequest">
+            <summary>
+            Service Contract Class - GetVetSampleTypeCollectionRequest
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.GetVetSampleTypeCollectionResponse">
+            <summary>
+            Service Contract Class - GetVetSampleTypeCollectionResponse
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.GetWeighingMethodCollectionRequest">
+            <summary>
+            Service Contract Class - GetWeighingMethodCollectionRequest
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.GetWeighingMethodCollectionResponse">
+            <summary>
+            Service Contract Class - GetWeighingMethodCollectionResponse
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.GetWeighingTypeCollectionRequest">
+            <summary>
+            Service Contract Class - GetWeighingTypeCollectionRequest
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.GetWeighingTypeCollectionResponse">
+            <summary>
+            Service Contract Class - GetWeighingTypeCollectionResponse
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.InsertBasicInformationsRequest">
+            <summary>
+            Service Contract Class - InsertBasicInformationsRequest
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.InsertBasicInformationsResponse">
+            <summary>
+            Service Contract Class - InsertBasicInformationsResponse
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.InsertInseminationRouteRequest">
+            <summary>
+            Service Contract Class - InsertInseminationRouteRequest
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.InsertInseminationRouteResponse">
+            <summary>
+            Service Contract Class - InsertInseminationRouteResponse
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.InsertInseminationTreatmentRequest">
+            <summary>
+            Service Contract Class - InsertInseminationTreatmentRequest
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.InsertInseminationTreatmentResponse">
+            <summary>
+            Service Contract Class - InsertInseminationTreatmentResponse
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.InsertNordicClassificationRequest">
+            <summary>
+            Service Contract Class - InsertNordicClassificationRequest
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.InsertNordicClassificationResponse">
+            <summary>
+            Service Contract Class - InsertNordicClassificationResponse
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.FindOrganicStateRequest">
+            <summary>
+            Service Contract Class - FindOrganicStateRequest
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.FindOrganicStateResponse">
+            <summary>
+            Service Contract Class - FindOrganicStateResponse
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.ReadInseminationRouteRequest">
+            <summary>
+            Service Contract Class - ReadInseminationRouteRequest
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.ReadInseminationRouteResponse">
+            <summary>
+            Service Contract Class - ReadInseminationRouteResponse
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.ReadInseminationTreatmentRequest">
+            <summary>
+            Service Contract Class - ReadInseminationTreatmentRequest
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.ReadInseminationTreatmentResponse">
+            <summary>
+            Service Contract Class - ReadInseminationTreatmentResponse
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.RegisterAnimalGroupTransferRequest">
+            <summary>
+            Service Contract Class - RegisterAnimalGroupTransferRequest
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.RegisterAnimalGroupTransferResponse">
+            <summary>
+            Service Contract Class - RegisterAnimalGroupTransferResponse
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.RegisterAnimalHealthRequest">
+            <summary>
+            Service Contract Class - RegisterAnimalHealthRequest
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.RegisterAnimalHealthResponse">
+            <summary>
+            Service Contract Class - RegisterAnimalHealthResponse
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.RegisterAnimalHealthsRequest">
+            <summary>
+            Service Contract Class - RegisterAnimalHealthsRequest
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.RegisterAnimalHealthsResponse">
+            <summary>
+            Service Contract Class - RegisterAnimalHealthsResponse
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.RegisterAnimalTransferRequest">
+            <summary>
+            Service Contract Class - RegisterAnimalTransferRequest
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.RegisterAnimalTransferResponse">
+            <summary>
+            Service Contract Class - RegisterAnimalTransferResponse
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.RegisterAnimalWeightRequest">
+            <summary>
+            Service Contract Class - RegisterAnimalWeightRequest
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.RegisterAnimalWeightResponse">
+            <summary>
+            Service Contract Class - RegisterAnimalWeightResponse
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.RegisterCalvingRequest">
+            <summary>
+            Service Contract Class - RegisterCalvingRequest
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.RegisterCalvingResponse">
+            <summary>
+            Service Contract Class - RegisterCalvingResponse
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.RegisterClinicalRecordingRequest">
+            <summary>
+            Service Contract Class - RegisterClinicalRecordingRequest
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.RegisterClinicalRecordingResponse">
+            <summary>
+            Service Contract Class - RegisterClinicalRecordingResponse
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.RegisterCullingRequest">
+            <summary>
+            Service Contract Class - RegisterCullingRequest
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.RegisterCullingResponse">
+            <summary>
+            Service Contract Class - RegisterCullingResponse
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.RegisterDryPeriodRequest">
+            <summary>
+            Service Contract Class - RegisterDryPeriodRequest
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.RegisterDryPeriodResponse">
+            <summary>
+            Service Contract Class - RegisterDryPeriodResponse
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.RegisterEarmarkOrderRequest">
+            <summary>
+            Service Contract Class - RegisterEarmarkOrderRequest
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.RegisterEarmarkOrderResponse">
+            <summary>
+            Service Contract Class - RegisterEarmarkOrderResponse
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.RegisterEarmarkOrdersRequest">
+            <summary>
+            Service Contract Class - RegisterEarmarkOrdersRequest
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.RegisterEarmarkOrdersResponse">
+            <summary>
+            Service Contract Class - RegisterEarmarkOrdersResponse
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.RegisterInseminationRequest">
+            <summary>
+            Service Contract Class - RegisterInseminationRequest
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.RegisterInseminationResponse">
+            <summary>
+            Service Contract Class - RegisterInseminationResponse
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.RegisterInseminationRouteRequest">
+            <summary>
+            Service Contract Class - RegisterInseminationRouteRequest
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.RegisterInseminationRouteResponse">
+            <summary>
+            Service Contract Class - RegisterInseminationRouteResponse
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.RegisterInseminationTreatmentRequest">
+            <summary>
+            Service Contract Class - RegisterInseminationTreatmentRequest
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.RegisterInseminationTreatmentResponse">
+            <summary>
+            Service Contract Class - RegisterInseminationTreatmentResponse
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.RegisterInseminatorTimeRecordRequest">
+            <summary>
+            Service Contract Class - RegisterInseminatorTimeRecordRequest
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.RegisterInseminatorTimeRecordResponse">
+            <summary>
+            Service Contract Class - RegisterInseminatorTimeRecordResponse
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.RegisterInseminatorTourplanRequest">
+            <summary>
+            Service Contract Class - RegisterInseminatorTourplanRequest
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.RegisterInseminatorTourplanResponse">
+            <summary>
+            Service Contract Class - RegisterInseminatorTourplanResponse
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.RegisterInternalAnimalIdentifierRequest">
+            <summary>
+            Service Contract Class - RegisterInternalAnimalIdentifierRequest
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.RegisterInternalAnimalIdentifierResponse">
+            <summary>
+            Service Contract Class - RegisterInternalAnimalIdentifierResponse
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.RegisterMedicationRequest">
+            <summary>
+            Service Contract Class - RegisterMedicationRequest
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.RegisterMedicationResponse">
+            <summary>
+            Service Contract Class - RegisterMedicationResponse
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.RegisterPostingRequest">
+            <summary>
+            Service Contract Class - RegisterPostingRequest
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.RegisterPostingResponse">
+            <summary>
+            Service Contract Class - RegisterPostingResponse
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.RegisterPregnancyCheckRequest">
+            <summary>
+            Service Contract Class - RegisterPregnancyCheckRequest
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.RegisterPregnancyCheckResponse">
+            <summary>
+            Service Contract Class - RegisterPregnancyCheckResponse
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.RegisterSemenStockRequest">
+            <summary>
+            Service Contract Class - RegisterSemenStockRequest
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.RegisterSemenStockResponse">
+            <summary>
+            Service Contract Class - RegisterSemenStockResponse
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.SetEarmarkCashOnDeliveryRequest">
+            <summary>
+            Service Contract Class - SetEarmarkCashOnDeliveryRequest
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.SetEarmarkCashOnDeliveryResponse">
+            <summary>
+            Service Contract Class - SetEarmarkCashOnDeliveryResponse
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.RegisterTreatmentRequest">
+            <summary>
+            Service Contract Class - RegisterTreatmentRequest
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.RegisterTreatmentResponse">
+            <summary>
+            Service Contract Class - RegisterTreatmentResponse
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.UpdateAnimalGroupTransferRequest">
+            <summary>
+            Service Contract Class - UpdateAnimalGroupTransferRequest
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.UpdateAnimalGroupTransferResponse">
+            <summary>
+            Service Contract Class - UpdateAnimalGroupTransferResponse
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.UpdateAnimalHealthRequest">
+            <summary>
+            Service Contract Class - UpdateAnimalHealthRequest
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.UpdateAnimalHealthResponse">
+            <summary>
+            Service Contract Class - UpdateAnimalHealthResponse
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.UpdateAnimalTransferRequest">
+            <summary>
+            Service Contract Class - UpdateAnimalTransferRequest
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.UpdateAnimalTransferResponse">
+            <summary>
+            Service Contract Class - UpdateAnimalTransferResponse
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.UpdateAnimalWeightRequest">
+            <summary>
+            Service Contract Class - UpdateAnimalWeightRequest
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.UpdateAnimalWeightResponse">
+            <summary>
+            Service Contract Class - UpdateAnimalWeightResponse
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.UpdateBasicInformationsRequest">
+            <summary>
+            Service Contract Class - UpdateBasicInformationsRequest
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.UpdateBasicInformationsResponse">
+            <summary>
+            Service Contract Class - UpdateBasicInformationsResponse
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.UpdateCalvingRequest">
+            <summary>
+            Service Contract Class - UpdateCalvingRequest
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.UpdateCalvingResponse">
+            <summary>
+            Service Contract Class - UpdateCalvingResponse
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.UpdateClinicalRecordingRequest">
+            <summary>
+            Service Contract Class - UpdateClinicalRecordingRequest
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.UpdateClinicalRecordingResponse">
+            <summary>
+            Service Contract Class - UpdateClinicalRecordingResponse
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.UpdateCprInfoRequest">
+            <summary>
+            Service Contract Class - UpdateCprInfoRequest
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.UpdateCprInfoResponse">
+            <summary>
+            Service Contract Class - UpdateCprInfoResponse
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.UpdateCullingRequest">
+            <summary>
+            Service Contract Class - UpdateCullingRequest
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.UpdateCullingResponse">
+            <summary>
+            Service Contract Class - UpdateCullingResponse
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.UpdateCvrInfoRequest">
+            <summary>
+            Service Contract Class - UpdateCvrInfoRequest
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.UpdateCvrInfoResponse">
+            <summary>
+            Service Contract Class - UpdateCvrInfoResponse
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.UpdateDryPeriodRequest">
+            <summary>
+            Service Contract Class - UpdateDryPeriodRequest
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.UpdateDryPeriodResponse">
+            <summary>
+            Service Contract Class - UpdateDryPeriodResponse
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.UpdateEarmarkOrderRequest">
+            <summary>
+            Service Contract Class - UpdateEarmarkOrderRequest
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.UpdateEarmarkOrderResponse">
+            <summary>
+            Service Contract Class - UpdateEarmarkOrderResponse
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.UpdateHerdRemarkRequest">
+            <summary>
+            Service Contract Class - UpdateHerdRemarkRequest
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.UpdateHerdRemarkResponse">
+            <summary>
+            Service Contract Class - UpdateHerdRemarkResponse
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.UpdateInseminationRequest">
+            <summary>
+            Service Contract Class - UpdateInseminationRequest
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.UpdateInseminationResponse">
+            <summary>
+            Service Contract Class - UpdateInseminationResponse
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.UpdateInseminationRouteRequest">
+            <summary>
+            Service Contract Class - UpdateInseminationRouteRequest
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.UpdateInseminationRouteResponse">
+            <summary>
+            Service Contract Class - UpdateInseminationRouteResponse
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.UpdateInseminationTreatmentRequest">
+            <summary>
+            Service Contract Class - UpdateInseminationTreatmentRequest
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.UpdateInseminationTreatmentResponse">
+            <summary>
+            Service Contract Class - UpdateInseminationTreatmentResponse
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.UpdateInseminatorTimeRecordRequest">
+            <summary>
+            Service Contract Class - UpdateInseminatorTimeRecordRequest
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.UpdateInseminatorTimeRecordResponse">
+            <summary>
+            Service Contract Class - UpdateInseminatorTimeRecordResponse
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.UpdateInseminatorTourplanInfoRequest">
+            <summary>
+            Service Contract Class - UpdateInseminatorTourplanInfoRequest
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.UpdateInseminatorTourplanInfoResponse">
+            <summary>
+            Service Contract Class - UpdateInseminatorTourplanInfoResponse
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.UpdateInseminatorTourplanRequest">
+            <summary>
+            Service Contract Class - UpdateInseminatorTourplanRequest
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.UpdateInseminatorTourplanResponse">
+            <summary>
+            Service Contract Class - UpdateInseminatorTourplanResponse
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.UpdateInternalAnimalIdentifierRequest">
+            <summary>
+            Service Contract Class - UpdateInternalAnimalIdentifierRequest
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.UpdateInternalAnimalIdentifierResponse">
+            <summary>
+            Service Contract Class - UpdateInternalAnimalIdentifierResponse
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.UpdateIsInUseFlagRequest">
+            <summary>
+            Service Contract Class - UpdateIsInUseFlagRequest
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.UpdateIsInUseFlagResponse">
+            <summary>
+            Service Contract Class - UpdateIsInUseFlagResponse
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.UpdateManagementUnitInUseFlagRequest">
+            <summary>
+            Service Contract Class - UpdateManagementUnitInUseFlagRequest
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.UpdateManagementUnitInUseFlagResponse">
+            <summary>
+            Service Contract Class - UpdateManagementUnitInUseFlagResponse
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.UpdateMedicationRequest">
+            <summary>
+            Service Contract Class - UpdateMedicationRequest
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.UpdateMedicationResponse">
+            <summary>
+            Service Contract Class - UpdateMedicationResponse
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.UpdatePostingRequest">
+            <summary>
+            Service Contract Class - UpdatePostingRequest
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.UpdatePostingResponse">
+            <summary>
+            Service Contract Class - UpdatePostingResponse
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.UpdatePregnancyCheckRequest">
+            <summary>
+            Service Contract Class - UpdatePregnancyCheckRequest
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.UpdatePregnancyCheckResponse">
+            <summary>
+            Service Contract Class - UpdatePregnancyCheckResponse
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.UpdateRYKSubscriberInvoiceRequest">
+            <summary>
+            Service Contract Class - UpdateRYKSubscriberInvoiceRequest
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.UpdateRYKSubscriberInvoiceResponse">
+            <summary>
+            Service Contract Class - UpdateRYKSubscriberInvoiceResponse
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.UpdateSemenStockRequest">
+            <summary>
+            Service Contract Class - UpdateSemenStockRequest
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.UpdateSemenStockResponse">
+            <summary>
+            Service Contract Class - UpdateSemenStockResponse
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.UpdateSubscriberInvoiceRequest">
+            <summary>
+            Service Contract Class - UpdateSubscriberInvoiceRequest
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.UpdateSubscriberInvoiceResponse">
+            <summary>
+            Service Contract Class - UpdateSubscriberInvoiceResponse
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.UpdateTreatmentRequest">
+            <summary>
+            Service Contract Class - UpdateTreatmentRequest
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.UpdateTreatmentResponse">
+            <summary>
+            Service Contract Class - UpdateTreatmentResponse
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.ValidateDCFCredentialsRequest">
+            <summary>
+            Service Contract Class - ValidateDCFCredentialsRequest
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.ValidateDCFCredentialsResponse">
+            <summary>
+            Service Contract Class - ValidateDCFCredentialsResponse
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.InseminatorHomeTime.DeleteHomeTimeRequest">
+            <summary>
+            Service Contract Class - DeleteHomeTimeRequest
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.InseminatorHomeTime.DeleteHomeTimeResponse">
+            <summary>
+            Service Contract Class - DeleteHomeTimeResponse
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.KPIService.DeleteTargetInformationRequest">
+            <summary>
+            Service Contract Class - DeleteTargetInformationRequest
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.KPIService.DeleteTargetInformationResponse">
+            <summary>
+            Service Contract Class - DeleteTargetInformationResponse
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.KPIService.GetKeyPerformanceIndicatorsRequest">
+            <summary>
+            Service Contract Class - GetModulesRequest
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.KPIService.GetKeyPerformanceIndicatorsResponse">
+            <summary>
+            Service Contract Class - GetModulesRequest
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.KPIService.InsertTargetInformationRequest">
+            <summary>
+            Service Contract Class - InsertTargetInformationRequest
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.KPIService.InsertTargetInformationResponse">
+            <summary>
+            Service Contract Class - InsertTargetInformationResponse
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.KPIService.UpdateTargetInformationRequest">
+            <summary>
+            Service Contract Class - UpdateTargetInformationRequest
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.KPIService.UpdateTargetInformationResponse">
+            <summary>
+            Service Contract Class - UpdateTargetInformationResponse
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.MilkPriceService.GetModulesRequest">
+            <summary>
+            Service Contract Class - GetModulesRequest
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.MilkPriceService.GetModulesResponse">
+            <summary>
+            Service Contract Class - GetModulesResponse
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.MilkPriceService.GetMultipleMilkPricesRequest">
+            <summary>
+            Service Contract Class - GetMultipleMilkPricesRequest
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.MilkPriceService.GetMultipleMilkPricesResponse">
+            <summary>
+            Service Contract Class - GetMultipleMilkPricesResponse
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.KpiService.GetModulesRequest">
+            <summary>
+            Service Contract Class - GetModulesRequest
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.KpiService.GetModulesResponse">
+            <summary>
+            Service Contract Class - GetModulesResponse
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.VetSampleHealth.FindAnimalVetSampleHealthEntitiesByAnimalNumberRequest">
+            <summary>
+            Service Contract Class - FindAnimalVetSampleHealthEntitiesByAnimalNumberRequest
+            </summary>
+        </member>
+        <member name="P:DLBR.DCF.KDB.MessageContracts.VetSampleHealth.FindAnimalVetSampleHealthEntitiesByAnimalNumberRequest.AnimalNumber">
+            <summary>
+            The animal number from which to find VetSampleHealth.
+            </summary>
+        </member>
+        <member name="P:DLBR.DCF.KDB.MessageContracts.VetSampleHealth.FindAnimalVetSampleHealthEntitiesByAnimalNumberRequest.VetSampleType">
+            <summary>
+            If specified the operation only returns VetSampleHealth with the VetSample specified. If not specified all VetSampleHealth on the specified animal is returned.
+            </summary>
+        </member>
+        <member name="P:DLBR.DCF.KDB.MessageContracts.VetSampleHealth.FindAnimalVetSampleHealthEntitiesByAnimalNumberRequest.FromDate">
+            <summary>
+            If specified only VetSampleHealth performed after the specified date is returned. If not specified all VetSampleHealth matching the other criteria’s is returned. If this parameter is set also the “ToDate” must be set.
+            </summary>
+        </member>
+        <member name="P:DLBR.DCF.KDB.MessageContracts.VetSampleHealth.FindAnimalVetSampleHealthEntitiesByAnimalNumberRequest.ToDate">
+            <summary>
+            If specified only VetSampleHealth performed before the specified date is returned. This parameter is required if “FromDate” is specified. If not specified all VetSampleHealth matching the other criteria’s is returned for each animal.
+            </summary>
+        </member>
+        <member name="P:DLBR.DCF.KDB.MessageContracts.VetSampleHealth.FindAnimalVetSampleHealthEntitiesByAnimalNumberRequest.RequestedCount">
+            <summary>
+            If specified the operation only returns the specified number of VetSampleHealth, sorted by date. If not specified all VetSampleHealth matching the other criteria’s is returned for each animal.
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.VetSampleHealth.FindAnimalVetSampleHealthEntitiesByAnimalNumberResponse">
+            <summary>
+            Service Contract Class - FindAnimalVetSampleHealthEntitiesByAnimalNumberResponse
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.VetSampleHealth.FindAnimalVetSampleHealthEntitiesByHerdNumberRequest">
+            <summary>
+            Service Contract Class - FindAnimalVetSampleHealthEntitiesByHerdNumberRequest
+            </summary>
+        </member>
+        <member name="P:DLBR.DCF.KDB.MessageContracts.VetSampleHealth.FindAnimalVetSampleHealthEntitiesByHerdNumberRequest.HerdNumber">
+            <summary>
+            The herd number from which to find VetSampleHealth.
+            </summary>
+        </member>
+        <member name="P:DLBR.DCF.KDB.MessageContracts.VetSampleHealth.FindAnimalVetSampleHealthEntitiesByHerdNumberRequest.AnimalType">
+            <summary>
+            The animal type from which to find VetSampleHealth
+            </summary>
+        </member>
+        <member name="P:DLBR.DCF.KDB.MessageContracts.VetSampleHealth.FindAnimalVetSampleHealthEntitiesByHerdNumberRequest.VetSampleType">
+            <summary>
+            If specified the operation only returns VetSampleHealth with the VetSample specified. If not specified all VetSampleHealth on the specified animal is returned.
+            </summary>
+        </member>
+        <member name="P:DLBR.DCF.KDB.MessageContracts.VetSampleHealth.FindAnimalVetSampleHealthEntitiesByHerdNumberRequest.FromDate">
+            <summary>
+            If specified only VetSampleHealth performed after the specified date is returned. If not specified all VetSampleHealth matching the other criteria’s is returned. If this parameter is set also the “ToDate” must be set.
+            </summary>
+        </member>
+        <member name="P:DLBR.DCF.KDB.MessageContracts.VetSampleHealth.FindAnimalVetSampleHealthEntitiesByHerdNumberRequest.ToDate">
+            <summary>
+            If specified only VetSampleHealth performed before the specified date is returned. This parameter is required if “FromDate” is specified. If not specified all VetSampleHealth matching the other criteria’s is returned for each animal.
+            </summary>
+        </member>
+        <member name="P:DLBR.DCF.KDB.MessageContracts.VetSampleHealth.FindAnimalVetSampleHealthEntitiesByHerdNumberRequest.RequestedCount">
+            <summary>
+            If specified the operation only returns the specified number of VetSampleHealth, sorted by date. If not specified all VetSampleHealth matching the other criteria’s is returned for each animal.
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.VetSampleHealth.FindAnimalVetSampleHealthEntitiesByHerdNumberResponse">
+            <summary>
+            Service Contract Class - FindAnimalVetSampleHealthEntitiesByHerdNumberResponse
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.VetSampleHealth.FindHerdVetSampleHealthEntitiesByHerdNumberRequest">
+            <summary>
+            Service Contract Class - FindHerdVetSampleHealthEntitiesByHerdNumberRequest
+            </summary>
+        </member>
+        <member name="P:DLBR.DCF.KDB.MessageContracts.VetSampleHealth.FindHerdVetSampleHealthEntitiesByHerdNumberRequest.HerdNumber">
+            <summary>
+            The herd number from which to find VetSampleHealth.
+            </summary>
+        </member>
+        <member name="P:DLBR.DCF.KDB.MessageContracts.VetSampleHealth.FindHerdVetSampleHealthEntitiesByHerdNumberRequest.AnimalType">
+            <summary>
+            The animal type from which to find VetSampleHealth
+            </summary>
+        </member>
+        <member name="P:DLBR.DCF.KDB.MessageContracts.VetSampleHealth.FindHerdVetSampleHealthEntitiesByHerdNumberRequest.VetPCRType">
+            <summary>
+            If specified the operation only returns VetSampleHealth with the Vet PCR type specified. If not specified all VetSampleHealth on the specified animal is returned.
+            </summary>
+        </member>
+        <member name="P:DLBR.DCF.KDB.MessageContracts.VetSampleHealth.FindHerdVetSampleHealthEntitiesByHerdNumberRequest.FromDate">
+            <summary>
+            If specified only VetSampleHealth performed after the specified date is returned. If not specified all VetSampleHealth matching the other criteria’s is returned. If this parameter is set also the “ToDate” must be set.
+            </summary>
+        </member>
+        <member name="P:DLBR.DCF.KDB.MessageContracts.VetSampleHealth.FindHerdVetSampleHealthEntitiesByHerdNumberRequest.ToDate">
+            <summary>
+            If specified only VetSampleHealth performed before the specified date is returned. This parameter is required if “FromDate” is specified. If not specified all VetSampleHealth matching the other criteria’s is returned for each animal.
+            </summary>
+        </member>
+        <member name="P:DLBR.DCF.KDB.MessageContracts.VetSampleHealth.FindHerdVetSampleHealthEntitiesByHerdNumberRequest.RequestedCount">
+            <summary>
+            If specified the operation only returns the specified number of VetSampleHealth, sorted by date. If not specified all VetSampleHealth matching the other criteria’s is returned for each animal.
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.MessageContracts.VetSampleHealth.FindHerdVetSampleHealthEntitiesByHerdNumberResponse">
+            <summary>
+            Service Contract Class - FindHerdVetSampleHealthEntitiesByHerdNumberResponse
+            </summary>
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>DLBR.DCF.KDB.FaultContracts</name>
+    </assembly>
+    <members>
+        <member name="T:DLBR.DCF.KDB.FaultContracts.InternalSystemError">
+            <summary>
+            Data Contract Class - InternalSystemError
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.FaultContracts.InvalidArgument">
+            <summary>
+            Data Contract Class - InvalidArgument
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.FaultContracts.OperationFailed">
+            <summary>
+            Data Contract Class - OperationFailed
+            </summary>
+        </member>
+        <member name="T:DLBR.DCF.KDB.FaultContracts.SecurityFault">
+            <summary>
+            Data Contract Class - SecurityFault
+            </summary>
+        </member>
+    </members>
+</doc>
