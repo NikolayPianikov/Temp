@@ -1,0 +1,19 @@
+{
+    "SourceFiles" : 
+    {
+        "Source1.uno" : ["5399", "MD5:EB-E8-1D-97-36-71-1D-8B-F1-BE-82-5F-29-C3-1D-FD"],
+    },
+    "UXFiles" : 
+    {
+        "Ux1.ux" : [5323, "MD5:F5-A6-34-22-CB-F7-F3-BC-1A-C6-01-2E-FE-61-B1-27"],
+        "Ux2.ux" : [5323, "MD5:F5-A6-34-22-CB-F7-F3-BC-1A-C6-01-2E-FE-61-B1-27"],
+    },
+    "ExtensionFiles" : 
+    {
+        "Uxl1.uxl" : [6431, "MD5:E4-08-21-42-0B-85-FE-9F-4D-19-43-97-F5-7A-C1-96"],
+    },
+    "AdditionalFiles" : 
+    {
+        "Font1.ttf" : [24576, "MD5:B0-14-49-FE-87-B1-87-CB-92-E2-EE-0C-28-F7-09-5C"],
+    },
+}

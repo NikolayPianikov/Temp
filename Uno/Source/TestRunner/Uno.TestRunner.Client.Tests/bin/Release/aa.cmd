@@ -1,0 +1,1 @@
+nunit-console.exe Uno.TestRunner.Client.Tests.dll

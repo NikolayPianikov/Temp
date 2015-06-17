@@ -1,0 +1,7 @@
+{
+    "Name": "Name",
+    "Version": "0.1.2.3",
+    Copyright": "Copyleft",
+    "Description": "My.Package",
+    "Publisher": "Outracks"
+}

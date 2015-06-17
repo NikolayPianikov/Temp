@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project Format="1.0">
+    <RootNamespace>_Outracks.UnoTest.InternalHelpers</RootNamespace>
+    <References>
+    </References>
+    <Files>
+        <SourceFile Name="InternalHelpers.uno" />
+    </Files>
+</Project>

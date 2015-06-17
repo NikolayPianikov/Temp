@@ -1,0 +1,11 @@
+{
+    "Name": "Name",
+    "Version": "0.1.2.3",
+    "Copyright": "Copyleft",
+    "Description": "My.Package",
+    "Publisher": "Outracks",
+    "References": [
+        ["pkg0", "0.0.0.0"],
+        ["pkg1", "1.1.1.1"],
+     ],
+}
